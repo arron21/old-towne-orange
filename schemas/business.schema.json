@@ -74,6 +74,37 @@
     "historicNote": {
       "type": "string"
     },
+    "history": {
+      "type": "object",
+      "properties": {
+        "foundingYear": { "type": "integer" },
+        "founders": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "originalName": { "type": "string" },
+        "foundingStory": { "type": "string" },
+        "fountainHistory": { "type": "string" },
+        "historicDistrictStatus": { "type": "string" },
+        "modernAspirations": { "type": "string" },
+        "milestones": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["year", "title", "description"],
+            "properties": {
+              "year": { "type": "string" },
+              "title": { "type": "string" },
+              "description": { "type": "string" }
+            }
+          }
+        },
+        "coreValues": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
     "imageUrl": {
       "type": "string"
     },

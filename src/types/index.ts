@@ -58,6 +58,24 @@ export interface ResearchMetadata {
   verificationNotes?: string;
 }
 
+export interface TownHistoryMilestone {
+  year: string;
+  title: string;
+  description: string;
+}
+
+export interface TownHistory {
+  foundingYear: number;
+  founders: string[];
+  originalName: string;
+  foundingStory: string;
+  fountainHistory: string;
+  historicDistrictStatus: string;
+  modernAspirations: string;
+  milestones: TownHistoryMilestone[];
+  coreValues?: string[];
+}
+
 export interface Business {
   id: string;
   name: string;
@@ -71,6 +89,7 @@ export interface Business {
   website: string;
   hours: Record<DayOfWeek, string>;
   historicNote?: string;
+  history?: TownHistory;
   imageUrl: string;
   rating: number;
   priceLevel: '$' | '$$' | '$$$' | 'Free';

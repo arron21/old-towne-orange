@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, watch } from 'vue';
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { useRouter, useRoute } from 'vue-router';
 import L from 'leaflet';
-import { Compass, Navigation, Sparkles, ChevronRight, X, Star } from 'lucide-vue-next';
+import { Compass, Navigation, Sparkles, ChevronRight, X, Star, Landmark } from 'lucide-vue-next';
 import { useDistrictStore } from '../stores/districtStore';
 import CategoryChips from '../components/CategoryChips.vue';
+import TownHistoryModal from '../components/TownHistoryModal.vue';
 import type { Business, Category } from '../types';
 
 const router = useRouter();
@@ -17,6 +18,9 @@ let markersLayer: L.LayerGroup | null = null;
 let userMarker: L.CircleMarker | null = null;
 
 const selectedBusiness = ref<Business | null>(null);
+const showTownHistoryModal = ref(false);
+
+const fountainBusiness = computed(() => store.getBusinessById('plaza-square-park'));
 
 // Category Marker Colors & Icons
 function getCategoryColor(cat: Category): { bg: string; border: string; text: string } {
@@ -30,7 +34,52 @@ function getCategoryColor(cat: Category): { bg: string; border: string; text: st
   }
 }
 
+// Special Fountain Pin at the Center of The Circle
+function createFountainPin(): L.DivIcon {
+  const html = `
+    <div class="relative cursor-pointer group select-none flex flex-col items-center">
+      <!-- Water pulse rings -->
+      <span class="absolute top-1 w-11 h-11 bg-sky-400/50 rounded-full animate-ping pointer-events-none"></span>
+      <span class="absolute top-1.5 w-10 h-10 bg-amber-400/50 rounded-full animate-pulse pointer-events-none"></span>
+      
+      <!-- Center Emblem -->
+      <div class="relative w-11 h-11 rounded-full bg-gradient-to-tr from-amber-600 via-citrus-600 to-sky-500 border-2 border-white shadow-xl flex items-center justify-center transform group-hover:scale-115 transition-transform duration-200">
+        <svg viewBox="0 0 24 24" width="22" height="22" stroke="#ffffff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2v6" />
+          <path d="M7 6a5 5 0 0 1 10 0" />
+          <path d="M4 11a8 8 0 0 1 16 0" />
+          <path d="M3 21h18" />
+          <path d="M6 18h12" />
+          <path d="M9 18v3" />
+          <path d="M15 18v3" />
+          <circle cx="12" cy="2" r="1" fill="#ffffff" />
+        </svg>
+      </div>
+
+      <!-- Arrow tip -->
+      <div class="w-0 h-0 border-x-4 border-x-transparent border-t-6 border-t-amber-700 -mt-0.5"></div>
+
+      <!-- Floating Title Label Pill -->
+      <div class="mt-1 px-2.5 py-0.5 bg-stone-900/90 text-amber-300 border border-amber-300/40 rounded-full text-[10px] font-bold shadow-md whitespace-nowrap backdrop-blur-xs flex items-center gap-1 group-hover:bg-citrus-900 group-hover:text-white transition-colors">
+        <span>⛲ Historic Fountain</span>
+      </div>
+    </div>
+  `;
+
+  return L.divIcon({
+    className: 'custom-district-marker fountain-special-marker',
+    html,
+    iconSize: [120, 68],
+    iconAnchor: [60, 44],
+    popupAnchor: [0, -46]
+  });
+}
+
 function createCustomPin(business: Business): L.DivIcon {
+  if (business.id === 'plaza-square-park') {
+    return createFountainPin();
+  }
+
   const colors = getCategoryColor(business.category);
   const hasDeal = store.hasSpecialNow(business);
 
@@ -116,11 +165,21 @@ function renderMarkers() {
   if (!markersLayer || !map) return;
   markersLayer.clearLayers();
 
-  const businesses = store.filteredBusinesses;
+  const businesses = [...store.filteredBusinesses];
+
+  // Ensure the Fountain on The Circle is always on the map regardless of category filter
+  const fountainBiz = fountainBusiness.value;
+  if (fountainBiz && !businesses.some(b => b.id === 'plaza-square-park')) {
+    businesses.push(fountainBiz);
+  }
 
   businesses.forEach((biz) => {
-    const icon = createCustomPin(biz);
-    const marker = L.marker(biz.coordinates, { icon });
+    const isFountain = biz.id === 'plaza-square-park';
+    const icon = isFountain ? createFountainPin() : createCustomPin(biz);
+    const marker = L.marker(biz.coordinates, { 
+      icon,
+      zIndexOffset: isFountain ? 1000 : 0
+    });
 
     marker.on('click', (e) => {
       L.DomEvent.stopPropagation(e);
@@ -151,7 +210,10 @@ function renderMarkers() {
 function recenterCircle() {
   if (!map) return;
   map.flyTo(store.districtCenter, 17, { duration: 0.8 });
-  selectedBusiness.value = null;
+  const fountain = fountainBusiness.value;
+  if (fountain) {
+    selectedBusiness.value = fountain;
+  }
 }
 
 function locateUser() {
@@ -174,6 +236,11 @@ function locateUser() {
 
 function openBusinessDetail(biz: Business) {
   router.push(`/business/${biz.id}`);
+}
+
+function openTownHistory() {
+  recenterCircle();
+  showTownHistoryModal.value = true;
 }
 
 watch(
@@ -205,11 +272,22 @@ onUnmounted(() => {
       </div>
     </div>
 
+    <!-- Center Floating Pill: Historic Fountain & Town History -->
+    <div class="absolute top-16 left-0 right-0 z-20 px-3 pointer-events-none flex justify-center">
+      <button
+        @click="openTownHistory"
+        class="pointer-events-auto py-1 px-3.5 rounded-full bg-stone-900/90 hover:bg-stone-950 text-amber-300 border border-amber-400/40 shadow-lg text-[11px] font-bold flex items-center gap-1.5 backdrop-blur-md active:scale-95 transition-all group"
+      >
+        <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping group-hover:scale-125"></span>
+        <span>⛲ The Circle Fountain • Explore Town Story (1871)</span>
+      </button>
+    </div>
+
     <!-- Map Canvas -->
     <div ref="mapContainer" class="w-full h-full z-10" />
 
     <!-- Map Floating Controls (Recenter / GPS) -->
-    <div class="absolute right-3.5 top-18 z-20 flex flex-col gap-2">
+    <div class="absolute right-3.5 top-28 z-20 flex flex-col gap-2">
       <!-- Recenter on The Circle -->
       <button
         @click="recenterCircle"
@@ -279,9 +357,18 @@ onUnmounted(() => {
                 {{ selectedBusiness.address.split(',')[0] }}
               </p>
 
-              <!-- Today's Special Pill -->
+              <!-- Special callout for Plaza Fountain -->
               <div
-                v-if="store.hasSpecialsToday(selectedBusiness)"
+                v-if="selectedBusiness.id === 'plaza-square-park'"
+                class="mt-1 flex items-center gap-1 text-[11px] text-amber-800 font-semibold truncate"
+              >
+                <Landmark class="w-3.5 h-3.5 text-amber-700 shrink-0" />
+                <span class="truncate">Center of The Circle • Founded 1871</span>
+              </div>
+
+              <!-- Today's Special Pill for regular businesses -->
+              <div
+                v-else-if="store.hasSpecialsToday(selectedBusiness)"
                 class="mt-1 flex items-center gap-1 text-[11px] text-citrus-700 font-semibold truncate"
               >
                 <Sparkles class="w-3 h-3 text-citrus-600 shrink-0" />
@@ -292,17 +379,39 @@ onUnmounted(() => {
             </div>
           </div>
 
-          <!-- Action Button -->
+          <!-- Special Action for Plaza Fountain: Town History Button -->
+          <div v-if="selectedBusiness.id === 'plaza-square-park'" class="mt-2.5 pt-2 border-t border-amber-100">
+            <button
+              @click="showTownHistoryModal = true"
+              class="w-full py-2 px-3 bg-gradient-to-r from-amber-600 via-citrus-600 to-citrus-700 hover:from-amber-700 hover:to-citrus-800 text-white rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 shadow-xs active:scale-98 transition-all mb-2"
+            >
+              <Sparkles class="w-3.5 h-3.5 text-amber-200" />
+              <span>Explore Town Founding & Modern Aspirations</span>
+              <ChevronRight class="w-4 h-4 ml-auto text-amber-200" />
+            </button>
+          </div>
+
+          <!-- Standard Action Button -->
           <button
             @click="openBusinessDetail(selectedBusiness)"
-            class="mt-3 w-full py-2 px-3 bg-citrus-700 hover:bg-citrus-800 text-white rounded-xl text-xs font-semibold flex items-center justify-center gap-1 shadow-sm active:scale-98 transition-all"
+            class="w-full py-2 px-3 bg-stone-100 hover:bg-stone-200 text-stone-800 rounded-xl text-xs font-semibold flex items-center justify-center gap-1 active:scale-98 transition-all"
+            :class="selectedBusiness.id === 'plaza-square-park' ? 'mt-0' : 'mt-3 bg-citrus-700 hover:bg-citrus-800 text-white'"
           >
-            <span>View Full Details & Daily Specials</span>
+            <span>{{ selectedBusiness.id === 'plaza-square-park' ? 'View Landmark Details & Events' : 'View Full Details & Daily Specials' }}</span>
             <ChevronRight class="w-4 h-4" />
           </button>
         </div>
       </div>
     </transition>
+
+    <!-- Town History Modal -->
+    <TownHistoryModal
+      v-if="fountainBusiness"
+      :show="showTownHistoryModal"
+      :business="fountainBusiness"
+      @close="showTownHistoryModal = false"
+      @navigate="recenterCircle"
+    />
   </div>
 </template>
 

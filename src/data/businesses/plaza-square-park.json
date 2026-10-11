@@ -4,7 +4,7 @@
   "category": "landmark",
   "categoryLabel": "Historic Landmark",
   "tagline": "The historic heart of Old Towne Orange and center of The Circle",
-  "description": "The iconic focal point around which the entire city of Orange was laid out in 1871. Shaded by towering palm and magnolia trees, the park features the famous tiled fountain constructed in 1937, historic plaques, circular lawn promenades, and park benches where visitors gather to enjoy coffee, music, and community.",
+  "description": "The iconic focal point around which the entire city of Orange was laid out in 1871. Shaded by towering palm, pepper, and magnolia trees, the park features the famous tiled fountain constructed in 1937, historic plaques, circular lawn promenades, and park benches where visitors gather to enjoy coffee, music, and community.",
   "address": "Plaza Square (Intersection of Chapman & Glassell), Orange, CA 92866",
   "coordinates": [
     33.78778,
@@ -22,6 +22,67 @@
     "Sunday": "Open 24 Hours"
   },
   "historicNote": "Originally surveyed and dedicated in 1871. Listed on the National Register of Historic Places in 1997 as the centerpiece of California’s largest historic district.",
+  "history": {
+    "foundingYear": 1871,
+    "founders": [
+      "Andrew Glassell",
+      "Alfred Chapman"
+    ],
+    "originalName": "Richland",
+    "foundingStory": "In 1869–1871, following the legal partition of the sprawling 62,516-acre Rancho Santiago de Santa Ana Spanish land grant, Los Angeles attorneys Andrew Glassell and Alfred Chapman accepted 1,385 acres of prime valley land as compensation for their legal representation. In 1871, they surveyed and laid out a symmetrical one-square-mile town site. Rather than adopting a conventional repetitive grid, they envisioned a civic focal point: an 8-acre circular public plaza at the exact crossroads where Chapman Avenue (running east-west) and Glassell Street (running north-south) met. Originally christened 'Richland', the settlement sought a federal post office in 1873, only to discover that another California community in Sacramento County already claimed the name. In 1875, Glassell and Chapman renamed the town 'Orange'—a visionary tribute to the sweet Valencia orange groves they predicted would transform the sun-drenched valley into an agricultural paradise.",
+    "fountainHistory": "The circular park at Plaza Square was originally dedicated as public commons in 1871. During Southern California's booming citrus era in 1886–1887, the plaza was formally landscaped with Canary Island date palms, blooming magnolias, and enclosed walkways, punctuated by its first ornate Victorian cast-iron fountain in 1887. Exactly fifty years later, in 1937 amidst the Great Depression, the citizens of Orange came together to commission the iconic electric tile fountain that anchors The Circle today. Designed with intricate Spanish hand-glazed tilework, tiered concentric water basins, and nocturnal jewel-toned illumination, the fountain stands as a testament to community resilience and has served as Orange's beloved living room for nearly a century.",
+    "historicDistrictStatus": "Listed on the National Register of Historic Places in 1997, Old Towne Orange encompasses one square mile and contains more than 1,400 historically contributing structures. Featuring California's densest concentration of Queen Anne Victorians, Craftsman bungalows, Spanish Colonial Revival storefronts, and 1920s Art Deco commercial buildings, it is officially the largest National Register Historic District in the State of California.",
+    "modernAspirations": "While much of 20th-century Southern California yielded to automobile super-arterials and suburban strip-mall sprawl, Old Towne Orange chose a different path: preservation through vital, everyday use. Today, Old Towne aspires to be an authentic, walkable living village where history is experienced rather than quarantined behind museum glass. It strives to cultivate an independent, locally owned economy of craft roasters, artisanal chefs, and antique curators, while deepening its symbiotic cultural partnership with Chapman University. The Plaza Fountain aspires to remain the democratic, peaceful town square where generations gather beneath the palms—proving that small-town warmth, architectural integrity, and vibrant modern life can flourish hand-in-hand.",
+    "milestones": [
+      {
+        "year": "1871",
+        "title": "Town Surveyed & Laid Out as Richland",
+        "description": "Attorneys Andrew Glassell and Alfred Chapman survey 1 square mile, creating the unique circular central plaza."
+      },
+      {
+        "year": "1875",
+        "title": "Renamed 'Orange'",
+        "description": "After a naming conflict with a northern town, Richland is renamed Orange to celebrate the booming citrus groves."
+      },
+      {
+        "year": "1887",
+        "title": "Plaza Landscaping & First Fountain",
+        "description": "The circular park is landscaped with palms and magnolias, and an ornate Victorian cast-iron fountain is installed."
+      },
+      {
+        "year": "1888",
+        "title": "Incorporation as City of Orange",
+        "description": "Orange officially incorporates as a city on April 6, 1888, with a thriving agricultural economy."
+      },
+      {
+        "year": "1937",
+        "title": "Dedication of the Historic Tile Fountain",
+        "description": "The current Spanish hand-tiled electric fountain is completed and dedicated as a symbol of civic unity."
+      },
+      {
+        "year": "1954",
+        "title": "Chapman University Relocates to Old Towne",
+        "description": "Chapman College moves to the historic 1915 Orange Union High School campus, creating an enduring academic synergy."
+      },
+      {
+        "year": "1997",
+        "title": "California's Largest Historic District",
+        "description": "Old Towne is placed on the National Register of Historic Places with over 1,400 contributing historic structures."
+      },
+      {
+        "year": "Today",
+        "title": "A Living, Walkable Historic Sanctuary",
+        "description": "A bustling, pedestrian-first district celebrating independent culinary artistry, music, and community spirit."
+      }
+    ],
+    "coreValues": [
+      "Living Architectural Heritage",
+      "Pedestrian-First Village Life",
+      "Independent & Artisanal Commerce",
+      "Democratic Public Commons",
+      "Sustainable District Stewardship"
+    ]
+  },
   "imageUrl": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80",
   "rating": 4.9,
   "priceLevel": "Free",
@@ -31,7 +92,8 @@
     "Fountain",
     "Public Park",
     "Filming Location",
-    "Photography"
+    "Photography",
+    "Town History"
   ],
   "specials": [],
   "events": [
@@ -53,6 +115,6 @@
   "researchMetadata": {
     "officialWebsite": "https://cityoforange.org",
     "verificationNotes": "Historic 1871 Plaza Square Park and 1937 historic fountain; summer concerts verified.",
-    "lastVerified": "2026-10-10"
+    "lastVerified": "2026-10-11"
   }
 }

@@ -3,7 +3,7 @@ import { ref, computed, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { 
   ArrowLeft, MapPin, Phone, Globe, Star, Sparkles, 
-  Calendar, Clock, Landmark, Share2, Flame 
+  Calendar, Clock, Landmark, Share2, Flame, Heart 
 } from 'lucide-vue-next';
 import { useDistrictStore } from '../stores/districtStore';
 import SpecialCard from '../components/SpecialCard.vue';
@@ -257,9 +257,141 @@ function shareBusiness() {
       </div>
 
       <!-- ============================================== -->
+      <!-- TOWN HISTORY & FOUNTAIN STORY (If Available)   -->
+      <!-- ============================================== -->
+      <div v-if="business.history" class="space-y-4">
+        <!-- Founding Card -->
+        <div class="bg-white rounded-2xl p-4 sm:p-5 border border-amber-200/80 shadow-2xs space-y-3">
+          <div class="flex items-center gap-2.5">
+            <div class="w-8 h-8 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold shrink-0">
+              <Landmark class="w-4 h-4 text-amber-700" />
+            </div>
+            <div>
+              <h2 class="text-base font-bold text-stone-900 font-serif leading-tight">
+                The Founding of Old Towne Orange (1871)
+              </h2>
+              <p class="text-[11px] text-stone-500">
+                Laid out by Andrew Glassell & Alfred Chapman as "Richland"
+              </p>
+            </div>
+          </div>
+
+          <p class="text-xs text-stone-700 leading-relaxed font-serif">
+            {{ business.history.foundingStory }}
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+            <div class="p-3 bg-amber-50/70 rounded-xl border border-amber-200/70 text-xs">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-amber-800">Original Name</span>
+              <p class="font-bold text-stone-900 mt-0.5">Richland (1871–1875)</p>
+              <p class="text-[11px] text-stone-600 mt-0.5">Renamed "Orange" due to a postal naming conflict with Sacramento County.</p>
+            </div>
+
+            <div class="p-3 bg-amber-50/70 rounded-xl border border-amber-200/70 text-xs">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-amber-800">Founders</span>
+              <p class="font-bold text-stone-900 mt-0.5">Glassell & Chapman</p>
+              <p class="text-[11px] text-stone-600 mt-0.5">Attorneys who surveyed the 1-square-mile town and central 8-acre circle.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- The Historic Fountain Story -->
+        <div class="bg-white rounded-2xl p-4 sm:p-5 border border-sky-200/80 shadow-2xs space-y-3">
+          <div class="flex items-center gap-2.5">
+            <div class="w-8 h-8 rounded-xl bg-sky-100 text-sky-800 flex items-center justify-center font-bold shrink-0">
+              <Sparkles class="w-4 h-4 text-sky-700" />
+            </div>
+            <div>
+              <h2 class="text-base font-bold text-stone-900 font-serif leading-tight">
+                The Historic Plaza Fountain (1887 & 1937)
+              </h2>
+              <p class="text-[11px] text-stone-500">
+                The beating heart and civic meeting place of The Circle
+              </p>
+            </div>
+          </div>
+
+          <p class="text-xs text-stone-700 leading-relaxed font-serif">
+            {{ business.history.fountainHistory }}
+          </p>
+        </div>
+
+        <!-- Modern Aspirations Card -->
+        <div class="bg-gradient-to-br from-emerald-50/70 to-citrus-50/70 rounded-2xl p-4 sm:p-5 border border-emerald-200/80 shadow-2xs space-y-3">
+          <div class="flex items-center gap-2.5">
+            <div class="w-8 h-8 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold shrink-0">
+              <Heart class="w-4 h-4 text-emerald-700" />
+            </div>
+            <div>
+              <h2 class="text-base font-bold text-stone-900 font-serif leading-tight">
+                What Old Towne Aspires to Be Today
+              </h2>
+              <p class="text-[11px] text-stone-500">
+                A living, walkable historic sanctuary for future generations
+              </p>
+            </div>
+          </div>
+
+          <p class="text-xs text-stone-800 leading-relaxed font-serif">
+            {{ business.history.modernAspirations }}
+          </p>
+
+          <div class="pt-2">
+            <h3 class="text-[11px] font-bold uppercase tracking-wider text-stone-600 mb-2">District Core Aspirations</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              <div
+                v-for="(val, idx) in business.history.coreValues"
+                :key="idx"
+                class="flex items-center gap-2 p-2 bg-white/90 rounded-xl border border-stone-200/70 text-xs font-semibold text-stone-800 shadow-2xs"
+              >
+                <div class="w-2 h-2 rounded-full bg-citrus-600 shrink-0" />
+                <span>{{ val }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Historic Milestones Timeline -->
+        <div class="bg-white rounded-2xl p-4 sm:p-5 border border-stone-200/80 shadow-2xs space-y-3">
+          <div class="flex items-center gap-2.5">
+            <div class="w-8 h-8 rounded-xl bg-citrus-100 text-citrus-800 flex items-center justify-center font-bold shrink-0">
+              <Calendar class="w-4 h-4 text-citrus-700" />
+            </div>
+            <div>
+              <h2 class="text-base font-bold text-stone-900 font-serif leading-tight">
+                Historical Milestones (1871 – Present)
+              </h2>
+              <p class="text-[11px] text-stone-500">
+                Chronology of the Plaza and the City of Orange
+              </p>
+            </div>
+          </div>
+
+          <div class="relative pl-6 space-y-3 before:absolute before:left-2 before:top-2 before:bottom-2 before:w-0.5 before:bg-stone-200 mt-3">
+            <div
+              v-for="(item, idx) in business.history.milestones"
+              :key="idx"
+              class="relative"
+            >
+              <span class="absolute -left-6 top-1 w-3.5 h-3.5 rounded-full border-2 border-white bg-citrus-700 shadow-xs" />
+              <div class="bg-stone-50 p-2.5 rounded-xl border border-stone-200/80">
+                <div class="flex items-baseline justify-between gap-2">
+                  <span class="font-bold text-xs text-stone-900 font-serif">{{ item.title }}</span>
+                  <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-citrus-100 text-citrus-800 shrink-0">{{ item.year }}</span>
+                </div>
+                <p class="text-[11px] text-stone-600 mt-0.5 leading-snug">
+                  {{ item.description }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================== -->
       <!-- 7-DAY DAILY SPECIALS SECTION (User Highlight)  -->
       <!-- ============================================== -->
-      <div class="bg-white rounded-2xl p-4 border border-stone-200/80 shadow-2xs">
+      <div v-if="business.specials && business.specials.length > 0" class="bg-white rounded-2xl p-4 border border-stone-200/80 shadow-2xs">
         <div class="flex items-center justify-between mb-3">
           <div class="flex items-center gap-2">
             <div class="w-7 h-7 rounded-lg bg-citrus-100 text-citrus-700 flex items-center justify-center">
