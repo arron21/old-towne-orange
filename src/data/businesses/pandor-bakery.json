@@ -1,0 +1,137 @@
+{
+  "id": "pandor-bakery",
+  "name": "Pandor Artisan Bakery & Cafe",
+  "category": "cafe",
+  "categoryLabel": "French Bakery & Pastries",
+  "tagline": "Authentic French viennoiseries, slow-fermented sourdoughs, and artisan crepes",
+  "description": "Bringing the romance and mastery of a Parisian boulangerie to Old Towne Orange. Pandor bakes fresh batches of pain au chocolat, delicate fruit tarts, macarons, and authentic baguettes every dawn using traditional French baking techniques and imported flours.",
+  "address": "106 N Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.78802,
+    -117.85282
+  ],
+  "phone": "(714) 912-4007",
+  "website": "https://pandorbakery.com",
+  "hours": {
+    "Monday": "7:00 AM - 7:00 PM",
+    "Tuesday": "7:00 AM - 7:00 PM",
+    "Wednesday": "7:00 AM - 7:00 PM",
+    "Thursday": "7:00 AM - 7:00 PM",
+    "Friday": "7:00 AM - 8:00 PM",
+    "Saturday": "7:00 AM - 8:00 PM",
+    "Sunday": "7:00 AM - 7:00 PM"
+  },
+  "historicNote": "Situated right along North Glassell steps from the Plaza fountain in a classic 1910 storefront with sidewalk cafe chairs.",
+  "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.6,
+  "priceLevel": "$$",
+  "tags": [
+    "French Bakery",
+    "Croissants",
+    "Espresso",
+    "Crepes",
+    "Sourdough",
+    "Desserts"
+  ],
+  "specials": [
+    {
+      "id": "pandor-mon",
+      "businessId": "pandor-bakery",
+      "day": "Monday",
+      "title": "Parisian Morning Breakfast",
+      "description": "Classic Butter Croissant + Cappuccino or Cafe au Lait for $7.50.",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 11,
+        "label": "7:00 AM - 11:00 AM"
+      },
+      "discountTag": "$7.50 Morning Combo"
+    },
+    {
+      "id": "pandor-tue",
+      "businessId": "pandor-bakery",
+      "day": "Tuesday",
+      "title": "Tarte & Macaron Tuesday",
+      "description": "Buy any signature fruit tart or éclair and receive 2 complimentary Parisian macarons.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 18,
+        "label": "11:00 AM - 6:00 PM"
+      },
+      "discountTag": "2 Free Macarons"
+    },
+    {
+      "id": "pandor-wed",
+      "businessId": "pandor-bakery",
+      "day": "Wednesday",
+      "title": "Artisan Bread Wednesday",
+      "description": "Buy one freshly baked country sourdough or olive baguette, get second loaf 50% off.",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 19,
+        "label": "12:00 PM - Close"
+      },
+      "discountTag": "BOGO 50% Bread"
+    },
+    {
+      "id": "pandor-thu",
+      "businessId": "pandor-bakery",
+      "day": "Thursday",
+      "title": "Savory Crepe Lunch Special",
+      "description": "Ham, Gruyère & egg buckwheat crepe served with petite green salad and iced tea for $14.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 15,
+        "label": "11:00 AM - 3:00 PM"
+      },
+      "discountTag": "$14 Crepe Lunch"
+    },
+    {
+      "id": "pandor-fri",
+      "businessId": "pandor-bakery",
+      "day": "Friday",
+      "title": "Afternoon Tea & Pastry",
+      "description": "Organic hot tea pot + choice of almond croissant or lemon meringue tart for $8.50.",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 17,
+        "label": "2:00 PM - 5:00 PM"
+      },
+      "discountTag": "$8.50 Tea Time"
+    },
+    {
+      "id": "pandor-sat",
+      "businessId": "pandor-bakery",
+      "day": "Saturday",
+      "title": "Weekend Brioche French Toast",
+      "description": "Thick-cut house brioche dipped in vanilla custard, served with fresh strawberries and pure maple syrup.",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 13,
+        "label": "7:00 AM - 1:00 PM"
+      },
+      "discountTag": "Brunch Special"
+    },
+    {
+      "id": "pandor-sun",
+      "businessId": "pandor-bakery",
+      "day": "Sunday",
+      "title": "Sunday Family Pastry Box",
+      "description": "Box of 6 assorted artisan pastries (2 croissants, 2 pain au chocolat, 2 fruit danishes) for $22.",
+      "timeWindow": {
+        "startHour": 8,
+        "endHour": 14,
+        "label": "8:00 AM - 2:00 PM"
+      },
+      "discountTag": "$22 Pastry Box"
+    }
+  ],
+  "events": [],
+  "researchMetadata": {
+    "officialWebsite": "https://pandorbakery.com",
+    "menuUrl": "https://pandorbakery.com/menu",
+    "instagram": "https://instagram.com/pandorbakery",
+    "verificationNotes": "Authentic French viennoiserie, morning coffee pairing, and artisanal sourdough verified.",
+    "lastVerified": "2026-10-10"
+  }
+}

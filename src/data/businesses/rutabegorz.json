@@ -1,0 +1,137 @@
+{
+  "id": "rutabegorz",
+  "name": "Rutabegorz",
+  "category": "dining",
+  "categoryLabel": "Wholesome & Vegetarian",
+  "tagline": "Vibrant healthy eats and giant salads in a whimsical 1880s historic house",
+  "description": "A beloved quirky Orange institution since 1970, Rutabegorz occupies a delightful 1880s Victorian home adorned with stained glass, antique posters, and plant-filled nooks. Known for its enormous, creative salads, hot wraps, homemade dips, vegetarian chili, and refreshing fruit smoothies.",
+  "address": "264 N Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.79042,
+    -117.85275
+  ],
+  "phone": "(714) 633-3260",
+  "website": "https://rutabegorz.com",
+  "hours": {
+    "Monday": "11:00 AM - 9:00 PM",
+    "Tuesday": "11:00 AM - 9:00 PM",
+    "Wednesday": "11:00 AM - 9:00 PM",
+    "Thursday": "11:00 AM - 9:00 PM",
+    "Friday": "11:00 AM - 9:30 PM",
+    "Saturday": "11:00 AM - 9:30 PM",
+    "Sunday": "11:00 AM - 8:30 PM"
+  },
+  "historicNote": "Situated in an authentic 1885 Eastlake-style Victorian residence, complete with a classic front porch and preserved interior pocket doors.",
+  "imageUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.7,
+  "priceLevel": "$$",
+  "tags": [
+    "Vegetarian Friendly",
+    "Giant Salads",
+    "Smoothies",
+    "Victorian Home",
+    "Casual",
+    "Patio"
+  ],
+  "specials": [
+    {
+      "id": "ruta-mon",
+      "businessId": "rutabegorz",
+      "day": "Monday",
+      "title": "Meatless Monday Soup & Salad",
+      "description": "Cup of homemade vegetarian soup + small Ruta salad with famous garlic house dressing for $13.50.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 21,
+        "label": "All Day"
+      },
+      "discountTag": "$13.50 Combo"
+    },
+    {
+      "id": "ruta-tue",
+      "businessId": "rutabegorz",
+      "day": "Tuesday",
+      "title": "Two-For Wrap Tuesday",
+      "description": "Order any signature wrap and get 50% off second wrap of equal or lesser value.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 21,
+        "label": "3:00 PM - Close"
+      },
+      "discountTag": "BOGO 50%"
+    },
+    {
+      "id": "ruta-wed",
+      "businessId": "rutabegorz",
+      "day": "Wednesday",
+      "title": "Smoothie Wednesday",
+      "description": "$2 off all fresh fruit smoothies and organic acai energy bowls.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 17,
+        "label": "11:00 AM - 5:00 PM"
+      },
+      "discountTag": "$2 Off Smoothies"
+    },
+    {
+      "id": "ruta-thu",
+      "businessId": "rutabegorz",
+      "day": "Thursday",
+      "title": "Ruta Dip Platter Special",
+      "description": "Giant trio dip platter (hummus, guacamole, house spinach dip with warm whole wheat pita) for $12.",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 20,
+        "label": "2:00 PM - 8:00 PM"
+      },
+      "discountTag": "$12 Dip Trio"
+    },
+    {
+      "id": "ruta-fri",
+      "businessId": "rutabegorz",
+      "day": "Friday",
+      "title": "Friday Family Feast",
+      "description": "Giant salad bowl for the table with free homemade carrot cake slices for four.",
+      "timeWindow": {
+        "startHour": 17,
+        "endHour": 21,
+        "label": "5:00 PM - Close"
+      },
+      "discountTag": "Free Dessert"
+    },
+    {
+      "id": "ruta-sat",
+      "businessId": "rutabegorz",
+      "day": "Saturday",
+      "title": "Saturday Garden Salad Feature",
+      "description": "Chef’s seasonal harvest salad with roasted sweet potatoes, candied pecans, goat cheese, and cider vinaigrette.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 21,
+        "label": "All Day"
+      },
+      "discountTag": "Harvest Feature"
+    },
+    {
+      "id": "ruta-sun",
+      "businessId": "rutabegorz",
+      "day": "Sunday",
+      "title": "Sunday Porch Chill",
+      "description": "Complimentary herbal iced tea refill with any entree enjoyed on the historic front porch.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 20,
+        "label": "All Day"
+      },
+      "discountTag": "Free Refills"
+    }
+  ],
+  "events": [],
+  "researchMetadata": {
+    "officialWebsite": "https://rutabegorz.com",
+    "menuUrl": "https://rutabegorz.com/menu",
+    "instagram": "https://instagram.com/rutabegorz_orange",
+    "verificationNotes": "1885 Victorian house; wholesome salads, vegetarian specials, and smoothies verified.",
+    "lastVerified": "2026-10-10"
+  }
+}

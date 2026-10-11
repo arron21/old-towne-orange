@@ -1,0 +1,79 @@
+[
+  {
+    "id": "oisf-annual",
+    "title": "Orange International Street Fair",
+    "description": "The premier annual Labor Day weekend celebration featuring 15 ethnic streets, world food delicacies, 8 live music stages, and local artisan craft booths surrounding The Circle.",
+    "date": "Labor Day Weekend (Annually)",
+    "exactDate": "2027-09-03",
+    "time": "Fri 5pm-10pm, Sat-Sun 10am-10pm",
+    "location": "Historic Plaza Circle & Glassell/Chapman St",
+    "coordinates": [
+      33.78778,
+      -117.85278
+    ],
+    "category": "festival",
+    "badge": "Signature District Festival"
+  },
+  {
+    "id": "ohg-farmers-market",
+    "title": "Orange Home Grown Farmers & Artisans Market",
+    "description": "Award-winning weekly community market featuring certified organic farmers, local artisan bakers, fresh coastal seafood, handcrafted ceramics, and live acoustic music.",
+    "date": "Every Saturday",
+    "exactDate": "2026-10-17",
+    "time": "9:00 AM - 1:00 PM",
+    "location": "303 W Palm Ave (Historic Packinghouse)",
+    "coordinates": [
+      33.78652,
+      -117.85491
+    ],
+    "category": "market",
+    "isRecurringWeekly": true,
+    "recurringDay": "Saturday",
+    "badge": "Weekly Tradition"
+  },
+  {
+    "id": "treats-in-streets",
+    "title": "Treats in the Streets Autumn Festival",
+    "description": "Family-friendly Halloween community festival with costume parades, trick-or-treating at local historic merchants, community game booths, and autumn crafts.",
+    "date": "Thursday before Halloween",
+    "exactDate": "2026-10-29",
+    "time": "4:00 PM - 7:00 PM",
+    "location": "Old Towne Plaza Square",
+    "coordinates": [
+      33.78778,
+      -117.85278
+    ],
+    "category": "community",
+    "badge": "Family Favorite"
+  },
+  {
+    "id": "plaza-tree-lighting",
+    "title": "Tree Lighting Ceremony & Candlelight Choir",
+    "description": "Decades-old holiday tradition where hundreds gather around the historic 1937 Plaza Fountain for hot cider, carols by the local youth choir, and the lighting of the grand holiday pine.",
+    "date": "First Sunday of December",
+    "exactDate": "2026-12-06",
+    "time": "3:30 PM - 7:00 PM",
+    "location": "Plaza Square Park",
+    "coordinates": [
+      33.78778,
+      -117.85278
+    ],
+    "category": "community",
+    "badge": "Holiday Heritage"
+  },
+  {
+    "id": "antique-walk-saturdays",
+    "title": "Old Towne Antique & Flea Discovery Walk",
+    "description": "Special monthly outdoor sidewalk showcase with vintage appraisal tables, vinyl record collectors, and specialty mid-century dealers setting up sidewalk exhibits along South Glassell.",
+    "date": "Second Saturday of Each Month",
+    "exactDate": "2026-11-14",
+    "time": "10:00 AM - 4:00 PM",
+    "location": "South Glassell Antique Corridor",
+    "coordinates": [
+      33.78685,
+      -117.85282
+    ],
+    "category": "market",
+    "badge": "Monthly Feature"
+  }
+]

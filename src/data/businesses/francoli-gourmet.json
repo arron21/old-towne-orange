@@ -1,0 +1,98 @@
+{
+  "id": "francoli-gourmet",
+  "name": "Francoli Gourmet",
+  "category": "dining",
+  "categoryLabel": "Northern Italian Dining",
+  "tagline": "Authentic handmade Piedmontese pastas, regional Italian wines, and espresso bar",
+  "description": "An authentic taste of Northern Italy on South Glassell. Chef-owner Claudio Francoli curates an exquisite menu of handmade pastas (agnolotti, pappardelle al cinghiale), artisanal risotto, imported prosciutto di Parma, and an intimate wine bar.",
+  "address": "100 S Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.78665,
+    -117.85285
+  ],
+  "phone": "(714) 532-3838",
+  "website": "https://francoligourmet.com",
+  "hours": {
+    "Monday": "11:30 AM - 9:00 PM",
+    "Tuesday": "11:30 AM - 9:00 PM",
+    "Wednesday": "11:30 AM - 9:00 PM",
+    "Thursday": "11:30 AM - 9:30 PM",
+    "Friday": "11:30 AM - 10:00 PM",
+    "Saturday": "11:30 AM - 10:00 PM",
+    "Sunday": "12:00 PM - 8:30 PM"
+  },
+  "historicNote": "Situated in a handsome 1911 two-story brick building, featuring an authentic Italian salumeria and wine cellar downstairs.",
+  "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.7,
+  "priceLevel": "$$$",
+  "tags": [
+    "Italian",
+    "Handmade Pasta",
+    "Wine Cellar",
+    "Risotto",
+    "Espresso",
+    "Romantic"
+  ],
+  "specials": [
+    {
+      "id": "francoli-tue",
+      "businessId": "francoli-gourmet",
+      "day": "Tuesday",
+      "title": "Pasta Fresca Tuesday",
+      "description": "Enjoy any signature fresh handmade pasta + glass of house Chianti for $25.",
+      "timeWindow": {
+        "startHour": 17,
+        "endHour": 21,
+        "label": "5:00 PM - Close"
+      },
+      "discountTag": "$25 Pasta & Wine"
+    },
+    {
+      "id": "francoli-wed",
+      "businessId": "francoli-gourmet",
+      "day": "Wednesday",
+      "title": "Sommelier Piedmontese Tasting",
+      "description": "Half-priced bottles of Barolo and Barbera d’Alba with any two meat or seafood entrees.",
+      "timeWindow": {
+        "startHour": 17,
+        "endHour": 21,
+        "label": "5:00 PM - 9:00 PM"
+      },
+      "discountTag": "50% Off Wine"
+    },
+    {
+      "id": "francoli-thu",
+      "businessId": "francoli-gourmet",
+      "day": "Thursday",
+      "title": "Gourmet Panini & Salad Lunch",
+      "description": "Prosciutto di Parma on warm focaccia + Tuscan arugula salad for $16.50.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 15,
+        "label": "11:30 AM - 3:00 PM"
+      },
+      "discountTag": "$16.50 Lunch"
+    },
+    {
+      "id": "francoli-sun",
+      "businessId": "francoli-gourmet",
+      "day": "Sunday",
+      "title": "Sunday Truffle Risotto Feature",
+      "description": "Chef’s seasonal black truffle carnaroli risotto with Parmigiano-Reggiano aged 24 months.",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 20,
+        "label": "4:00 PM - 8:30 PM"
+      },
+      "discountTag": "Truffle Special"
+    }
+  ],
+  "events": [],
+  "researchMetadata": {
+    "officialWebsite": "https://francoligourmet.com",
+    "menuUrl": "https://francoligourmet.com/menu",
+    "instagram": "https://instagram.com/francoligourmet",
+    "verificationNotes": "Northern Italian handmade pastas, regional wine pairings, and Piedmontese cuisine verified.",
+    "lastVerified": "2026-10-10"
+  }
+}

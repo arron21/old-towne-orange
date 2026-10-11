@@ -1,0 +1,137 @@
+{
+  "id": "filling-station-cafe",
+  "name": "The Filling Station Cafe",
+  "category": "cafe",
+  "categoryLabel": "Brunch & Historic Diner",
+  "tagline": "Famous outdoor patio breakfasts in a repurposed 1930s historic gas station",
+  "description": "One of the most charming morning destinations in Southern California. Converted from an authentic 1930s service station with vintage gas pumps standing guard, The Filling Station serves legendary stacks of lemon blueberry pancakes, eggs benedicts with silky hollandaise, and hearty scrambles on its expansive shaded brick patio.",
+  "address": "201 N Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.78925,
+    -117.85278
+  ],
+  "phone": "(714) 289-9714",
+  "website": "https://fillingstationcafe.com",
+  "hours": {
+    "Monday": "7:00 AM - 3:00 PM",
+    "Tuesday": "7:00 AM - 3:00 PM",
+    "Wednesday": "7:00 AM - 3:00 PM",
+    "Thursday": "7:00 AM - 3:00 PM",
+    "Friday": "7:00 AM - 3:00 PM",
+    "Saturday": "7:00 AM - 3:30 PM",
+    "Sunday": "7:00 AM - 3:30 PM"
+  },
+  "historicNote": "Constructed in 1932 as a Texaco filling station, preserving the roadside Spanish Mission tile roof, pump island, and mechanic bay doors.",
+  "imageUrl": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.7,
+  "priceLevel": "$$",
+  "tags": [
+    "Breakfast",
+    "Brunch",
+    "Patio",
+    "Historic Gas Station",
+    "Pancakes",
+    "Dog Friendly"
+  ],
+  "specials": [
+    {
+      "id": "fs-mon",
+      "businessId": "filling-station-cafe",
+      "day": "Monday",
+      "title": "Early Bird Fuel Up",
+      "description": "Classic Two Egg Breakfast with breakfast potatoes, bacon or sausage, and toast for $10.99 before 9:00 AM.",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 9,
+        "label": "7:00 AM - 9:00 AM"
+      },
+      "discountTag": "$10.99 Breakfast"
+    },
+    {
+      "id": "fs-tue",
+      "businessId": "filling-station-cafe",
+      "day": "Tuesday",
+      "title": "Benedict Tuesday",
+      "description": "Choice of Traditional, Crab Cake, or Florentine Benedict served with seasonal fruit at 20% off.",
+      "timeWindow": {
+        "startHour": 8,
+        "endHour": 14,
+        "label": "8:00 AM - 2:00 PM"
+      },
+      "discountTag": "20% Off Benedicts"
+    },
+    {
+      "id": "fs-wed",
+      "businessId": "filling-station-cafe",
+      "day": "Wednesday",
+      "title": "Pancake Short Stack Wednesday",
+      "description": "Add a famous short stack of buttermilk or blueberry pancakes to any breakfast order for just $4.",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 14,
+        "label": "7:00 AM - 2:00 PM"
+      },
+      "discountTag": "$4 Short Stack"
+    },
+    {
+      "id": "fs-thu",
+      "businessId": "filling-station-cafe",
+      "day": "Thursday",
+      "title": "Cold Brew & Breakfast Sandwich",
+      "description": "House Nitro Cold Brew + Avocado Bacon Croissant Sandwich combo for $14.50.",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 12,
+        "label": "7:00 AM - 12:00 PM"
+      },
+      "discountTag": "$14.50 Combo"
+    },
+    {
+      "id": "fs-fri",
+      "businessId": "filling-station-cafe",
+      "day": "Friday",
+      "title": "Friday Patio Mimosas",
+      "description": "$6 fresh-squeezed California orange juice mimosas all morning.",
+      "timeWindow": {
+        "startHour": 8,
+        "endHour": 14,
+        "label": "8:00 AM - 2:00 PM"
+      },
+      "discountTag": "$6 Mimosas"
+    },
+    {
+      "id": "fs-sat",
+      "businessId": "filling-station-cafe",
+      "day": "Saturday",
+      "title": "Weekend Lemon Ricotta Pancakes",
+      "description": "House specialty fluffy lemon ricotta pancakes with warm blackberry compote.",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 15,
+        "label": "7:00 AM - 3:30 PM"
+      },
+      "discountTag": "Chef Favorite"
+    },
+    {
+      "id": "fs-sun",
+      "businessId": "filling-station-cafe",
+      "day": "Sunday",
+      "title": "Sunday Service Benedict Feast",
+      "description": "Slow-smoked pulled pork hash benedict with spicy chipotle hollandaise sauce.",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 15,
+        "label": "All Day"
+      },
+      "discountTag": "Weekend Special"
+    }
+  ],
+  "events": [],
+  "researchMetadata": {
+    "officialWebsite": "https://fillingstationcafe.com",
+    "menuUrl": "https://fillingstationcafe.com/menu",
+    "instagram": "https://instagram.com/fillingstationcafe",
+    "verificationNotes": "1930s Texaco gas station patio breakfast, short stack pancakes, and benedicts verified.",
+    "lastVerified": "2026-10-10"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Business",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "category",
+    "categoryLabel",
+    "tagline",
+    "description",
+    "address",
+    "coordinates",
+    "phone",
+    "website",
+    "hours",
+    "imageUrl",
+    "rating",
+    "priceLevel",
+    "tags",
+    "specials",
+    "events"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "category": {
+      "type": "string",
+      "enum": ["dining", "cafe", "shopping", "drinks", "landmark"]
+    },
+    "categoryLabel": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "coordinates": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": { "type": "number" }
+    },
+    "phone": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "hours": {
+      "type": "object",
+      "required": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "properties": {
+        "Monday": { "type": "string" },
+        "Tuesday": { "type": "string" },
+        "Wednesday": { "type": "string" },
+        "Thursday": { "type": "string" },
+        "Friday": { "type": "string" },
+        "Saturday": { "type": "string" },
+        "Sunday": { "type": "string" }
+      }
+    },
+    "historicNote": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "priceLevel": {
+      "type": "string",
+      "enum": ["$", "$$", "$$$", "Free"]
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "specials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "businessId", "day", "title", "description", "timeWindow"],
+        "properties": {
+          "id": { "type": "string" },
+          "businessId": { "type": "string" },
+          "day": {
+            "type": "string",
+            "enum": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+          },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "discountTag": { "type": "string" },
+          "price": { "type": "string" },
+          "timeWindow": {
+            "type": "object",
+            "required": ["startHour", "endHour", "label"],
+            "properties": {
+              "startHour": { "type": "integer", "minimum": 0, "maximum": 23 },
+              "endHour": { "type": "integer", "minimum": 0, "maximum": 24 },
+              "label": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "description", "date", "time", "location", "category"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "date": { "type": "string" },
+          "exactDate": { "type": "string" },
+          "time": { "type": "string" },
+          "location": { "type": "string" },
+          "businessId": { "type": "string" },
+          "coordinates": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": { "type": "number" }
+          },
+          "category": {
+            "type": "string",
+            "enum": ["festival", "music", "community", "food", "market", "drinks"]
+          },
+          "isRecurringWeekly": { "type": "boolean" },
+          "recurringDay": {
+            "type": "string",
+            "enum": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+          },
+          "badge": { "type": "string" }
+        }
+      }
+    },
+    "researchMetadata": {
+      "type": "object",
+      "required": ["lastVerified"],
+      "properties": {
+        "officialWebsite": { "type": "string" },
+        "menuUrl": { "type": "string" },
+        "instagram": { "type": "string" },
+        "facebook": { "type": "string" },
+        "yelpUrl": { "type": "string" },
+        "googlePlaceId": { "type": "string" },
+        "lastVerified": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "verificationNotes": { "type": "string" }
+      }
+    }
+  }
+}

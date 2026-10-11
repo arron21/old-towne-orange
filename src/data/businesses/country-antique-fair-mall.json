@@ -1,0 +1,70 @@
+{
+  "id": "country-antique-fair-mall",
+  "name": "Country Antique Fair Mall",
+  "category": "shopping",
+  "categoryLabel": "Antiques & Vintage",
+  "tagline": "Charming multi-dealer emporium of vintage jewelry, rustic primitives, and retro decor",
+  "description": "A delight for vintage hunters on North Glassell. Featuring dozens of dealer spaces packed with antique estate jewelry, Victorian silver, retro kitchenware, vintage clocks, and primitives from California homesteads.",
+  "address": "125 N Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.78832,
+    -117.85281
+  ],
+  "phone": "(714) 771-0617",
+  "website": "https://countryantiquefairmall.com",
+  "hours": {
+    "Monday": "10:00 AM - 5:00 PM",
+    "Tuesday": "10:00 AM - 5:00 PM",
+    "Wednesday": "10:00 AM - 5:00 PM",
+    "Thursday": "10:00 AM - 5:00 PM",
+    "Friday": "10:00 AM - 5:00 PM",
+    "Saturday": "10:00 AM - 5:30 PM",
+    "Sunday": "11:00 AM - 5:00 PM"
+  },
+  "historicNote": "Located in a vintage 1918 commercial brick building with classic storefront display windows that frequently appeared in Hollywood productions.",
+  "imageUrl": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.7,
+  "priceLevel": "$$",
+  "tags": [
+    "Antiques",
+    "Vintage Jewelry",
+    "Primitives",
+    "Rustic Decor",
+    "Collectibles"
+  ],
+  "specials": [
+    {
+      "id": "cafm-thu",
+      "businessId": "country-antique-fair-mall",
+      "day": "Thursday",
+      "title": "Estate Jewelry Showcase 10% Off",
+      "description": "10% discount on all vintage silver rings, brooches, and antique lockets at participating display cases.",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 17,
+        "label": "All Day"
+      },
+      "discountTag": "10% Off Jewelry"
+    },
+    {
+      "id": "cafm-sat",
+      "businessId": "country-antique-fair-mall",
+      "day": "Saturday",
+      "title": "Sidewalk Vintage Spotlight",
+      "description": "Sidewalk clearance table with discounted vintage postcards, retro glassware, and framed prints.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 16,
+        "label": "11:00 AM - 4:00 PM"
+      },
+      "discountTag": "Sidewalk Deals"
+    }
+  ],
+  "events": [],
+  "researchMetadata": {
+    "officialWebsite": "https://countryantiquefairmall.com",
+    "instagram": "https://instagram.com/countryantiquefairmall",
+    "verificationNotes": "Vintage jewelry, primitives, and weekend sidewalk showcases verified.",
+    "lastVerified": "2026-10-10"
+  }
+}

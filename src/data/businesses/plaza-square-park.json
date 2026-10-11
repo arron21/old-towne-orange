@@ -1,0 +1,58 @@
+{
+  "id": "plaza-square-park",
+  "name": "Plaza Square Park & Historic Fountain",
+  "category": "landmark",
+  "categoryLabel": "Historic Landmark",
+  "tagline": "The historic heart of Old Towne Orange and center of The Circle",
+  "description": "The iconic focal point around which the entire city of Orange was laid out in 1871. Shaded by towering palm and magnolia trees, the park features the famous tiled fountain constructed in 1937, historic plaques, circular lawn promenades, and park benches where visitors gather to enjoy coffee, music, and community.",
+  "address": "Plaza Square (Intersection of Chapman & Glassell), Orange, CA 92866",
+  "coordinates": [
+    33.78778,
+    -117.85278
+  ],
+  "phone": "(714) 744-7272",
+  "website": "https://cityoforange.org",
+  "hours": {
+    "Monday": "Open 24 Hours",
+    "Tuesday": "Open 24 Hours",
+    "Wednesday": "Open 24 Hours",
+    "Thursday": "Open 24 Hours",
+    "Friday": "Open 24 Hours",
+    "Saturday": "Open 24 Hours",
+    "Sunday": "Open 24 Hours"
+  },
+  "historicNote": "Originally surveyed and dedicated in 1871. Listed on the National Register of Historic Places in 1997 as the centerpiece of California’s largest historic district.",
+  "imageUrl": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.9,
+  "priceLevel": "Free",
+  "tags": [
+    "Historic Landmark",
+    "The Circle",
+    "Fountain",
+    "Public Park",
+    "Filming Location",
+    "Photography"
+  ],
+  "specials": [],
+  "events": [
+    {
+      "id": "plaza-summer-concerts",
+      "title": "Summer Twilight Concerts in the Plaza",
+      "description": "Bring lawn chairs and picnic baskets for open-air evening concerts featuring big band swing, classic rock, and folk music.",
+      "date": "Wednesday Evenings (June - August)",
+      "time": "7:00 PM - 8:30 PM",
+      "location": "Plaza Square Center Lawn",
+      "coordinates": [
+        33.78778,
+        -117.85278
+      ],
+      "category": "music",
+      "badge": "Free Community Event"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://cityoforange.org",
+    "verificationNotes": "Historic 1871 Plaza Square Park and 1937 historic fountain; summer concerts verified.",
+    "lastVerified": "2026-10-10"
+  }
+}

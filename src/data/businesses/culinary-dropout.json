@@ -1,0 +1,151 @@
+{
+  "id": "culinary-dropout",
+  "name": "Culinary Dropout",
+  "category": "dining",
+  "categoryLabel": "Gastropub & Games",
+  "tagline": "Rebel gastropub fare, craft cocktails, live music, and backyard patio games",
+  "description": "Located on North Orange Street just north of Chapman Ave and steps from Chapman University, Culinary Dropout serves elevated comfort food with a rock-and-roll attitude. Known for warm Soft Pretzels with provolone fondue, Wagyu pigs in a blanket, 36-hour pork ribs, ice-cold local draft beers, craft cocktails, and an expansive indoor/outdoor patio loaded with ping-pong, cornhole, and live weekend music.",
+  "address": "191 N Orange St, Orange, CA 92866",
+  "coordinates": [
+    33.78943,
+    -117.85191
+  ],
+  "phone": "(714) 439-5566",
+  "website": "https://www.culinarydropout.com/locations/orange-ca/",
+  "hours": {
+    "Monday": "11:00 AM - 10:00 PM",
+    "Tuesday": "11:00 AM - 10:00 PM",
+    "Wednesday": "11:00 AM - 10:00 PM",
+    "Thursday": "11:00 AM - 10:00 PM",
+    "Friday": "11:00 AM - 11:00 PM",
+    "Saturday": "10:00 AM - 11:00 PM",
+    "Sunday": "10:00 AM - 10:00 PM"
+  },
+  "historicNote": "Situated in Old Towne Orange's historic industrial and citrus packinghouse corridor, converted into a high-energy indoor/outdoor culinary and entertainment hall.",
+  "imageUrl": "https://images.unsplash.com/photo-1543007630-9710e4a00a20?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.7,
+  "priceLevel": "$$",
+  "tags": [
+    "Gastropub",
+    "Happy Hour",
+    "Live Music",
+    "Yard Games",
+    "Patio",
+    "Weekend Brunch",
+    "Cocktails"
+  ],
+  "specials": [
+    {
+      "id": "cd-mon",
+      "businessId": "culinary-dropout",
+      "day": "Monday",
+      "title": "Weekday Kickoff Happy Hour",
+      "description": "$5 craft draught beers and wines by the glass, $10 featured craft cocktails, and $9 warm soft pretzels with provolone fondue at the bar.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 18,
+        "label": "3:00 PM - 6:00 PM"
+      },
+      "discountTag": "$5 Pints & Wine"
+    },
+    {
+      "id": "cd-tue",
+      "businessId": "culinary-dropout",
+      "day": "Tuesday",
+      "title": "Taco & Nacho Tuesday",
+      "description": "$10 BBQ Pork Belly Nachos and $5 draft lagers during afternoon happy hour.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 18,
+        "label": "3:00 PM - 6:00 PM"
+      },
+      "discountTag": "$10 Nachos"
+    },
+    {
+      "id": "cd-wed",
+      "businessId": "culinary-dropout",
+      "day": "Wednesday",
+      "title": "Wine Down Wednesday & Pretzels",
+      "description": "50% off select bottles of wine with purchase of an entree, plus $5 drafts during 3-6pm happy hour.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 22,
+        "label": "3:00 PM - Close"
+      },
+      "discountTag": "50% Off Wine"
+    },
+    {
+      "id": "cd-thu",
+      "businessId": "culinary-dropout",
+      "day": "Thursday",
+      "title": "Thirsty Thursday & Yard Games",
+      "description": "$10 signature cocktails (Room 42, Jalapeño Paloma) with complimentary access to outdoor ping pong and cornhole yards.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 22,
+        "label": "3:00 PM - 10:00 PM"
+      },
+      "discountTag": "$10 Cocktails"
+    },
+    {
+      "id": "cd-fri",
+      "businessId": "culinary-dropout",
+      "day": "Friday",
+      "title": "Friday Sunset Happy Hour & Ribs",
+      "description": "$5 draught beers and $10 cocktails from 3-6pm, followed by Chef's slow-smoked 36-hour pork ribs dinner feature.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 18,
+        "label": "3:00 PM - 6:00 PM"
+      },
+      "discountTag": "Happy Hour"
+    },
+    {
+      "id": "cd-sat",
+      "businessId": "culinary-dropout",
+      "day": "Saturday",
+      "title": "Weekend Rock & Roll Brunch",
+      "description": "Brunch served 10am-3pm: Smokehouse Hash, Bacon & Egg Croissant, Chicken Sausage Omelet, and $10 morning eye-opener cocktails.",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 15,
+        "label": "10:00 AM - 3:00 PM"
+      },
+      "discountTag": "Brunch Special"
+    },
+    {
+      "id": "cd-sun",
+      "businessId": "culinary-dropout",
+      "day": "Sunday",
+      "title": "Sunday Hangover Brunch & Patio Beats",
+      "description": "Weekend brunch favorites with $25 mimosa carafes and live acoustic sets on the outdoor patio.",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 15,
+        "label": "10:00 AM - 3:00 PM"
+      },
+      "discountTag": "$25 Carafes"
+    }
+  ],
+  "events": [
+    {
+      "id": "cd-live-music-weekends",
+      "title": "Live Music on the Dropout Patio",
+      "description": "Local rock, soul, and acoustic bands performing live on the outdoor stage while you play ping pong and yard games.",
+      "date": "Every Friday & Saturday Night",
+      "time": "7:00 PM - 10:00 PM",
+      "location": "Culinary Dropout Outdoor Yard",
+      "businessId": "culinary-dropout",
+      "category": "music",
+      "isRecurringWeekly": true,
+      "recurringDay": "Friday"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://www.culinarydropout.com/locations/orange-ca/",
+    "menuUrl": "https://www.culinarydropout.com/locations/orange-ca/menus/",
+    "instagram": "https://instagram.com/culinarydropout",
+    "lastVerified": "2026-10-11",
+    "verificationNotes": "Verified 191 N Orange St location, hours (Mon-Thu 11am-10pm, Fri 11am-11pm, Sat 10am-11pm, Sun 10am-10pm), phone (714) 439-5566, happy hour Mon-Fri 3-6pm ($5 drafts/wine, $10 cocktails), and weekend brunch 10am-3pm."
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "1886-brewing-company",
+  "name": "1886 Brewing Company",
+  "category": "drinks",
+  "categoryLabel": "Historic Craft Brewery & Scratch Kitchen",
+  "tagline": "Independent craft brewery in an 1886 brick landmark — fresh West Coast IPAs, lagers, and tavern bites",
+  "description": "Housed within a stunning 1886 historic brick building just steps from Plaza Square, 1886 Brewing Company is Old Towne Orange's premier on-site craft brewery and gastropub. Combining historic architectural charm with cutting-edge brewing, 1886 pours an impressive rotating portfolio of house-brewed West Coast IPAs, crisp German-style lagers, and rich ales, accompanied by elevated pub dishes like Borracho Nachos, Cowboy Cheese Dip, and weekend brewer's brunch.",
+  "address": "114 N Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.78849,
+    -117.853188
+  ],
+  "phone": "(714) 922-8130",
+  "website": "https://www.1886brewingco.com",
+  "hours": {
+    "Monday": "11:30 AM - 10:00 PM",
+    "Tuesday": "11:30 AM - 10:00 PM",
+    "Wednesday": "11:30 AM - 10:00 PM",
+    "Thursday": "11:30 AM - 11:00 PM",
+    "Friday": "11:30 AM - 11:00 PM",
+    "Saturday": "10:00 AM - 11:00 PM",
+    "Sunday": "10:00 AM - 10:00 PM"
+  },
+  "historicNote": "Occupies an authentic 1886 commercial brick landmark featuring the original decorative carved entryway pediment, arched masonry, and visible on-site brewing vessels.",
+  "imageUrl": "/images/1886-brewing.jpg",
+  "rating": 4.7,
+  "priceLevel": "$$",
+  "tags": [
+    "Craft Brewery",
+    "House Beers",
+    "IPAs",
+    "Weekend Brunch",
+    "Outdoor Patio",
+    "Happy Hour",
+    "Historic Landmark"
+  ],
+  "specials": [
+    {
+      "id": "1886-mon-growler",
+      "businessId": "1886-brewing-company",
+      "day": "Monday",
+      "title": "Monday Brewer's Growler Fill Special",
+      "description": "$5 off all 64oz growler fills of core house-brewed IPAs and lagers, plus $6 pints all day at the bar.",
+      "discountTag": "$5 Off Growlers",
+      "price": "$6 Pints",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 22,
+        "label": "All Day"
+      }
+    },
+    {
+      "id": "1886-tue-taco-draft",
+      "businessId": "1886-brewing-company",
+      "day": "Tuesday",
+      "title": "Taco & Craft Pint Tuesday",
+      "description": "Three chef's carnitas or short rib tacos paired with any house-brewed craft pint for $16.",
+      "discountTag": "$16 Taco & Pint",
+      "price": "$16.00",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 21,
+        "label": "2:00 PM - 9:00 PM"
+      }
+    },
+    {
+      "id": "1886-wed-flight",
+      "businessId": "1886-brewing-company",
+      "day": "Wednesday",
+      "title": "Midweek 4-Beer Tasting Flight",
+      "description": "Sample four 5oz pours of any draft beer currently on tap (including seasonal double IPAs and kettle sours) for $10.",
+      "discountTag": "$10 Tasting Flight",
+      "price": "$10.00",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 20,
+        "label": "2:00 PM - 8:00 PM"
+      }
+    },
+    {
+      "id": "1886-thu-happyhour",
+      "businessId": "1886-brewing-company",
+      "day": "Thursday",
+      "title": "Extended Happy Hour & Borracho Nachos",
+      "description": "$2 off all 1886 house pints, $8 house cocktails, and $4 off Borracho Nachos loaded with beer cheese and black beans.",
+      "discountTag": "$2 Off Pints",
+      "price": "Happy Hour",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 18,
+        "label": "2:00 PM - 6:00 PM"
+      }
+    },
+    {
+      "id": "1886-fri-kickoff",
+      "businessId": "1886-brewing-company",
+      "day": "Friday",
+      "title": "TGIF Fresh Hop Pour & Pretzel",
+      "description": "Giant Bavarian soft pretzel with house beer mustard and warm cowboy cheese dip paired with a fresh IPA pint for $15.",
+      "discountTag": "$15 Pretzel & Pint",
+      "price": "$15.00",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 18,
+        "label": "2:00 PM - 6:00 PM"
+      }
+    },
+    {
+      "id": "1886-sat-brunch",
+      "businessId": "1886-brewing-company",
+      "day": "Saturday",
+      "title": "Weekend Brewer's Brunch & Beermosas",
+      "description": "Brioche French toast, chilaquiles, and breakfast burritos paired with house citrus beermosas and micheladas.",
+      "discountTag": "Brewer's Brunch",
+      "price": "$14 - $18",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 14,
+        "label": "10:00 AM - 2:00 PM"
+      }
+    },
+    {
+      "id": "1886-sun-sundaybrunch",
+      "businessId": "1886-brewing-company",
+      "day": "Sunday",
+      "title": "Sunday Patio Brunch & Pitchers",
+      "description": "Weekend patio brunch specials with $20 pitchers of house blonde ale and Mexican lager for the table.",
+      "discountTag": "$20 Pitchers",
+      "price": "$20.00",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 15,
+        "label": "10:00 AM - 3:00 PM"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "1886-new-beer-release",
+      "title": "First Friday Fresh Tap Release & Brewer Q&A",
+      "description": "Meet head brewer team, taste new limited small-batch kettle releases, and enjoy special flight pairings on the patio.",
+      "date": "First Friday of Each Month",
+      "exactDate": "2026-11-06",
+      "time": "5:00 PM - 8:00 PM",
+      "location": "1886 Taproom (114 N Glassell St)",
+      "businessId": "1886-brewing-company",
+      "coordinates": [
+        33.78849,
+        -117.853188
+      ],
+      "category": "drinks",
+      "isRecurringWeekly": false,
+      "badge": "Tap Release"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://www.1886brewingco.com",
+    "menuUrl": "https://www.1886brewingco.com/menu",
+    "instagram": "https://instagram.com/1886brewingco",
+    "lastVerified": "2026-10-11",
+    "verificationNotes": "Verified 114 N Glassell St location, operating hours (Mon-Wed 11:30am-10pm, Thu-Fri 11:30am-11pm, Sat 10am-11pm, Sun 10am-10pm), phone (714) 922-8130, house craft beer taps, user facade photo added, and exact OSM coordinates [33.78849, -117.853188] matching building way/609664258."
+  }
+}

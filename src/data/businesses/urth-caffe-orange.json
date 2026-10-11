@@ -1,0 +1,137 @@
+{
+  "id": "urth-caffe-orange",
+  "name": "Urth Caffé Orange",
+  "category": "cafe",
+  "categoryLabel": "Coffee & Organic Cafe",
+  "tagline": "Organic heirloom coffees, Spanish-revival courtyard, and artisanal bakery",
+  "description": "Occupying an impeccably restored historic compound on West Chapman, Urth Caffe Orange is famous for its gorgeous open-air courtyard tiled with hand-painted Andalusian ceramics. Savor exclusively certified organic, heirloom coffees, Japanese green tea lattes, wood-fired artisanal pizzas, and wholesome organic breakfasts.",
+  "address": "100 W Chapman Ave, Orange, CA 92866",
+  "coordinates": [
+    33.78765,
+    -117.85374
+  ],
+  "phone": "(949) 329-5755",
+  "website": "https://urthcaffe.com",
+  "hours": {
+    "Monday": "7:00 AM - 10:00 PM",
+    "Tuesday": "7:00 AM - 10:00 PM",
+    "Wednesday": "7:00 AM - 10:00 PM",
+    "Thursday": "7:00 AM - 10:00 PM",
+    "Friday": "7:00 AM - 10:00 PM",
+    "Saturday": "7:00 AM - 11:00 PM",
+    "Sunday": "7:00 AM - 10:00 PM"
+  },
+  "historicNote": "Restored from the historic 1888 St. John’s Lutheran School and Church property, winning the California Preservation Foundation Preservation Design Award for its courtyard fountain and clay tile work.",
+  "imageUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.6,
+  "priceLevel": "$$",
+  "tags": [
+    "Organic Coffee",
+    "Bakery",
+    "Matcha",
+    "Courtyard Patio",
+    "Breakfast",
+    "Wood-Fired Pizza"
+  ],
+  "specials": [
+    {
+      "id": "urth-mon",
+      "businessId": "urth-caffe-orange",
+      "day": "Monday",
+      "title": "Morning Heirloom Brew Combo",
+      "description": "Get a fresh house-baked butter croissant or morning muffin for $3 with any large organic coffee or tea latte.",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 11,
+        "label": "7:00 AM - 11:00 AM"
+      },
+      "discountTag": "$3 Pastry"
+    },
+    {
+      "id": "urth-tue",
+      "businessId": "urth-caffe-orange",
+      "day": "Tuesday",
+      "title": "Matcha & Tea Tuesday",
+      "description": "Upgrade any heirloom matcha green tea latte to organic almond or oat milk at no extra charge.",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 15,
+        "label": "All Morning & Afternoon"
+      },
+      "discountTag": "Free Alt Milk"
+    },
+    {
+      "id": "urth-wed",
+      "businessId": "urth-caffe-orange",
+      "day": "Wednesday",
+      "title": "Midweek Wood-Fired Pizza Special",
+      "description": "Purchase any wood-fired personal pizza and receive a complimentary side Urth garden salad.",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 21,
+        "label": "4:00 PM - 9:00 PM"
+      },
+      "discountTag": "Free Salad"
+    },
+    {
+      "id": "urth-thu",
+      "businessId": "urth-caffe-orange",
+      "day": "Thursday",
+      "title": "Organic Dessert Pairing",
+      "description": "Buy one signature dessert slice (Oreo cheesecake, Carrot cake, or Flourless chocolate) get second slice 50% off.",
+      "timeWindow": {
+        "startHour": 17,
+        "endHour": 21,
+        "label": "5:00 PM - Close"
+      },
+      "discountTag": "50% Off 2nd Slice"
+    },
+    {
+      "id": "urth-fri",
+      "businessId": "urth-caffe-orange",
+      "day": "Friday",
+      "title": "Courtyard Sunset Teas",
+      "description": "Organic Moroccan mint and herbal iced teas served with house honey biscotti for $6.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 18,
+        "label": "3:00 PM - 6:00 PM"
+      },
+      "discountTag": "$6 Tea Special"
+    },
+    {
+      "id": "urth-sat",
+      "businessId": "urth-caffe-orange",
+      "day": "Saturday",
+      "title": "Organic Pancake Saturday",
+      "description": "Fluffy whole wheat buttermilk pancakes topped with organic berries and pure Vermont maple syrup.",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 13,
+        "label": "7:00 AM - 1:00 PM"
+      },
+      "discountTag": "Weekend Special"
+    },
+    {
+      "id": "urth-sun",
+      "businessId": "urth-caffe-orange",
+      "day": "Sunday",
+      "title": "Sunday Morning Coffee Flight",
+      "description": "Tasting flight of 3 distinct single-origin pour-overs: Ethiopia, Guatemala, and Sumatra.",
+      "timeWindow": {
+        "startHour": 8,
+        "endHour": 13,
+        "label": "8:00 AM - 1:00 PM"
+      },
+      "discountTag": "Tasting Flight"
+    }
+  ],
+  "events": [],
+  "researchMetadata": {
+    "officialWebsite": "https://urthcaffe.com",
+    "menuUrl": "https://urthcaffe.com/menu",
+    "instagram": "https://instagram.com/urthcaffe",
+    "verificationNotes": "Verified official location at 100 W Chapman Ave (1888 historic church/school property at Plaza west entrance), updated coordinates to [33.78765, -117.85374], and verified current operating hours and contact info.",
+    "lastVerified": "2026-10-11"
+  }
+}

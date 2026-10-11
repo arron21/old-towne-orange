@@ -1,0 +1,148 @@
+{
+  "id": "provisions-deli",
+  "name": "Provisions Deli & Bottle Shop",
+  "category": "drinks",
+  "categoryLabel": "Craft Beer & Artisan Deli",
+  "tagline": "30 rotating craft taps, hundreds of curated bottles, and gourmet artisan sandwiches",
+  "description": "The epicenter for beer aficionados and epicureans in Orange. Provisions pairs an extensive 30-tap craft draft wall with refrigerated vaults containing rare sours, IPAs, and European vintages. Order gourmet grilled paninis, artisanal cheese and charcuterie boards, and enjoy seating indoors or in the bustling back patio.",
+  "address": "143 N Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.78848,
+    -117.85281
+  ],
+  "phone": "(714) 997-2337",
+  "website": "https://provisionsdeli.com",
+  "hours": {
+    "Monday": "11:00 AM - 10:00 PM",
+    "Tuesday": "11:00 AM - 10:00 PM",
+    "Wednesday": "11:00 AM - 10:00 PM",
+    "Thursday": "11:00 AM - 11:00 PM",
+    "Friday": "11:00 AM - 11:00 PM",
+    "Saturday": "10:00 AM - 11:00 PM",
+    "Sunday": "11:00 AM - 9:00 PM"
+  },
+  "historicNote": "Situated in a revitalized 1910 retail storefront featuring original high ceilings, exposed brick masonry, and industrial steel accents.",
+  "imageUrl": "/images/provisions.jpg",
+  "rating": 4.8,
+  "priceLevel": "$$",
+  "tags": [
+    "Craft Beer",
+    "Bottle Shop",
+    "Charcuterie",
+    "Artisan Sandwiches",
+    "Wine",
+    "Patio"
+  ],
+  "specials": [
+    {
+      "id": "prov-mon",
+      "businessId": "provisions-deli",
+      "day": "Monday",
+      "title": "Panini & Pint Lunch Pair",
+      "description": "Any hot artisan panini (Prosciutto & Fig, Chimichurri Steak, or Caprese) + core craft pint for $18.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 16,
+        "label": "11:00 AM - 4:00 PM"
+      },
+      "discountTag": "$18 Lunch"
+    },
+    {
+      "id": "prov-tue",
+      "businessId": "provisions-deli",
+      "day": "Tuesday",
+      "title": "Bottle Vault 10% Off",
+      "description": "Take home any 4 or 6-pack of craft beer bottles or cans from our walk-in cooler vaults with a 10% discount.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 22,
+        "label": "All Day"
+      },
+      "discountTag": "10% Off To-Go"
+    },
+    {
+      "id": "prov-wed",
+      "businessId": "provisions-deli",
+      "day": "Wednesday",
+      "title": "Tap Takeover Flight Night",
+      "description": "4-pour customized craft tasting flight with house-made Bavarian pretzel & beer cheese for $16.",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 22,
+        "label": "4:00 PM - 10:00 PM"
+      },
+      "discountTag": "$16 Flight & Pretzel"
+    },
+    {
+      "id": "prov-thu",
+      "businessId": "provisions-deli",
+      "day": "Thursday",
+      "title": "Charcuterie & Wine Board Special",
+      "description": "Artisan cheese board for two with cured meats, honeycomb, and marcona almonds paired with $8 wine pours.",
+      "timeWindow": {
+        "startHour": 17,
+        "endHour": 22,
+        "label": "5:00 PM - Close"
+      },
+      "discountTag": "$8 Wine Pours"
+    },
+    {
+      "id": "prov-fri",
+      "businessId": "provisions-deli",
+      "day": "Friday",
+      "title": "Friday Taproom Social",
+      "description": "$6 select local IPA and pilsner pints between 3:00 PM and 6:00 PM.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 18,
+        "label": "3:00 PM - 6:00 PM"
+      },
+      "discountTag": "$6 Pints"
+    },
+    {
+      "id": "prov-sat",
+      "businessId": "provisions-deli",
+      "day": "Saturday",
+      "title": "Weekend Beer Garden Tasting",
+      "description": "Rotating microbrewery showcase on our outdoor patio with limited-release keg tappings.",
+      "timeWindow": {
+        "startHour": 13,
+        "endHour": 18,
+        "label": "1:00 PM - 6:00 PM"
+      },
+      "discountTag": "Keg Tappings"
+    },
+    {
+      "id": "prov-sun",
+      "businessId": "provisions-deli",
+      "day": "Sunday",
+      "title": "Sunday Growler Fill & Flight",
+      "description": "20% off all growler and crowler fills to gear up for the week ahead.",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 20,
+        "label": "12:00 PM - 8:00 PM"
+      },
+      "discountTag": "20% Off Fills"
+    }
+  ],
+  "events": [
+    {
+      "id": "prov-cheese-night",
+      "title": "Curated Artisan Cheese & Craft Beer Pairing",
+      "description": "Guided 5-course sensory pairing led by our Certified Cicerone and regional cheesemakers.",
+      "date": "Second Wednesday of Each Month",
+      "time": "7:00 PM - 9:00 PM",
+      "location": "Provisions Main Taproom",
+      "businessId": "provisions-deli",
+      "category": "drinks"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://provisionsdeli.com",
+    "menuUrl": "https://provisionsdeli.com/pages/food-menu",
+    "instagram": "https://instagram.com/provisionsdeli",
+    "verificationNotes": "30 craft beer taps, bottle shop vaults, and Wednesday tap takeover tastings verified.",
+    "lastVerified": "2026-10-10"
+  }
+}

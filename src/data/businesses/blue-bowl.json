@@ -1,0 +1,164 @@
+{
+  "id": "blue-bowl",
+  "name": "Blue Bowl Superfoods",
+  "category": "cafe",
+  "categoryLabel": "Custom Superfood & Açaí Bowls",
+  "tagline": "Build-your-own superfood bowls with unlimited toppings, organic bases, and house-made nut butters",
+  "description": "A celebrated Old Towne phenomenon, Blue Bowl revolutionized healthy dining with its 100% customizable, unlimited-topping superfood bowl model. Located in a historic arched-window storefront on North Glassell Street, guests create custom layered masterpieces from nutrient-dense bases like pure organic açaí, blue majik, pitaya, matcha, and activated coconut chia pudding, topped with house-made nut butters, gluten-free granolas, super seeds, and fresh coastal berries.",
+  "address": "152 N Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.789118,
+    -117.853672
+  ],
+  "phone": "(714) 880-4489",
+  "website": "https://mybluebowl.com",
+  "hours": {
+    "Monday": "9:00 AM - 6:00 PM",
+    "Tuesday": "9:00 AM - 6:00 PM",
+    "Wednesday": "9:00 AM - 6:00 PM",
+    "Thursday": "9:00 AM - 6:00 PM",
+    "Friday": "9:00 AM - 6:00 PM",
+    "Saturday": "9:00 AM - 7:00 PM",
+    "Sunday": "9:00 AM - 7:00 PM"
+  },
+  "historicNote": "Located in a handsome multi-story 1920s brick building featuring classical arched second-story windows and awning-shaded sidewalk seating.",
+  "imageUrl": "/images/blue-bowl.jpg",
+  "rating": 4.8,
+  "priceLevel": "$$",
+  "tags": [
+    "Açaí Bowls",
+    "Superfoods",
+    "Smoothies",
+    "Vegan Friendly",
+    "Gluten Free",
+    "Healthy Eats",
+    "Unlimited Toppings"
+  ],
+  "specials": [
+    {
+      "id": "blue-mon-morning",
+      "businessId": "blue-bowl",
+      "day": "Monday",
+      "title": "Monday Morning Superfood Boost",
+      "description": "Start the week with $1 off any 16oz or 24oz bowl layered with Blue Majik and matcha spirulina bases.",
+      "discountTag": "$1 Off Super Bowls",
+      "price": "$1.00 Off",
+      "timeWindow": {
+        "startHour": 9,
+        "endHour": 12,
+        "label": "9:00 AM - 12:00 PM"
+      }
+    },
+    {
+      "id": "blue-tue-nutbutter",
+      "businessId": "blue-bowl",
+      "day": "Tuesday",
+      "title": "Double Nut Butter Tuesday",
+      "description": "Complimentary second dollop of freshly ground house peanut, almond, or cashew butter drizzled over your custom bowl.",
+      "discountTag": "Free Nut Butter",
+      "price": "Free Add-On",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 16,
+        "label": "11:00 AM - 4:00 PM"
+      }
+    },
+    {
+      "id": "blue-wed-chapman",
+      "businessId": "blue-bowl",
+      "day": "Wednesday",
+      "title": "Chapman Student Wellness Wednesday",
+      "description": "Show valid Chapman University student or faculty ID and receive 10% off any bowl, smoothie, or loaded avocado bagel.",
+      "discountTag": "10% Student Discount",
+      "price": "10% Off",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 17,
+        "label": "12:00 PM - 5:00 PM"
+      }
+    },
+    {
+      "id": "blue-thu-smoothie",
+      "businessId": "blue-bowl",
+      "day": "Thursday",
+      "title": "Thirsty Thursday Smoothie Pairing",
+      "description": "$2 off any handcrafted layered cold-pressed smoothie when paired with a signature morning or lunch bowl.",
+      "discountTag": "$2 Off Smoothie",
+      "price": "$2.00 Off",
+      "timeWindow": {
+        "startHour": 13,
+        "endHour": 17,
+        "label": "1:00 PM - 5:00 PM"
+      }
+    },
+    {
+      "id": "blue-fri-pitaya",
+      "businessId": "blue-bowl",
+      "day": "Friday",
+      "title": "TGIF Vibrant Pitaya Passion Bowl",
+      "description": "Feature Friday: Organic red dragonfruit pitaya base loaded with fresh strawberries, kiwi, and cacao nibs with free hemp seed dusting.",
+      "discountTag": "Free Hemp Seeds",
+      "price": "Feature Special",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 15,
+        "label": "10:00 AM - 3:00 PM"
+      }
+    },
+    {
+      "id": "blue-sat-weekend",
+      "businessId": "blue-bowl",
+      "day": "Saturday",
+      "title": "Weekend Post-Run Recovery Bowl",
+      "description": "Protein-boosted base with house-made vanilla almond granola, chia seeds, fresh blueberries, and raw honey drizzle.",
+      "discountTag": "Post-Workout Fuel",
+      "price": "Regular Price",
+      "timeWindow": {
+        "startHour": 9,
+        "endHour": 14,
+        "label": "9:00 AM - 2:00 PM"
+      }
+    },
+    {
+      "id": "blue-sun-family",
+      "businessId": "blue-bowl",
+      "day": "Sunday",
+      "title": "Sunday Afternoon Treat & Stroll",
+      "description": "Buy two large 24oz custom bowls and receive 50% off a kid's or mini bowl for your stroll around The Circle.",
+      "discountTag": "50% Off Mini Bowl",
+      "price": "Half-Off Mini",
+      "timeWindow": {
+        "startHour": 13,
+        "endHour": 18,
+        "label": "1:00 PM - 6:00 PM"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "blue-bowl-morning-run",
+      "title": "Old Towne Community Run Club & Açaí Social",
+      "description": "Casual 3-mile morning neighborhood run around the historic district followed by post-run cold brew, recovery bowl specials, and social patio time.",
+      "date": "Every Sunday Morning",
+      "exactDate": "2026-10-18",
+      "time": "8:30 AM - 10:30 AM",
+      "location": "Blue Bowl Patio (152 N Glassell St)",
+      "businessId": "blue-bowl",
+      "coordinates": [
+        33.789118,
+        -117.853672
+      ],
+      "category": "community",
+      "isRecurringWeekly": true,
+      "recurringDay": "Sunday",
+      "badge": "Run Club"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://mybluebowl.com",
+    "menuUrl": "https://mybluebowl.com/menu",
+    "instagram": "https://instagram.com/mybluebowl",
+    "lastVerified": "2026-10-11",
+    "verificationNotes": "Verified 152 N Glassell St location, operating hours (Mon-Fri 9am-6pm, Sat-Sun 9am-7pm), phone (714) 880-4489, customizable superfood açaí bowl menu with unlimited toppings, user storefront photo added, and exact OSM coordinates [33.789118, -117.853672] matching amenity cafe on Glassell."
+  }
+}

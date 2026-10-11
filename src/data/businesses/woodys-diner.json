@@ -1,0 +1,149 @@
+{
+  "id": "woodys-diner",
+  "name": "Woody's Diner",
+  "category": "dining",
+  "categoryLabel": "Classic 50s Diner",
+  "tagline": "Classic 50s surf-themed diner serving hearty all-day breakfasts, burgers, and shakes",
+  "description": "A quintessential Southern California surf-and-chrome diner decked out in wood-paneled surfboards, classic rock-and-roll memorabilia, and cozy booth seating. Woody's serves generous portions of all-day comfort food: hearty breakfast skillets, fluffy buttermilk pancakes, the famous 'Big Cruiser' burger, hand-spun milkshakes and malts, and nightly dinner specials.",
+  "address": "513 E Chapman Ave, Orange, CA 92866",
+  "coordinates": [
+    33.78764,
+    -117.8465
+  ],
+  "phone": "(714) 940-0640",
+  "website": "https://woodysdiners.com",
+  "hours": {
+    "Monday": "7:00 AM - 9:00 PM",
+    "Tuesday": "7:00 AM - 9:00 PM",
+    "Wednesday": "7:00 AM - 9:00 PM",
+    "Thursday": "7:00 AM - 9:00 PM",
+    "Friday": "7:00 AM - 9:00 PM",
+    "Saturday": "7:00 AM - 9:00 PM",
+    "Sunday": "7:00 AM - 9:00 PM"
+  },
+  "historicNote": "Capturing the mid-century 1950s Southern California car and surf culture along Chapman Avenue, a long-time family favorite for locals and Chapman University students.",
+  "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.5,
+  "priceLevel": "$",
+  "tags": [
+    "Classic Diner",
+    "50s Surf Theme",
+    "All-Day Breakfast",
+    "Milkshakes",
+    "Burgers",
+    "Family Friendly",
+    "Kids Eat Free"
+  ],
+  "specials": [
+    {
+      "id": "woodys-mon",
+      "businessId": "woodys-diner",
+      "day": "Monday",
+      "title": "Monday Homestyle Pasta Night",
+      "description": "Spaghetti & meatballs, meat lasagna, or chicken fettuccine alfredo served with garlic cheese toast and choice of soup or dinner salad for $13.99.",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 21,
+        "label": "4:00 PM - Close"
+      },
+      "discountTag": "$13.99 Pasta Special"
+    },
+    {
+      "id": "woodys-tue",
+      "businessId": "woodys-diner",
+      "day": "Tuesday",
+      "title": "Woody's Taco Tuesday",
+      "description": "$3.50 Crispy or Soft Tacos (seasoned beef, chicken, or carnitas) and $4.50 ice-cold draft beers starting at 4:00 PM.",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 21,
+        "label": "4:00 PM - 9:00 PM"
+      },
+      "discountTag": "$3.50 Tacos"
+    },
+    {
+      "id": "woodys-wed",
+      "businessId": "woodys-diner",
+      "day": "Wednesday",
+      "title": "Kids Eat Free Wednesday",
+      "description": "One free kids meal from the Little Surfer Menu with the purchase of any regular-priced adult entree after 4:00 PM.",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 21,
+        "label": "4:00 PM - 9:00 PM"
+      },
+      "discountTag": "Kids Eat Free"
+    },
+    {
+      "id": "woodys-thu",
+      "businessId": "woodys-diner",
+      "day": "Thursday",
+      "title": "Burger & Shake Thursday",
+      "description": "Famous Woody's 1/3 lb Cheeseburger with seasoned fries + hand-scooped chocolate, vanilla, or strawberry shake combo for $15.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 21,
+        "label": "11:00 AM - Close"
+      },
+      "discountTag": "$15 Burger & Shake"
+    },
+    {
+      "id": "woodys-fri",
+      "businessId": "woodys-diner",
+      "day": "Friday",
+      "title": "Friday Fish & Chips & Clam Chowder",
+      "description": "Golden beer-battered Alaskan cod fillets with crispy fries, coleslaw, and homemade New England clam chowder bread bowls.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 21,
+        "label": "All Day"
+      },
+      "discountTag": "Fish & Chips Feature"
+    },
+    {
+      "id": "woodys-sat",
+      "businessId": "woodys-diner",
+      "day": "Saturday",
+      "title": "Weekend Surfer Breakfast & Prime Rib",
+      "description": "Morning breakfast skillets & Belgian waffles with warm syrup, followed by Slow-Roasted Prime Rib dinner after 4:00 PM.",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 21,
+        "label": "All Day"
+      },
+      "discountTag": "Prime Rib Dinner"
+    },
+    {
+      "id": "woodys-sun",
+      "businessId": "woodys-diner",
+      "day": "Sunday",
+      "title": "Sunday Family Pasta & Sundae Special",
+      "description": "Pasta Night feature starting at 4:00 PM, plus 50% off classic hot fudge sundaes and banana splits.",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 21,
+        "label": "4:00 PM - Close"
+      },
+      "discountTag": "Pasta & 50% Off Sundaes"
+    }
+  ],
+  "events": [
+    {
+      "id": "woodys-car-cruise",
+      "title": "Classic Car & Hot Rod Sunday Meet",
+      "description": "Vintage surf wagons, woody wagons, and classic hot rods gathering in the parking lot with diner breakfast favorites.",
+      "date": "First Sunday of Each Month",
+      "time": "8:00 AM - 11:00 AM",
+      "location": "Woody's Diner Orange Parking Grounds",
+      "businessId": "woodys-diner",
+      "category": "community"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://woodysdiners.com",
+    "menuUrl": "https://woodysdiners.com/menu/",
+    "instagram": "https://instagram.com/woodysdiners",
+    "lastVerified": "2026-10-11",
+    "verificationNotes": "Verified 513 E Chapman Ave location, daily hours (7am-9pm daily), phone (714) 940-0640, and recurring specials (Sun/Mon Pasta Nights, Taco Tuesday, Kids Eat Free Wednesday)."
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "smoqued-bbq",
+  "name": "Smoqued California BBQ",
+  "category": "dining",
+  "categoryLabel": "California Craft Barbecue & Brews",
+  "tagline": "Slow-smoked ribs, brisket burnt ends, famous 420 Mac, and local California craft drafts",
+  "description": "Located on North Glassell Street just north of The Circle, Smoqued California BBQ brings artisanal wood-smoked barbecue to historic Old Towne. Smoking their meats low-and-slow over hickory, red oak, and fruitwoods, Smoqued is celebrated for caramelized brisket burnt ends, tender St. Louis ribs, the legendary '420 Mac' (creamy mac & cheese topped with Texas chili, pulled pork, and smoked bacon), and a rotating tap wall of fresh California craft beers.",
+  "address": "128 N Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.78876,
+    -117.853474
+  ],
+  "phone": "(714) 633-7427",
+  "website": "https://www.smoquedcaliforniabbq.com",
+  "hours": {
+    "Monday": "11:30 AM - 10:00 PM",
+    "Tuesday": "11:30 AM - 10:00 PM",
+    "Wednesday": "11:30 AM - 10:00 PM",
+    "Thursday": "11:30 AM - 10:00 PM",
+    "Friday": "11:30 AM - 10:00 PM",
+    "Saturday": "11:30 AM - 10:00 PM",
+    "Sunday": "11:30 AM - 10:00 PM"
+  },
+  "historicNote": "Situated in a restored 1920s Old Towne commercial storefront featuring high timber beams, exposed brick masonry, and the iconic neon pig silhouette sign.",
+  "imageUrl": "/images/smoqued.jpg",
+  "rating": 4.6,
+  "priceLevel": "$$",
+  "tags": [
+    "BBQ",
+    "Craft Beer",
+    "Burnt Ends",
+    "Mac and Cheese",
+    "Ribs",
+    "Comfort Food",
+    "Patio Seating"
+  ],
+  "specials": [
+    {
+      "id": "smoqued-mon-ribs",
+      "businessId": "smoqued-bbq",
+      "day": "Monday",
+      "title": "Monday Half-Rack St. Louis Rib Night",
+      "description": "Half-rack of tender, slow-smoked St. Louis cut pork ribs served with two classic sides and honey cornbread for $18.",
+      "discountTag": "$18 Rib Feast",
+      "price": "$18.00",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 22,
+        "label": "4:00 PM - 10:00 PM"
+      }
+    },
+    {
+      "id": "smoqued-tue-tacos",
+      "businessId": "smoqued-bbq",
+      "day": "Tuesday",
+      "title": "Smoked Meat Tuesday Tacos",
+      "description": "$4 smoked brisket, pulled pork, and chicken street tacos on fresh corn tortillas with cilantro, pickled onions, and house salsa.",
+      "discountTag": "$4 Smoked Tacos",
+      "price": "$4.00",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 21,
+        "label": "11:30 AM - 9:00 PM"
+      }
+    },
+    {
+      "id": "smoqued-wed-wings",
+      "businessId": "smoqued-bbq",
+      "day": "Wednesday",
+      "title": "Wing & Draft Wednesday",
+      "description": "$1 smoked jumbo wings tossed in your choice of spicy habanero BBQ or sweet honey glaze, plus $6 local California draft pints.",
+      "discountTag": "$1 Wings & $6 Pints",
+      "price": "$1.00 Wings",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 22,
+        "label": "4:00 PM - 10:00 PM"
+      }
+    },
+    {
+      "id": "smoqued-thu-burntends",
+      "businessId": "smoqued-bbq",
+      "day": "Thursday",
+      "title": "Signature Burnt Ends Power Hour",
+      "description": "Double-smoked certified Angus brisket burnt ends tossed in sweet BBQ glaze, served over house fries for $14.",
+      "discountTag": "$14 Burnt Ends",
+      "price": "$14.00",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 20,
+        "label": "4:00 PM - 8:00 PM"
+      }
+    },
+    {
+      "id": "smoqued-fri-420mac",
+      "businessId": "smoqued-bbq",
+      "day": "Friday",
+      "title": "TGIF 420 Mac & Beer Pairing",
+      "description": "Order the famous 420 Mac (four cheeses, Texas chili, pulled pork, bacon, and onion strings) and get any craft pint for half price.",
+      "discountTag": "Half-Price Draft",
+      "price": "Draft Deal",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 19,
+        "label": "3:00 PM - 7:00 PM"
+      }
+    },
+    {
+      "id": "smoqued-sat-platter",
+      "businessId": "smoqued-bbq",
+      "day": "Saturday",
+      "title": "Pitmaster Weekend Smoke Platter",
+      "description": "Choice of two slow-smoked meats (brisket, pulled pork, ribs, or jalapeño cheddar sausage) with two large sides and cornbread.",
+      "discountTag": "Weekend Smoke Platter",
+      "price": "$26.95",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 18,
+        "label": "12:00 PM - 6:00 PM"
+      }
+    },
+    {
+      "id": "smoqued-sun-gameday",
+      "businessId": "smoqued-bbq",
+      "day": "Sunday",
+      "title": "Sunday Game Day Tailgate Pack",
+      "description": "BBQ sliders, smoked wings, and loaded cheese fries with all NFL and college sports on the bar screens.",
+      "discountTag": "Game Day Pack",
+      "price": "$22.00",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 19,
+        "label": "12:00 PM - 7:00 PM"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "smoqued-pitmaster-tasting",
+      "title": "Monthly Pitmaster Craft Beer Pairing",
+      "description": "Four-course smoked BBQ tasting flight paired with regional California craft beers and live acoustic country music.",
+      "date": "Third Tuesday of Every Month",
+      "exactDate": "2026-10-20",
+      "time": "6:30 PM - 8:30 PM",
+      "location": "Smoqued Dining Room (128 N Glassell St)",
+      "businessId": "smoqued-bbq",
+      "coordinates": [
+        33.78876,
+        -117.853474
+      ],
+      "category": "food",
+      "isRecurringWeekly": false,
+      "badge": "Pitmaster Pairing"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://www.smoquedcaliforniabbq.com",
+    "menuUrl": "https://www.smoquedcaliforniabbq.com/menu",
+    "instagram": "https://instagram.com/smoquedbbq",
+    "lastVerified": "2026-10-11",
+    "verificationNotes": "Verified 128 N Glassell St location, daily hours 11:30am-10pm, phone (714) 633-7427, signature 420 Mac & brisket burnt ends menu, user storefront photo added, and exact OSM coordinates [33.788760, -117.853474] matching way/206263406."
+  }
+}

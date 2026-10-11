@@ -1,0 +1,137 @@
+{
+  "id": "avilas-el-ranchito",
+  "name": "Avila's El Ranchito",
+  "category": "dining",
+  "categoryLabel": "Traditional Mexican",
+  "tagline": "Hearty homestyle Mexican recipes, Mama Avila’s soup, and celebrated margaritas",
+  "description": "A beloved family legacy since 1966, Avila’s El Ranchito serves timeless Guanajuato recipes in an inviting historic home setting. Locals flock here for Mama Avila’s famous chicken soup, sizzling fajita skillets, carnitas plates, and signature Cadillac margaritas made with fresh citrus juices.",
+  "address": "182 S Orange St, Orange, CA 92866",
+  "coordinates": [
+    33.78623,
+    -117.85235
+  ],
+  "phone": "(714) 516-1000",
+  "website": "https://avilaselranchito.com",
+  "hours": {
+    "Monday": "11:00 AM - 9:00 PM",
+    "Tuesday": "11:00 AM - 9:00 PM",
+    "Wednesday": "11:00 AM - 9:00 PM",
+    "Thursday": "11:00 AM - 9:30 PM",
+    "Friday": "11:00 AM - 10:00 PM",
+    "Saturday": "10:00 AM - 10:00 PM",
+    "Sunday": "10:00 AM - 9:00 PM"
+  },
+  "historicNote": "Occupies a historic 1915 California Craftsman bungalow complete with cobblestone pathways, vintage ceramic lanterns, and a courtyard patio.",
+  "imageUrl": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.6,
+  "priceLevel": "$$",
+  "tags": [
+    "Mexican",
+    "Margaritas",
+    "Craftsman Bungalow",
+    "Family Friendly",
+    "Patio",
+    "Fajitas"
+  ],
+  "specials": [
+    {
+      "id": "avila-mon",
+      "businessId": "avilas-el-ranchito",
+      "day": "Monday",
+      "title": "Margarita Monday",
+      "description": "$7 House El Ranchito Margaritas on the rocks with free homemade tortilla chips and salsa.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 21,
+        "label": "3:00 PM - Close"
+      },
+      "discountTag": "$7 Margaritas"
+    },
+    {
+      "id": "avila-tue",
+      "businessId": "avilas-el-ranchito",
+      "day": "Tuesday",
+      "title": "Classic Taco Tuesday",
+      "description": "$3.50 Crispy or Soft Tacos (shredded chicken or beef) and $5 Mexican draft beers.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 21,
+        "label": "3:00 PM - 9:00 PM"
+      },
+      "discountTag": "$3.50 Tacos"
+    },
+    {
+      "id": "avila-wed",
+      "businessId": "avilas-el-ranchito",
+      "day": "Wednesday",
+      "title": "Enchilada & Combo Night",
+      "description": "$3 off all combination platters served with traditional rice and refried beans.",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 21,
+        "label": "4:00 PM - Close"
+      },
+      "discountTag": "$3 Off Combos"
+    },
+    {
+      "id": "avila-thu",
+      "businessId": "avilas-el-ranchito",
+      "day": "Thursday",
+      "title": "Sizzling Fajita Thursday",
+      "description": "Sizzling steak or chicken fajitas for two with warm corn tortillas for $28.",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 21,
+        "label": "4:00 PM - Close"
+      },
+      "discountTag": "$28 Fajitas for Two"
+    },
+    {
+      "id": "avila-fri",
+      "businessId": "avilas-el-ranchito",
+      "day": "Friday",
+      "title": "Fiesta Happy Hour",
+      "description": "$8 Cadillac Margaritas, $6 draft cervezas, and $8 mini taquito baskets on the patio.",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 17,
+        "label": "2:00 PM - 5:00 PM"
+      },
+      "discountTag": "Happy Hour"
+    },
+    {
+      "id": "avila-sat",
+      "businessId": "avilas-el-ranchito",
+      "day": "Saturday",
+      "title": "Weekend Menudo & Carnitas",
+      "description": "Traditional weekend Menudo bowls served with fresh lime, oregano, and handmade tortillas.",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 14,
+        "label": "10:00 AM - 2:00 PM"
+      },
+      "discountTag": "Weekend Menudo"
+    },
+    {
+      "id": "avila-sun",
+      "businessId": "avilas-el-ranchito",
+      "day": "Sunday",
+      "title": "Sunday Family Brunch",
+      "description": "Huevos con Chorizo and Machaca scrambles served with endless warm cinnamon churros.",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 14,
+        "label": "10:00 AM - 2:00 PM"
+      },
+      "discountTag": "Free Churros"
+    }
+  ],
+  "events": [],
+  "researchMetadata": {
+    "officialWebsite": "https://avilaselranchito.com",
+    "menuUrl": "https://avilaselranchito.com/orange-menu",
+    "instagram": "https://instagram.com/avilaselranchito",
+    "verificationNotes": "1915 Craftsman home; Margarita Monday, Taco Tuesday, and weekend carnitas verified.",
+    "lastVerified": "2026-10-10"
+  }
+}

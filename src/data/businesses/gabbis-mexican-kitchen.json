@@ -1,0 +1,134 @@
+{
+  "id": "gabbis-mexican-kitchen",
+  "name": "Gabbi's Mexican Kitchen",
+  "category": "dining",
+  "categoryLabel": "Gourmet Mexican",
+  "tagline": "Masterful artisanal regional Mexican gastronomy in historic Old Towne",
+  "description": "A culinary gem nationally praised by the Michelin Guide and food critics. Chef Gabbi Patrick blends traditional pre-Hispanic and colonial Mexican recipes with modern culinary precision: house-ground corn tortillas, slow-simmered Oaxacan moles, fresh Baja yellowtail crudos, and an extraordinary artisanal tequila and mezcal bar.",
+  "address": "141 S Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.78589,
+    -117.85289
+  ],
+  "phone": "(714) 633-3038",
+  "website": "https://gabbipatrick.com",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "11:30 AM - 9:30 PM",
+    "Wednesday": "11:30 AM - 9:30 PM",
+    "Thursday": "11:30 AM - 10:00 PM",
+    "Friday": "11:30 AM - 10:30 PM",
+    "Saturday": "11:00 AM - 10:30 PM",
+    "Sunday": "11:00 AM - 9:00 PM"
+  },
+  "historicNote": "Located in a landmark 1902 brick structure with original rustic timber ceilings, intimate arched entryways, and soft candlelit romance.",
+  "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.8,
+  "priceLevel": "$$$",
+  "tags": [
+    "Regional Mexican",
+    "Michelin Recommended",
+    "Mezcal Bar",
+    "Craft Cocktails",
+    "Romantic"
+  ],
+  "specials": [
+    {
+      "id": "gabbi-tue",
+      "businessId": "gabbis-mexican-kitchen",
+      "day": "Tuesday",
+      "title": "Artisanal Taco & Tequila Showcase",
+      "description": "Tasting flight of 3 handcrafted tacos (Duck Carnitas, Cochinita Pibil, Wild Mushroom) + house reposado margarita for $24.",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 21,
+        "label": "4:00 PM - 9:00 PM"
+      },
+      "discountTag": "$24 Tasting"
+    },
+    {
+      "id": "gabbi-wed",
+      "businessId": "gabbis-mexican-kitchen",
+      "day": "Wednesday",
+      "title": "Oaxacan Mole Midweek Feature",
+      "description": "Chef’s seasonal Mole Negro or Mole Poblano served over Jidori chicken breast with warm organic blue corn tortillas.",
+      "timeWindow": {
+        "startHour": 17,
+        "endHour": 21,
+        "label": "5:00 PM - 9:30 PM"
+      },
+      "discountTag": "Chef Special"
+    },
+    {
+      "id": "gabbi-thu",
+      "businessId": "gabbis-mexican-kitchen",
+      "day": "Thursday",
+      "title": "Mezcaleria Tasting Hour",
+      "description": "Guided 3-pour artisanal small-batch Mezcal flight with orange slices and sal de gusano for $18.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 18,
+        "label": "3:00 PM - 6:00 PM"
+      },
+      "discountTag": "$18 Flight"
+    },
+    {
+      "id": "gabbi-fri",
+      "businessId": "gabbis-mexican-kitchen",
+      "day": "Friday",
+      "title": "Baja Coastal Ceviche Feature",
+      "description": "Daily fresh catch yellowtail ceviche with serrano, lime, avocado, and house heirloom tostadas.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 16,
+        "label": "11:30 AM - 4:00 PM"
+      },
+      "discountTag": "Lunch Special"
+    },
+    {
+      "id": "gabbi-sat",
+      "businessId": "gabbis-mexican-kitchen",
+      "day": "Saturday",
+      "title": "Weekend Cantina Brunch",
+      "description": "Chilaquiles Divorciados, Huevos Rancheros con Asada, and blood orange mimosas.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 15,
+        "label": "11:00 AM - 3:00 PM"
+      },
+      "discountTag": "Brunch Special"
+    },
+    {
+      "id": "gabbi-sun",
+      "businessId": "gabbis-mexican-kitchen",
+      "day": "Sunday",
+      "title": "Sunday Sunset Sangria",
+      "description": "House-made hibiscus pomegranate white and red sangrias by the carafe ($26 carafe).",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 21,
+        "label": "2:00 PM - Close"
+      },
+      "discountTag": "$26 Carafe"
+    }
+  ],
+  "events": [
+    {
+      "id": "gabbi-mezcal-masterclass",
+      "title": "Masterclass: The Agave Spirits of Oaxaca",
+      "description": "An intimate evening of tasting rare wild agave mezcals with pairings prepared by Chef Gabbi Patrick.",
+      "date": "Last Wednesday of Every Month",
+      "time": "7:00 PM - 9:00 PM",
+      "location": "Gabbi's Private Cellar Room",
+      "businessId": "gabbis-mexican-kitchen",
+      "category": "drinks"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://gabbipatrick.com",
+    "menuUrl": "https://gabbipatrick.com/gabbis-mexican-kitchen",
+    "instagram": "https://instagram.com/gabbismexicankitchen",
+    "verificationNotes": "Michelin recommended regional Mexican dining; Tuesday agave flights and mole features verified.",
+    "lastVerified": "2026-10-10"
+  }
+}

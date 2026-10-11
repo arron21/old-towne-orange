@@ -1,0 +1,149 @@
+{
+  "id": "kickin-crab",
+  "name": "The Kickin' Crab",
+  "category": "dining",
+  "categoryLabel": "Seafood & Cajun",
+  "tagline": "Cajun seafood boils with signature Kickin' sauce in the historic 1899 corner building",
+  "description": "Located in the historic 1899 landmark building on East Chapman directly off Plaza Square (the iconic location that housed Watson's for over a century), The Kickin' Crab serves mouthwatering Louisiana-style seafood boils tossed in garlic butter, lemon pepper, and signature Kickin' Style sauce. Enjoy fresh crab, shrimp, clams, and draft beers surrounded by historic exposed brickwork.",
+  "address": "116 E Chapman Ave, Orange, CA 92866",
+  "coordinates": [
+    33.78779,
+    -117.85195
+  ],
+  "phone": "(714) 363-3007",
+  "website": "https://thekickincrab.com",
+  "hours": {
+    "Monday": "12:00 PM - 9:00 PM",
+    "Tuesday": "12:00 PM - 9:00 PM",
+    "Wednesday": "12:00 PM - 9:00 PM",
+    "Thursday": "12:00 PM - 9:00 PM",
+    "Friday": "12:00 PM - 10:00 PM",
+    "Saturday": "12:00 PM - 10:00 PM",
+    "Sunday": "12:00 PM - 10:00 PM"
+  },
+  "historicNote": "Occupies the celebrated 1899 commercial brick structure on East Chapman, retaining historic architectural details, masonry, and high beam ceilings from Orange's founding era.",
+  "imageUrl": "/images/kickin-crab.jpg",
+  "rating": 4.6,
+  "priceLevel": "$$",
+  "tags": [
+    "Cajun Seafood",
+    "Shrimp Boils",
+    "Draft Beer",
+    "Historic Building",
+    "Patio Dining"
+  ],
+  "specials": [
+    {
+      "id": "kc-mon",
+      "businessId": "kickin-crab",
+      "day": "Monday",
+      "title": "Kickoff Shellfish Combo",
+      "description": "Complimentary side of Cajun corn and red potatoes with every 2 lbs of peel-and-eat shrimp or crawfish.",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 21,
+        "label": "12:00 PM - 9:00 PM"
+      },
+      "discountTag": "Free Sides"
+    },
+    {
+      "id": "kc-tue",
+      "businessId": "kickin-crab",
+      "day": "Tuesday",
+      "title": "Tasting Tuesday: $6 Draft Pints",
+      "description": "All local California craft beers on tap are $6 with any bag of seafood boil.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 20,
+        "label": "3:00 PM - 8:00 PM"
+      },
+      "discountTag": "$6 Pints"
+    },
+    {
+      "id": "kc-wed",
+      "businessId": "kickin-crab",
+      "day": "Wednesday",
+      "title": "Midweek Garlic Wings & Boil",
+      "description": "Half-price Cajun chicken tenders and basket fries when ordering 3 lbs or more of seafood.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 21,
+        "label": "3:00 PM - Close"
+      },
+      "discountTag": "50% Off Sides"
+    },
+    {
+      "id": "kc-thu",
+      "businessId": "kickin-crab",
+      "day": "Thursday",
+      "title": "Thirsty Thursday Buckets",
+      "description": "$22 domestic beer buckets and discounted King Crab clusters.",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 21,
+        "label": "4:00 PM - 9:00 PM"
+      },
+      "discountTag": "$22 Buckets"
+    },
+    {
+      "id": "kc-fri",
+      "businessId": "kickin-crab",
+      "day": "Friday",
+      "title": "Friday Lunch Kickin' Special",
+      "description": "Special lunch portions: 1 lb Shrimp boil + corn + potato + fountain drink for $19.99.",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 16,
+        "label": "12:00 PM - 4:00 PM"
+      },
+      "discountTag": "$19.99 Lunch"
+    },
+    {
+      "id": "kc-sat",
+      "businessId": "kickin-crab",
+      "day": "Saturday",
+      "title": "Weekend Catch Feast",
+      "description": "Market-fresh Dungeness crab and snow crab clusters paired with signature Kickin' Style garlic butter.",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 22,
+        "label": "All Day"
+      },
+      "discountTag": "Chef Special"
+    },
+    {
+      "id": "kc-sun",
+      "businessId": "kickin-crab",
+      "day": "Sunday",
+      "title": "Sunday Seafood Social",
+      "description": "$5 Micheladas and $4 craft cider cans all day with any seafood boil bag.",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 22,
+        "label": "All Day"
+      },
+      "discountTag": "$5 Micheladas"
+    }
+  ],
+  "events": [
+    {
+      "id": "kc-game-day",
+      "title": "Game Day Seafood Watch",
+      "description": "Catch big sporting matchups on indoor screens with pitcher specials and crawfish baskets.",
+      "date": "Every Sunday",
+      "time": "1:00 PM - 6:00 PM",
+      "location": "The Kickin' Crab Old Towne",
+      "businessId": "kickin-crab",
+      "category": "food",
+      "isRecurringWeekly": true,
+      "recurringDay": "Sunday"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://thekickincrab.com",
+    "menuUrl": "https://thekickincrab.com/menu",
+    "instagram": "https://instagram.com/thekickincrab",
+    "lastVerified": "2026-10-10",
+    "verificationNotes": "Verified replacement of Watson's at 116 E Chapman Ave is The Kickin' Crab; verified exact phone (714) 363-3007 and current operating hours directly from official website."
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "id": "chapman-crafted-beer",
+  "name": "Chapman Crafted Beer",
+  "category": "drinks",
+  "categoryLabel": "Local Craft Brewery",
+  "tagline": "Award-winning community craft brewery and taproom with patio games & food trucks",
+  "description": "Born and raised in Old Towne Orange, Chapman Crafted Beer produces outstanding, clean, true-to-style craft lagers, juicy hazy IPAs, and barrel-aged stouts. The open-air industrial taproom welcomes locals, families, and pups with board games, shuffleboard, and rotating food trucks parked outside.",
+  "address": "123 N Cypress St, Orange, CA 92866",
+  "coordinates": [
+    33.78848,
+    -117.85495
+  ],
+  "phone": "(844) 855-2337",
+  "website": "https://chapmancrafted.beer",
+  "hours": {
+    "Monday": "3:00 PM - 9:00 PM",
+    "Tuesday": "3:00 PM - 9:00 PM",
+    "Wednesday": "3:00 PM - 9:00 PM",
+    "Thursday": "3:00 PM - 10:00 PM",
+    "Friday": "12:00 PM - 11:00 PM",
+    "Saturday": "12:00 PM - 11:00 PM",
+    "Sunday": "12:00 PM - 8:00 PM"
+  },
+  "historicNote": "Situated along the historic Santa Fe railroad spur in a repurposed 1940s packinghouse industrial facility.",
+  "imageUrl": "https://images.unsplash.com/photo-1575037614876-c38a4d44f5b8?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.8,
+  "priceLevel": "$$",
+  "tags": [
+    "Brewery",
+    "Craft Beer",
+    "Lagers",
+    "IPAs",
+    "Dog Friendly",
+    "Food Trucks",
+    "Patio"
+  ],
+  "specials": [
+    {
+      "id": "ccb-mon",
+      "businessId": "chapman-crafted-beer",
+      "day": "Monday",
+      "title": "Mug Club & Locals Night",
+      "description": "$5 flagship pints all evening for Orange locals and college staff with local ID.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 21,
+        "label": "3:00 PM - Close"
+      },
+      "discountTag": "$5 Flagship Pints"
+    },
+    {
+      "id": "ccb-tue",
+      "businessId": "chapman-crafted-beer",
+      "day": "Tuesday",
+      "title": "Tacos & Taps Tuesday",
+      "description": "Resident gourmet street taco cart parked on the patio with $15 taco trio + draft pint combo.",
+      "timeWindow": {
+        "startHour": 17,
+        "endHour": 21,
+        "label": "5:00 PM - 9:00 PM"
+      },
+      "discountTag": "$15 Taco & Pint"
+    },
+    {
+      "id": "ccb-wed",
+      "businessId": "chapman-crafted-beer",
+      "day": "Wednesday",
+      "title": "4-Pack Wednesday Carryout",
+      "description": "Buy any two 4-packs of freshly canned IPAs or pilsners to take home, get 20% off.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 21,
+        "label": "All Day"
+      },
+      "discountTag": "20% Off Cans"
+    },
+    {
+      "id": "ccb-thu",
+      "businessId": "chapman-crafted-beer",
+      "day": "Thursday",
+      "title": "Trivia Night & $6 Pints",
+      "description": "Competitive community pub trivia with brewery prizes, gift cards, and $6 tap handles during trivia.",
+      "timeWindow": {
+        "startHour": 18,
+        "endHour": 22,
+        "label": "6:30 PM - 9:30 PM"
+      },
+      "discountTag": "$6 Trivia Pints"
+    },
+    {
+      "id": "ccb-fri",
+      "businessId": "chapman-crafted-beer",
+      "day": "Friday",
+      "title": "Friday Fresh Release Tappings",
+      "description": "New small-batch pilot brew tappings every Friday at noon with live acoustic music.",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 18,
+        "label": "12:00 PM - 6:00 PM"
+      },
+      "discountTag": "Pilot Release"
+    },
+    {
+      "id": "ccb-sat",
+      "businessId": "chapman-crafted-beer",
+      "day": "Saturday",
+      "title": "Weekend Flight Showcase",
+      "description": "Build your own 5-pour flight featuring seasonal barrel-aged sours and double dry-hopped hazies.",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 22,
+        "label": "All Day"
+      },
+      "discountTag": "Tasting Flight"
+    },
+    {
+      "id": "ccb-sun",
+      "businessId": "chapman-crafted-beer",
+      "day": "Sunday",
+      "title": "Sunday Pints & Pups",
+      "description": "Bring your dog to the patio and receive $1 off every draft pint plus free gourmet dog treats.",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 20,
+        "label": "All Day"
+      },
+      "discountTag": "$1 Off Pints"
+    }
+  ],
+  "events": [
+    {
+      "id": "ccb-trivia-thursday",
+      "title": "Old Towne Pub Trivia Thursdays",
+      "description": "General knowledge trivia covering pop culture, history, movies, and music. Teams up to 6 players, free entry with great prizes!",
+      "date": "Every Thursday Night",
+      "time": "7:00 PM - 9:00 PM",
+      "location": "Chapman Crafted Taproom",
+      "businessId": "chapman-crafted-beer",
+      "category": "community",
+      "isRecurringWeekly": true,
+      "recurringDay": "Thursday"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://chapmancrafted.beer",
+    "menuUrl": "https://chapmancrafted.beer/beers-on-tap",
+    "instagram": "https://instagram.com/chapmancrafted",
+    "verificationNotes": "Old Towne craft brewery taproom, Thursday pub trivia, and Sunday pints verified.",
+    "lastVerified": "2026-10-10"
+  }
+}

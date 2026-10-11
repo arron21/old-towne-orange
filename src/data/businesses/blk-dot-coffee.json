@@ -1,0 +1,180 @@
+{
+  "id": "blk-dot-coffee",
+  "name": "Blk Dot Coffee",
+  "category": "cafe",
+  "categoryLabel": "Artisan Vietnamese Coffee & Cafe",
+  "tagline": "Famous slow-drip Vietnamese coffee (VTM), specialty lattes, and artisan breakfast bites",
+  "description": "Located just one block west of The Circle on Chapman Avenue, Blk Dot Coffee brings its celebrated slow-drip Vietnamese craft coffee (the iconic 'VTM®') to the heart of Old Towne Orange. Known for its intense, velvety dark roast paired with house-made condensed milk, signature Einspänners, sea salt cold creams, and scratch breakfast eats like the Ultimate Brekkie Bowl and BEC sandwich, Blk Dot provides a sleek, modern cafe sanctuary with indoor seating and rare dedicated parking near Chapman University.",
+  "address": "201 W Chapman Ave, Orange, CA 92866",
+  "coordinates": [
+    33.788027,
+    -117.854379
+  ],
+  "phone": "(714) 602-9788",
+  "website": "https://www.blkdotcoffee.com",
+  "hours": {
+    "Monday": "6:30 AM - 6:00 PM",
+    "Tuesday": "6:30 AM - 6:00 PM",
+    "Wednesday": "6:30 AM - 6:00 PM",
+    "Thursday": "6:30 AM - 6:00 PM",
+    "Friday": "6:30 AM - 7:00 PM",
+    "Saturday": "6:30 AM - 7:00 PM",
+    "Sunday": "6:30 AM - 6:00 PM"
+  },
+  "historicNote": "Situated in a vintage 1930s commercial structure along historic West Chapman Avenue, conveniently featuring rare dedicated on-site parking in the bustling Old Towne district.",
+  "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.6,
+  "priceLevel": "$$",
+  "tags": [
+    "Vietnamese Coffee",
+    "VTM",
+    "Breakfast Bowls",
+    "Matcha",
+    "Outdoor Seating",
+    "WiFi",
+    "Student Friendly",
+    "Dedicated Parking"
+  ],
+  "specials": [
+    {
+      "id": "blk-dot-mon-vtm-boost",
+      "businessId": "blk-dot-coffee",
+      "day": "Monday",
+      "title": "Monday Morning VTM Boost",
+      "description": "Kickstart the work and school week with $1 off any signature 16oz or 20oz Iced VTM or Light VTM slow-drip roast.",
+      "discountTag": "$1 Off VTM",
+      "price": "$4.95",
+      "timeWindow": {
+        "startHour": 6,
+        "endHour": 10,
+        "label": "6:30 AM - 10:00 AM"
+      }
+    },
+    {
+      "id": "blk-dot-tue-brekkie-combo",
+      "businessId": "blk-dot-coffee",
+      "day": "Tuesday",
+      "title": "Tuesday Breakfast & Brew Combo",
+      "description": "Pair any specialty hot or iced drink with an Ultimate Brekkie Bowl or Bacon Egg & Cheese sandwich and take 15% off your breakfast bite.",
+      "discountTag": "15% Off Brekkie",
+      "price": "$11.50 Combo",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 11,
+        "label": "7:00 AM - 11:00 AM"
+      }
+    },
+    {
+      "id": "blk-dot-wed-matcha-reset",
+      "businessId": "blk-dot-coffee",
+      "day": "Wednesday",
+      "title": "Midweek Matcha & Specialtea Reset",
+      "description": "Recharge your afternoon with $1 off all signature Iced VTMatcha, Yuzu Mango Matcha, and artisan iced teas.",
+      "discountTag": "$1 Off Matcha & Tea",
+      "price": "$5.25",
+      "timeWindow": {
+        "startHour": 13,
+        "endHour": 16,
+        "label": "1:00 PM - 4:00 PM"
+      }
+    },
+    {
+      "id": "blk-dot-thu-study-upgrade",
+      "businessId": "blk-dot-coffee",
+      "day": "Thursday",
+      "title": "Chapman Study Power Hour",
+      "description": "Afternoon student & remote work pick-me-up: Free upgrade to large on all cold foams and specialty Einspänner espresso lattes.",
+      "discountTag": "Free Size Upgrade",
+      "price": "Free Upgrade",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 17,
+        "label": "2:00 PM - 5:00 PM"
+      }
+    },
+    {
+      "id": "blk-dot-fri-pastry-pairing",
+      "businessId": "blk-dot-coffee",
+      "day": "Friday",
+      "title": "TGIF Cold Brew & Pastry Pairing",
+      "description": "Start the weekend early with 50% off any freshly baked pastry with the purchase of a 16oz Iced VTM or Cold Brew.",
+      "discountTag": "50% Off Pastry",
+      "price": "Half-Off Pastry",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 12,
+        "label": "7:00 AM - 12:00 PM"
+      }
+    },
+    {
+      "id": "blk-dot-sat-circle-stroll",
+      "businessId": "blk-dot-coffee",
+      "day": "Saturday",
+      "title": "Weekend Circle Stroll & Sip",
+      "description": "Take-home 12oz chilled VTM bottles for only $9.50 (regularly $11) for your weekend historic district walks or Chapman events.",
+      "discountTag": "$9.50 VTM Bottle",
+      "price": "$9.50",
+      "timeWindow": {
+        "startHour": 8,
+        "endHour": 14,
+        "label": "8:00 AM - 2:00 PM"
+      }
+    },
+    {
+      "id": "blk-dot-sun-coldfoam-special",
+      "businessId": "blk-dot-coffee",
+      "day": "Sunday",
+      "title": "Sunday Sweets & Cold Foam Special",
+      "description": "Indulge in handcrafted Sweet Vanilla or Sea Salt Cold Foam added to any iced coffee or cold brew for just $0.50 (regularly $1.25).",
+      "discountTag": "$0.50 Cold Foam",
+      "price": "$0.50 Add-On",
+      "timeWindow": {
+        "startHour": 9,
+        "endHour": 15,
+        "label": "9:00 AM - 3:00 PM"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "blk-dot-cupping-tasting",
+      "title": "Vietnamese Slow-Drip Tasting & Cupping",
+      "description": "Guided tasting workshop showcasing Blk Dot's signature slow-drip Vietnamese roasts, light vs dark robusta beans, and house-made condensed sweet creams.",
+      "date": "Monthly Third Saturday",
+      "time": "10:00 AM - 11:30 AM",
+      "location": "Blk Dot Coffee Orange Patio (201 W Chapman Ave)",
+      "businessId": "blk-dot-coffee",
+      "coordinates": [
+        33.788027,
+        -117.854379
+      ],
+      "category": "food",
+      "isRecurringWeekly": false,
+      "badge": "Coffee Tasting"
+    },
+    {
+      "id": "blk-dot-finals-study-sessions",
+      "title": "Chapman Late Study Hours & Espresso Lounge",
+      "description": "Extended evening cafe hours with study playlist, fast WiFi, and double loyalty points for Chapman students and local patrons.",
+      "date": "Every Friday Evening",
+      "time": "4:00 PM - 7:00 PM",
+      "location": "Blk Dot Coffee Lounge (201 W Chapman Ave)",
+      "businessId": "blk-dot-coffee",
+      "coordinates": [
+        33.788027,
+        -117.854379
+      ],
+      "category": "community",
+      "isRecurringWeekly": true,
+      "recurringDay": "Friday",
+      "badge": "Study Social"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://www.blkdotcoffee.com",
+    "menuUrl": "https://www.blkdotcoffee.com/shop/vtm-coffee/HVPEUQLQE56JE3GS3ET24ZLJ",
+    "instagram": "https://www.instagram.com/blkdotcoffee",
+    "lastVerified": "2026-10-11",
+    "verificationNotes": "Verified operating hours (6:30 AM - 6:00/7:00 PM daily), address (201 W Chapman Ave), phone (714-602-9788), signature VTM drink prices ($5.95-$6.95), brekkie bowls, and Chapman student loyalty perks via official website and ordering platforms."
+  }
+}

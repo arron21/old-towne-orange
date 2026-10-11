@@ -1,0 +1,150 @@
+{
+  "id": "contra-coffee",
+  "name": "Contra Coffee & Tea",
+  "category": "cafe",
+  "categoryLabel": "Nitro Coffee & Tea Bar",
+  "tagline": "Craft coffees and teas on tap, 100% dairy-free, in a historic literary arts hub",
+  "description": "An innovative, dairy-free craft beverage bar serving nitro cold brews, artisanal teas, and house-crafted seasonal concoctions on tap like a craft brewery. Located within the historic 1888 Center building alongside a boutique bookshop and Resident Vinyl record store, Contra is an Old Towne creative sanctuary loved for its signature tasting flights, Vietnamese iced coffees (Gold Rush), and adventurous seasonal taps.",
+  "address": "115 N Orange St, Orange, CA 92866",
+  "coordinates": [
+    33.78825,
+    -117.85190
+  ],
+  "phone": "(714) 696-8793",
+  "website": "https://contracoffeeandtea.com",
+  "hours": {
+    "Monday": "8:00 AM - 8:00 PM",
+    "Tuesday": "8:00 AM - 8:00 PM",
+    "Wednesday": "8:00 AM - 8:00 PM",
+    "Thursday": "8:00 AM - 8:00 PM",
+    "Friday": "8:00 AM - 8:00 PM",
+    "Saturday": "8:00 AM - 8:00 PM",
+    "Sunday": "9:00 AM - 7:00 PM"
+  },
+  "historicNote": "Housed within the historic 1888 Center building, an intimate turn-of-the-century structure dedicated to California literary arts, creative writers, and vinyl music culture.",
+  "imageUrl": "/images/contra-coffee.jpg",
+  "rating": 4.8,
+  "priceLevel": "$$",
+  "tags": [
+    "Coffee on Tap",
+    "Nitro Brew",
+    "Dairy-Free",
+    "Thai Tea",
+    "Tasting Flights",
+    "1888 Center",
+    "Vinyl Shop",
+    "Study Spot"
+  ],
+  "specials": [
+    {
+      "id": "contra-mon",
+      "businessId": "contra-coffee",
+      "day": "Monday",
+      "title": "Monday Tap Kickoff: $1 Off Nitro Cold Brews",
+      "description": "Kickstart your week with $1 off any signature nitro cold brew on tap (including the Gold Rush Vietnamese iced coffee).",
+      "timeWindow": {
+        "startHour": 8,
+        "endHour": 12,
+        "label": "8:00 AM - 12:00 PM"
+      },
+      "discountTag": "$1 Off Nitro"
+    },
+    {
+      "id": "contra-tue",
+      "businessId": "contra-coffee",
+      "day": "Tuesday",
+      "title": "Tasting Flight Tuesday",
+      "description": "Build your own 4-tap tasting flight (sample nitro cold brews, seasonal lattes, Thai tea, or Matchas Foster) for $12.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 20,
+        "label": "11:00 AM - 8:00 PM"
+      },
+      "discountTag": "$12 Flight"
+    },
+    {
+      "id": "contra-wed",
+      "businessId": "contra-coffee",
+      "day": "Wednesday",
+      "title": "Matcha & Tea Midweek Refresh",
+      "description": "Special $6 pour on all specialty matcha and shaken tea lattes including the Matchas Foster and Orange St. Chai.",
+      "timeWindow": {
+        "startHour": 13,
+        "endHour": 18,
+        "label": "1:00 PM - 6:00 PM"
+      },
+      "discountTag": "$6 Teas"
+    },
+    {
+      "id": "contra-thu",
+      "businessId": "contra-coffee",
+      "day": "Thursday",
+      "title": "Study & Vinyl Happy Hour",
+      "description": "15% off all tap drinks for Chapman students and locals with book or record purchase at Resident Vinyl.",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 19,
+        "label": "2:00 PM - 7:00 PM"
+      },
+      "discountTag": "15% Off"
+    },
+    {
+      "id": "contra-fri",
+      "businessId": "contra-coffee",
+      "day": "Friday",
+      "title": "Friday R+D Seasonal Showcase",
+      "description": "First taste of weekly rotating Research & Development pilot tap drinks and limited seasonal batches (like Banoffee or KC Tonic).",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 20,
+        "label": "12:00 PM - Close"
+      },
+      "discountTag": "R+D Feature"
+    },
+    {
+      "id": "contra-sat",
+      "businessId": "contra-coffee",
+      "day": "Saturday",
+      "title": "Weekend Autumn Nitro Feature",
+      "description": "Featured pours of Welcome Great Pumpkin (PSL with housemade pumpkin cream) and Patagonia (pumpkin Thai tea).",
+      "timeWindow": {
+        "startHour": 8,
+        "endHour": 20,
+        "label": "All Day"
+      },
+      "discountTag": "Autumn Feature"
+    },
+    {
+      "id": "contra-sun",
+      "businessId": "contra-coffee",
+      "day": "Sunday",
+      "title": "Sunday Slow Sip & Growler Refills",
+      "description": "20% off all 32oz growler fills of dairy-free cold brew or tea on tap to stock up for the week.",
+      "timeWindow": {
+        "startHour": 9,
+        "endHour": 19,
+        "label": "All Day"
+      },
+      "discountTag": "20% Off Growlers"
+    }
+  ],
+  "events": [
+    {
+      "id": "contra-open-mic",
+      "title": "1888 Center Acoustic & Poetry Night",
+      "description": "Intimate live acoustic and spoken word performances in the shared gallery space with draft coffee and tea specials.",
+      "date": "Second Thursday of Each Month",
+      "time": "6:30 PM - 8:30 PM",
+      "location": "Contra / 1888 Center Gallery",
+      "businessId": "contra-coffee",
+      "category": "music"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://contracoffeeandtea.com",
+    "menuUrl": "https://contracoffeeandtea.com",
+    "instagram": "https://instagram.com/contracoffeeandtea",
+    "lastVerified": "2026-10-11",
+    "verificationNotes": "Researched and verified 115 N Orange St location, hours (Mon-Sat 8am-8pm, Sun 9am-7pm), phone (714) 696-8793, 100% dairy-free tap model, and October 2026 seasonal specials (Welcome Great Pumpkin, Patagonia, Matchas Foster, Banoffee)."
+  }
+}

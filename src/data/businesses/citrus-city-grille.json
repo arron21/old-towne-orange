@@ -1,0 +1,150 @@
+{
+  "id": "citrus-city-grille",
+  "name": "Citrus City Grille",
+  "category": "dining",
+  "categoryLabel": "California & Mediterranean",
+  "tagline": "Beloved neighborhood bistro with Mediterranean flair, craft martinis, and lively patio",
+  "description": "An Old Towne culinary staple since 1996, Citrus City Grille offers contemporary California cuisine infused with Mediterranean soul. Famous for Chilean sea bass, braised lamb shank, homemade ravioli, and an active bar scene serving creative shaken martinis accompanied by weekend live jazz.",
+  "address": "122 N Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.78818,
+    -117.85283
+  ],
+  "phone": "(714) 639-9600",
+  "website": "https://citruscitygrille.com",
+  "hours": {
+    "Monday": "11:30 AM - 9:00 PM",
+    "Tuesday": "11:30 AM - 9:00 PM",
+    "Wednesday": "11:30 AM - 9:00 PM",
+    "Thursday": "11:30 AM - 9:30 PM",
+    "Friday": "11:30 AM - 10:30 PM",
+    "Saturday": "10:30 AM - 10:30 PM",
+    "Sunday": "10:30 AM - 8:30 PM"
+  },
+  "historicNote": "Housed in an elegant 1920s commercial building in the heart of Old Towne, featuring French doors opening onto vibrant sidewalk bistro seating.",
+  "imageUrl": "/images/citrus-city-grille.jpg",
+  "rating": 4.6,
+  "priceLevel": "$$$",
+  "tags": [
+    "Mediterranean",
+    "Martinis",
+    "Live Music",
+    "Patio Dining",
+    "Steaks & Seafood",
+    "Happy Hour"
+  ],
+  "specials": [
+    {
+      "id": "ccg-mon",
+      "businessId": "citrus-city-grille",
+      "day": "Monday",
+      "title": "Martini Monday",
+      "description": "$8 classic and specialty shaken martinis (Lemon Drop, Cosmopolitan, Espresso Martini) all evening.",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 21,
+        "label": "4:00 PM - Close"
+      },
+      "discountTag": "$8 Martinis"
+    },
+    {
+      "id": "ccg-tue",
+      "businessId": "citrus-city-grille",
+      "day": "Tuesday",
+      "title": "Mediterranean Flatbread & Wine Pair",
+      "description": "Artisan fig & prosciutto or Greek lamb flatbread + glass of house Cabernet for $19.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 21,
+        "label": "3:00 PM - 9:00 PM"
+      },
+      "discountTag": "$19 Pairing"
+    },
+    {
+      "id": "ccg-wed",
+      "businessId": "citrus-city-grille",
+      "day": "Wednesday",
+      "title": "Wine Down Wednesday",
+      "description": "50% off all bottles of California and Italian reserve wines with the purchase of two dinner entrees.",
+      "timeWindow": {
+        "startHour": 17,
+        "endHour": 21,
+        "label": "5:00 PM - Close"
+      },
+      "discountTag": "50% Off Wine"
+    },
+    {
+      "id": "ccg-thu",
+      "businessId": "citrus-city-grille",
+      "day": "Thursday",
+      "title": "Prime Steak & Frites Night",
+      "description": "Certified Angus Prime Coulotte Steak with truffle parmesan frites and chimichurri for $29.",
+      "timeWindow": {
+        "startHour": 17,
+        "endHour": 21,
+        "label": "5:00 PM - 9:30 PM"
+      },
+      "discountTag": "$29 Prime Steak"
+    },
+    {
+      "id": "ccg-fri",
+      "businessId": "citrus-city-grille",
+      "day": "Friday",
+      "title": "Bistro Sunset Happy Hour",
+      "description": "$7 draft beers, $8 house wines, $9 calamari fritti, and $8 Mediterranean hummus dip.",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 18,
+        "label": "2:00 PM - 6:00 PM"
+      },
+      "discountTag": "Happy Hour"
+    },
+    {
+      "id": "ccg-sat",
+      "businessId": "citrus-city-grille",
+      "day": "Saturday",
+      "title": "Weekend Champagne Brunch",
+      "description": "Eggs Benedict, Smoked Salmon Bagel Platter, French Toast, and bottomless champagne refills for $15.",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 14,
+        "label": "10:30 AM - 2:00 PM"
+      },
+      "discountTag": "$15 Bottomless"
+    },
+    {
+      "id": "ccg-sun",
+      "businessId": "citrus-city-grille",
+      "day": "Sunday",
+      "title": "Sunday Family Pasta Feast",
+      "description": "Chef’s family-style pasta platters served with garlic bread and Caesar salad ($24 per person).",
+      "timeWindow": {
+        "startHour": 16,
+        "endHour": 20,
+        "label": "4:00 PM - 8:30 PM"
+      },
+      "discountTag": "Family Feast"
+    }
+  ],
+  "events": [
+    {
+      "id": "ccg-live-jazz",
+      "title": "Live Patio Jazz Evenings",
+      "description": "Enjoy smooth acoustic and jazz duos performing live on the outdoor garden patio under string lights.",
+      "date": "Every Friday & Saturday Night",
+      "time": "7:00 PM - 10:00 PM",
+      "location": "Citrus City Grille Patio",
+      "businessId": "citrus-city-grille",
+      "category": "music",
+      "isRecurringWeekly": true,
+      "recurringDay": "Friday"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://citruscitygrille.com",
+    "menuUrl": "https://citruscitygrille.com/menu",
+    "instagram": "https://instagram.com/citruscitygrille",
+    "verificationNotes": "Bistro dining, Martini Monday, Wednesday wine discounts, and live weekend patio jazz verified.",
+    "lastVerified": "2026-10-10"
+  }
+}

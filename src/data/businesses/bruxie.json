@@ -1,0 +1,182 @@
+{
+  "id": "bruxie",
+  "name": "Bruxie",
+  "category": "dining",
+  "categoryLabel": "Gourmet Waffle Sandwiches & Fried Chicken",
+  "tagline": "The Original Waffle Sandwich — crispy fried chicken, artisan waffles, and handcrafted custard shakes",
+  "description": "Founded right here in Old Towne Orange in 2010, the original flagship Bruxie revolutionized comfort food by replacing traditional sandwich bread with light, airy, crispy Belgian-style waffles. Located on North Glassell Street directly adjacent to Chapman University, this legendary walk-up stand and shaded outdoor patio serves jumbo hand-breaded fried chicken tenders, savory waffle sandwiches (like The Original with chili honey & cider slaw, and Kickin' Chicken), loaded waffle-cut fries, all-day breakfast burritos, and Wisconsin custard shakes.",
+  "address": "292 N Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.791386,
+    -117.853287
+  ],
+  "phone": "(714) 633-3900",
+  "website": "https://bruxie.com",
+  "hours": {
+    "Monday": "7:30 AM - 11:00 PM",
+    "Tuesday": "7:30 AM - 11:00 PM",
+    "Wednesday": "7:30 AM - 11:00 PM",
+    "Thursday": "7:30 AM - 11:00 PM",
+    "Friday": "7:30 AM - 11:00 PM",
+    "Saturday": "7:30 AM - 11:00 PM",
+    "Sunday": "7:30 AM - 11:00 PM"
+  },
+  "historicNote": "The historic walk-up stand on North Glassell was originally an old-school neighborhood dairy delivery depot and soda stand before becoming the birthplace of the worldwide waffle sandwich phenomenon in 2010.",
+  "imageUrl": "/images/bruxie.jpg",
+  "rating": 4.6,
+  "priceLevel": "$$",
+  "tags": [
+    "Waffle Sandwiches",
+    "Fried Chicken",
+    "Chapman Favorite",
+    "Outdoor Patio",
+    "Milkshakes",
+    "Breakfast",
+    "Late Night",
+    "Original Location"
+  ],
+  "specials": [
+    {
+      "id": "bruxie-mon-tenders",
+      "businessId": "bruxie",
+      "day": "Monday",
+      "title": "Monday Tender Kickoff Combo",
+      "description": "Start the week with 3 Jumbo Hand-Breaded Tenders, seasoned waffle-cut fries, signature sauce, and a drink for $13.50.",
+      "discountTag": "$13.50 Combo",
+      "price": "$13.50",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 16,
+        "label": "11:00 AM - 4:00 PM"
+      }
+    },
+    {
+      "id": "bruxie-tue-twofor",
+      "businessId": "bruxie",
+      "day": "Tuesday",
+      "title": "Two-For Tuesday Sweet Waffles",
+      "description": "Buy any savory fried chicken waffle sandwich and get a dessert waffle (Nutella & Banana or S'mores) for 50% off.",
+      "discountTag": "50% Off Sweet Waffle",
+      "price": "Half-Off Dessert",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 19,
+        "label": "2:00 PM - 7:00 PM"
+      }
+    },
+    {
+      "id": "bruxie-wed-chapman-crunch",
+      "businessId": "bruxie",
+      "day": "Wednesday",
+      "title": "Chapman Midweek Study Crunch",
+      "description": "Show Chapman Student or Faculty ID and receive 15% off any signature chicken & waffle sandwich or breakfast burrito.",
+      "discountTag": "15% Student Discount",
+      "price": "15% Off",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 17,
+        "label": "12:00 PM - 5:00 PM"
+      }
+    },
+    {
+      "id": "bruxie-thu-kickin-spicy",
+      "businessId": "bruxie",
+      "day": "Thursday",
+      "title": "Spicy Thursday Kickin' Chicken Special",
+      "description": "Spice up dinner with $2 off the famous Kickin' Chicken (crispy fried chicken with spicy sriracha mayo and crunchy slaw) paired with waffle fries.",
+      "discountTag": "$2 Off Kickin' Chicken",
+      "price": "$11.95",
+      "timeWindow": {
+        "startHour": 17,
+        "endHour": 22,
+        "label": "5:00 PM - 10:00 PM"
+      }
+    },
+    {
+      "id": "bruxie-fri-shake-social",
+      "businessId": "bruxie",
+      "day": "Friday",
+      "title": "Friday Custard Shake Social",
+      "description": "Celebrate the weekend with $1.50 off all premium Wisconsin frozen custard shakes (Belgian Chocolate, Vanilla Bean, Salted Caramel, Strawberry).",
+      "discountTag": "$1.50 Off Shakes",
+      "price": "$5.50 Shakes",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 20,
+        "label": "3:00 PM - 8:00 PM"
+      }
+    },
+    {
+      "id": "bruxie-sat-original-brunch",
+      "businessId": "bruxie",
+      "day": "Saturday",
+      "title": "Weekend Brunch Chicken & Waffle Feast",
+      "description": "The Original: Jumbo fried chicken breast tucked inside a freshly baked Belgian waffle with maple syrup and house chili honey butter.",
+      "discountTag": "Brunch Favorite",
+      "price": "$12.95",
+      "timeWindow": {
+        "startHour": 8,
+        "endHour": 14,
+        "label": "8:00 AM - 2:00 PM"
+      }
+    },
+    {
+      "id": "bruxie-sun-latenight-run",
+      "businessId": "bruxie",
+      "day": "Sunday",
+      "title": "Sunday Late Night Waffle Run",
+      "description": "Wrap up the weekend with a Late Night Waffle Combo: Free upgrade to loaded waffle fries (cheddar, bacon, chives) with any chicken sandwich order.",
+      "discountTag": "Free Loaded Upgrade",
+      "price": "Free Upgrade",
+      "timeWindow": {
+        "startHour": 19,
+        "endHour": 23,
+        "label": "7:00 PM - 11:00 PM"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "bruxie-chapman-gameday",
+      "title": "Chapman Panthers Game Day Tailgate on the Patio",
+      "description": "Pre-game waffle feast and frozen custard socials on the outdoor patio before Chapman football and basketball home games.",
+      "date": "Every Saturday Game Day",
+      "exactDate": "2026-10-17",
+      "time": "11:00 AM - 3:00 PM",
+      "location": "Bruxie Patio (292 N Glassell St)",
+      "businessId": "bruxie",
+      "coordinates": [
+        33.791386,
+        -117.853287
+      ],
+      "category": "food",
+      "isRecurringWeekly": true,
+      "recurringDay": "Saturday",
+      "badge": "Campus Game Day"
+    },
+    {
+      "id": "bruxie-anniversary-celebration",
+      "title": "Original Bruxie Birthplace Waffle Day",
+      "description": "Annual celebration honoring the 2010 birth of the original waffle sandwich in Old Towne Orange with throwback prices, giveaway swag, and secret menu items.",
+      "date": "First Weekend of November",
+      "exactDate": "2026-11-07",
+      "time": "10:00 AM - 8:00 PM",
+      "location": "Bruxie Flagship (292 N Glassell St)",
+      "businessId": "bruxie",
+      "coordinates": [
+        33.791386,
+        -117.853287
+      ],
+      "category": "community",
+      "isRecurringWeekly": false,
+      "badge": "Flagship Tradition"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://bruxie.com",
+    "menuUrl": "https://bruxie.com/menu",
+    "instagram": "https://instagram.com/bruxiewaffles",
+    "lastVerified": "2026-10-11",
+    "verificationNotes": "Verified original flagship location at 292 N Glassell St (founded 2010 in Old Towne Orange), hours (daily 7:30 AM - 11:00 PM), phone (714) 633-3900, waffle sandwich menu & custard shakes, and exact OSM coordinates [33.791386, -117.853287] matching building polygon way/885640089."
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": "finneys-crafthouse",
+  "name": "Finney's Crafthouse",
+  "category": "dining",
+  "categoryLabel": "Craft Gastropub & Beer Garden",
+  "tagline": "Scratch-made American tavern fare, 30+ craft taps, and outdoor fire pit patio",
+  "description": "Occupying the historic 1920s Dodge Brothers car dealership building in Old Towne Orange, Finney's Crafthouse blends industrial heritage with modern tavern comfort. Known for over 50 made-from-scratch American classics—including gourmet smash burgers, carnitas nachos, Bavarian pretzels with beer cheese, and truffle fries—paired with 30+ rotating California craft beers on tap and a vibrant beer garden patio equipped with cozy fire pits.",
+  "address": "204 W Chapman Ave, Orange, CA 92866",
+  "coordinates": [
+    33.78777,
+    -117.8552
+  ],
+  "phone": "(714) 278-3010",
+  "website": "https://www.finneyscrafthouse.com",
+  "hours": {
+    "Monday": "11:00 AM - 9:00 PM",
+    "Tuesday": "11:00 AM - 9:00 PM",
+    "Wednesday": "11:00 AM - 9:00 PM",
+    "Thursday": "11:00 AM - 9:00 PM",
+    "Friday": "11:00 AM - 10:00 PM",
+    "Saturday": "11:00 AM - 10:00 PM",
+    "Sunday": "10:00 AM - 9:00 PM"
+  },
+  "historicNote": "Housed within the historic 1920s Dodge Brothers auto dealership showroom, featuring restored timber trusses, roll-up garage doors, and vintage industrial brickwork.",
+  "imageUrl": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.7,
+  "priceLevel": "$$",
+  "tags": [
+    "Craft Beer",
+    "Beer Garden",
+    "Fire Pits",
+    "Burgers",
+    "Happy Hour",
+    "Outdoor Patio",
+    "Cocktails"
+  ],
+  "specials": [
+    {
+      "id": "finneys-mon",
+      "businessId": "finneys-crafthouse",
+      "day": "Monday",
+      "title": "Weekday Kickoff Happy Hour & Combo",
+      "description": "$5 craft draft beers, $7 handcrafted cocktails, and $15 Finney Burger + fries + pint combo at the bar.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 17,
+        "label": "3:00 PM - 5:00 PM"
+      },
+      "discountTag": "$15 Burger & Pint"
+    },
+    {
+      "id": "finneys-tue",
+      "businessId": "finneys-crafthouse",
+      "day": "Tuesday",
+      "title": "Taco & Tap Tuesday",
+      "description": "Baja Rockfish, Braised Carnitas, or Crispy Avocado Tacos ($4 each) with $5 California IPA pints.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 21,
+        "label": "3:00 PM - Close"
+      },
+      "discountTag": "$4 Tacos"
+    },
+    {
+      "id": "finneys-wed",
+      "businessId": "finneys-crafthouse",
+      "day": "Wednesday",
+      "title": "Midweek Flight Night & Flatbreads",
+      "description": "Build your own 4-pour craft beer flight ($12) paired with half-priced Margherita and Prosciutto flatbread pizzas.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 21,
+        "label": "3:00 PM - 9:00 PM"
+      },
+      "discountTag": "50% Off Flatbreads"
+    },
+    {
+      "id": "finneys-thu",
+      "businessId": "finneys-crafthouse",
+      "day": "Thursday",
+      "title": "Thirsty Thursday Patio & Pints",
+      "description": "$5 draft beers during 3-5pm happy hour, followed by $2 off all draft handles around the outdoor fire pits.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 21,
+        "label": "3:00 PM - 9:00 PM"
+      },
+      "discountTag": "$2 Off Drafts"
+    },
+    {
+      "id": "finneys-fri",
+      "businessId": "finneys-crafthouse",
+      "day": "Friday",
+      "title": "Friday Beer Garden Sunset Happy Hour",
+      "description": "$5 draft pints, $6 wines, and $8 appetizers (Truffle Fries, Bavarian Pretzels with beer cheese) around the outdoor fire tables.",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 17,
+        "label": "3:00 PM - 5:00 PM"
+      },
+      "discountTag": "Happy Hour 3-5 PM"
+    },
+    {
+      "id": "finneys-sat",
+      "businessId": "finneys-crafthouse",
+      "day": "Saturday",
+      "title": "Weekend Craft Tap Takeover Feature",
+      "description": "Limited-release keg tappings from top West Coast breweries served alongside signature Carnitas Nachos and Smash Burgers.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 22,
+        "label": "All Day"
+      },
+      "discountTag": "Rotating Taps"
+    },
+    {
+      "id": "finneys-sun",
+      "businessId": "finneys-crafthouse",
+      "day": "Sunday",
+      "title": "Sunday Game Day & Beer Buckets",
+      "description": "Watch sporting events on outdoor patio screens with $20 craft can buckets and $10 Hot Wing platters.",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 21,
+        "label": "All Day"
+      },
+      "discountTag": "$20 Buckets"
+    }
+  ],
+  "events": [
+    {
+      "id": "finneys-tap-takeover",
+      "title": "West Coast Brewer Spotlight & Keg Tappings",
+      "description": "Showcase of rare seasonal IPAs and barrel-aged stouts with guest brewmasters in the outdoor fire pit beer garden.",
+      "date": "Last Thursday of Each Month",
+      "time": "6:00 PM - 9:00 PM",
+      "location": "Finney's Crafthouse Outdoor Beer Garden",
+      "businessId": "finneys-crafthouse",
+      "category": "drinks"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://www.finneyscrafthouse.com",
+    "menuUrl": "https://www.finneyscrafthouse.com/menu/",
+    "instagram": "https://instagram.com/finneyscrafthouse",
+    "lastVerified": "2026-10-11",
+    "verificationNotes": "Verified 204 W Chapman Ave location (historic Dodge Brothers dealership), operating hours (Sun-Thu 11am-9pm, Fri-Sat 11am-10pm), phone (714) 278-3010, and weekday Happy Hour 3-5pm ($5 drafts, $15 burger & pint combo)."
+  }
+}

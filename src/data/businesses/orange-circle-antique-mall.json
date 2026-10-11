@@ -1,0 +1,108 @@
+{
+  "id": "orange-circle-antique-mall",
+  "name": "Orange Circle Antique Mall",
+  "category": "shopping",
+  "categoryLabel": "Antiques & Vintage",
+  "tagline": "Orange County’s premier two-story antique destination with over 100 dealers",
+  "description": "Housed in an immense 1912 commercial building on South Glassell, the Orange Circle Antique Mall is an antique enthusiast’s wonderland. Featuring two sweeping levels and over a hundred curated vendor showcases with Victorian jewelry, mid-century modern furniture, vintage toys, retro neon signs, art deco pottery, and rare California citrus memorabilia.",
+  "address": "118 S Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.78635,
+    -117.85283
+  ],
+  "phone": "(714) 744-0270",
+  "website": "https://orangecircleantiques.com",
+  "hours": {
+    "Monday": "10:00 AM - 6:00 PM",
+    "Tuesday": "10:00 AM - 6:00 PM",
+    "Wednesday": "10:00 AM - 6:00 PM",
+    "Thursday": "10:00 AM - 6:00 PM",
+    "Friday": "10:00 AM - 6:00 PM",
+    "Saturday": "10:00 AM - 6:00 PM",
+    "Sunday": "11:00 AM - 5:00 PM"
+  },
+  "historicNote": "Originally built in 1912 as the Knox Brothers Department Store, preserving the original hardwood plank floors, historic freight elevator, and pressed tin ceiling tiles.",
+  "imageUrl": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.8,
+  "priceLevel": "$$",
+  "tags": [
+    "Antiques",
+    "Vintage Clothing",
+    "Mid-Century",
+    "Jewelry",
+    "Collectibles",
+    "Historic Store"
+  ],
+  "specials": [
+    {
+      "id": "ocam-wed",
+      "businessId": "orange-circle-antique-mall",
+      "day": "Wednesday",
+      "title": "Midweek Treasure Hunter 15% Off",
+      "description": "Participating vendor booths offer 10% to 15% off vintage glassware, ceramics, and retro estate jewelry.",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 18,
+        "label": "All Day"
+      },
+      "discountTag": "15% Off"
+    },
+    {
+      "id": "ocam-fri",
+      "businessId": "orange-circle-antique-mall",
+      "day": "Friday",
+      "title": "Friday Vinyl & Retro Showcase",
+      "description": "Free protective vinyl sleeves with every 3 vintage LP records purchased from the 2nd-floor music booths.",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 18,
+        "label": "12:00 PM - 6:00 PM"
+      },
+      "discountTag": "Free Sleeves"
+    },
+    {
+      "id": "ocam-sat",
+      "businessId": "orange-circle-antique-mall",
+      "day": "Saturday",
+      "title": "Weekend Appraisal Table",
+      "description": "Free verbal appraisal on up to 2 vintage collectibles or heirlooms with in-house certified appraisers.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 15,
+        "label": "11:00 AM - 3:00 PM"
+      },
+      "discountTag": "Free Appraisal"
+    },
+    {
+      "id": "ocam-sun",
+      "businessId": "orange-circle-antique-mall",
+      "day": "Sunday",
+      "title": "Sunday Collector Spotlight",
+      "description": "Featured dealer showcases rotate with special tags and discounts up to 20% on selected showcases.",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 17,
+        "label": "11:00 AM - 5:00 PM"
+      },
+      "discountTag": "20% Off Select"
+    }
+  ],
+  "events": [
+    {
+      "id": "ocam-vintage-fair",
+      "title": "Old Towne Vintage Appraisal & Discovery Day",
+      "description": "Meet guest vintage restorers and historians as they demonstrate pocket watch repair and antique jewelry care.",
+      "date": "First Saturday of Each Month",
+      "time": "11:00 AM - 3:00 PM",
+      "location": "Orange Circle Antique Mall 2nd Floor Gallery",
+      "businessId": "orange-circle-antique-mall",
+      "category": "community"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://orangecircleantiques.com",
+    "instagram": "https://instagram.com/orangecircleantiquemall",
+    "verificationNotes": "Historic 1912 department store; 2 floors of antique vendors, appraisal events verified.",
+    "lastVerified": "2026-10-10"
+  }
+}
