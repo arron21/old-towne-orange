@@ -8,8 +8,8 @@ const showSearch = ref(false);
 </script>
 
 <template>
-  <header class="sticky top-0 z-30 bg-parchment-50/90 backdrop-blur-md border-b border-stone-200/80 shadow-xs safe-top">
-    <div class="max-w-2xl mx-auto px-4 py-2.5">
+  <header class="sticky top-0 z-30 bg-parchment-50/90 backdrop-blur-md border-b border-stone-200/80 shadow-xs">
+    <div class="max-w-2xl mx-auto px-4 py-4">
       <div class="flex items-center justify-center">
         <!-- Logo & Branding -->
         <router-link to="/map" class="flex items-center gap-2.5 group">

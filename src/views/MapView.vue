@@ -273,7 +273,7 @@ onUnmounted(() => {
     <div ref="mapContainer" class="w-full h-full z-10" />
 
     <!-- Map Floating Controls (Recenter / GPS) -->
-    <div class="absolute right-3.5 top-18 z-20 flex flex-col gap-2">
+    <div class="absolute right-3.5 top-[65px] z-20 flex flex-col gap-2">
       <!-- Recenter on The Circle -->
       <button
         @click="recenterCircle"
