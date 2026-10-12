@@ -269,22 +269,11 @@ onUnmounted(() => {
       </div>
     </div>
 
-    <!-- Center Floating Pill: Historic Fountain & Town History -->
-    <div class="absolute top-16 left-0 right-0 z-20 px-3 pointer-events-none flex justify-center">
-      <button
-        @click="openTownHistory"
-        class="pointer-events-auto py-1 px-3.5 rounded-full bg-stone-900/90 hover:bg-stone-950 text-amber-300 border border-amber-400/40 shadow-lg text-[11px] font-bold flex items-center gap-1.5 backdrop-blur-md active:scale-95 transition-all group"
-      >
-        <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping group-hover:scale-125"></span>
-        <span>⛲ The Circle Fountain • Explore Town Story (1871)</span>
-      </button>
-    </div>
-
     <!-- Map Canvas -->
     <div ref="mapContainer" class="w-full h-full z-10" />
 
     <!-- Map Floating Controls (Recenter / GPS) -->
-    <div class="absolute right-3.5 top-28 z-20 flex flex-col gap-2">
+    <div class="absolute right-3.5 top-18 z-20 flex flex-col gap-2">
       <!-- Recenter on The Circle -->
       <button
         @click="recenterCircle"
@@ -376,13 +365,25 @@ onUnmounted(() => {
             </div>
           </div>
 
+          <!-- Special Action for Plaza Fountain: Town History Button -->
+          <div v-if="selectedBusiness.id === 'plaza-square-park'" class="mt-2.5 pt-2 border-t border-amber-100">
+            <button
+              @click="openTownHistory"
+              class="w-full py-2 px-3 bg-gradient-to-r from-amber-600 via-citrus-600 to-citrus-700 hover:from-amber-700 hover:to-citrus-800 text-white rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 shadow-xs active:scale-98 transition-all mb-2"
+            >
+              <Sparkles class="w-3.5 h-3.5 text-amber-200" />
+              <span>Explore Town Founding & Modern Aspirations</span>
+              <ChevronRight class="w-4 h-4 ml-auto text-amber-200" />
+            </button>
+          </div>
+
           <!-- Standard Action Button -->
           <button
             @click="openBusinessDetail(selectedBusiness)"
-              class="w-full py-2 px-3  hover:bg-stone-200 text-stone-800 rounded-xl text-xs font-semibold flex items-center justify-center gap-1 active:scale-98 transition-all"
-            :class="'mt-3 bg-citrus-700 hover:bg-citrus-800 text-white'"
+            class="w-full py-2 px-3 text-stone-800 rounded-xl text-xs font-semibold flex items-center justify-center gap-1 active:scale-98 transition-all"
+            :class="selectedBusiness.id === 'plaza-square-park' ? 'bg-stone-100 hover:bg-stone-200' : 'mt-3 bg-citrus-700 hover:bg-citrus-800 text-white'"
           >
-            <span>{{ 'View Full Details' }}</span>
+            <span>{{ selectedBusiness.id === 'plaza-square-park' ? 'View Landmark Details & Events' : 'View Full Details & Daily Specials' }}</span>
             <ChevronRight class="w-4 h-4" />
           </button>
         </div>
