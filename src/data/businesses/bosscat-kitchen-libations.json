@@ -1,0 +1,158 @@
+{
+  "id": "bosscat-kitchen-libations",
+  "name": "Bosscat Kitchen & Libations",
+  "category": "dining",
+  "categoryLabel": "Whiskey Bar & American Comfort",
+  "tagline": "Upscale Southern comfort, 300+ whiskeys & famous weekend brunch",
+  "description": "Located in a restored historic brick building on West Chapman Avenue, Bosscat Kitchen & Libations delivers hearty American comfort fare with an upscale twist. Famous for its glass-enclosed Whiskey Room showcasing over 300 bottles, inventive cocktails, lively weekend brunch, and everyday happy hour with savory sliders and Southern bites.",
+  "address": "118 W Chapman Ave, Orange, CA 92866",
+  "coordinates": [
+    33.787677,
+    -117.854008
+  ],
+  "phone": "(714) 716-1599",
+  "website": "https://bosscatkitchen.com",
+  "hours": {
+    "Monday": "11:00 AM - 9:00 PM",
+    "Tuesday": "11:00 AM - 9:00 PM",
+    "Wednesday": "11:00 AM - 9:00 PM",
+    "Thursday": "11:00 AM - 10:00 PM",
+    "Friday": "11:00 AM - 11:00 PM",
+    "Saturday": "10:00 AM - 11:00 PM",
+    "Sunday": "10:00 AM - 9:00 PM"
+  },
+  "historicNote": "Housed in one of West Chapman's prime historic commercial spaces with exposed brick walls, vintage industrial steel, and reclaimed timber.",
+  "imageUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.7,
+  "priceLevel": "$$",
+  "tags": [
+    "Whiskey Bar",
+    "Comfort Food",
+    "Brunch",
+    "Craft Cocktails",
+    "Happy Hour",
+    "Patio Dining"
+  ],
+  "specials": [
+    {
+      "id": "bosscat-mon-hh",
+      "businessId": "bosscat-kitchen-libations",
+      "day": "Monday",
+      "title": "Everyday Happy Hour: $6 Drafts & $8 Sliders",
+      "description": "$6 draft beers, $7 well spirits, $8 house cocktails, and $7-$8 sliders and fried pickles.",
+      "discountTag": "$6-$8 Happy Hour",
+      "price": "$6+",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 18,
+        "label": "3:00 PM - 6:00 PM"
+      }
+    },
+    {
+      "id": "bosscat-tue-hh",
+      "businessId": "bosscat-kitchen-libations",
+      "day": "Tuesday",
+      "title": "Bourbon & Bites Afternoon",
+      "description": "$9 House Old Fashioneds, $8 Moscow Mules, and $6 Grilled Cheese bites in the whiskey room.",
+      "discountTag": "$9 Old Fashioned",
+      "price": "$9",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 18,
+        "label": "3:00 PM - 6:00 PM"
+      }
+    },
+    {
+      "id": "bosscat-wed-hh",
+      "businessId": "bosscat-kitchen-libations",
+      "day": "Wednesday",
+      "title": "Midweek Whiskey & Wings",
+      "description": "$8 Spicy Chicken Wings, Korean fried chicken sliders, and $6 local draft craft beers.",
+      "discountTag": "$8 Wings & Sliders",
+      "price": "$8",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 18,
+        "label": "3:00 PM - 6:00 PM"
+      }
+    },
+    {
+      "id": "bosscat-thu-hh",
+      "businessId": "bosscat-kitchen-libations",
+      "day": "Thursday",
+      "title": "Thursday Social Hour",
+      "description": "Featured whiskey pours, $8 house wines, and $8 short rib grilled cheese appetizers.",
+      "discountTag": "Happy Hour Bites",
+      "price": "$8",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 18,
+        "label": "3:00 PM - 6:00 PM"
+      }
+    },
+    {
+      "id": "bosscat-fri-hh",
+      "businessId": "bosscat-kitchen-libations",
+      "day": "Friday",
+      "title": "Friday Kickoff Happy Hour",
+      "description": "Start the weekend with $6 draft pours, $9 craft cocktails, and savory bar snacks until 6 PM.",
+      "discountTag": "Friday Happy Hour",
+      "price": "$6+",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 18,
+        "label": "3:00 PM - 6:00 PM"
+      }
+    },
+    {
+      "id": "bosscat-sat-brunch",
+      "businessId": "bosscat-kitchen-libations",
+      "day": "Saturday",
+      "title": "Weekend Southern Brunch Club",
+      "description": "Famous chicken and waffles, French toast bites, breakfast burgers, and craft brunch cocktails.",
+      "discountTag": "Weekend Brunch",
+      "price": "À la carte",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 14,
+        "label": "10:00 AM - 2:00 PM"
+      }
+    },
+    {
+      "id": "bosscat-sun-brunch",
+      "businessId": "bosscat-kitchen-libations",
+      "day": "Sunday",
+      "title": "Sunday Brunch & Afternoon Happy Hour",
+      "description": "Southern brunch menu from 10 AM to 2 PM, followed by 3 PM to 6 PM Happy Hour drink specials.",
+      "discountTag": "Brunch & Happy Hour",
+      "price": "À la carte",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 18,
+        "label": "10:00 AM - 6:00 PM"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "bosscat-whiskey-tasting-night",
+      "title": "Wednesday Whiskey Room Tasting Flights",
+      "description": "Curated tasting flights featuring rare small-batch bourbons, ryes, and international single malts.",
+      "date": "Wednesday Evenings",
+      "time": "6:00 PM - 9:00 PM",
+      "location": "Bosscat Whiskey Room",
+      "coordinates": [
+        33.787677,
+        -117.854008
+      ],
+      "category": "drinks",
+      "badge": "Whiskey Tasting"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://bosscatkitchen.com",
+    "instagram": "https://instagram.com/bosscatkitchen",
+    "lastVerified": "2026-10-12",
+    "verificationNotes": "Verified 118 W Chapman Ave address, 3-6pm everyday happy hour ($6 beers, $7 well, $8 wine/cocktails, $9 old fashioned, $6-$8 bites), weekend brunch hours, and exact OSM coordinates."
+  }
+}

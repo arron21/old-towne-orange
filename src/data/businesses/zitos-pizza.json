@@ -1,0 +1,159 @@
+{
+  "id": "zitos-pizza",
+  "name": "Zito's Pizza",
+  "category": "dining",
+  "categoryLabel": "New York Pizzeria & Italian",
+  "tagline": "Authentic hand-tossed NY-style pizza, lunch combos & late-night slices",
+  "description": "An Old Towne Orange staple since 1999 on North Glassell Street, Zito's Pizza is celebrated for authentic New York-style hand-tossed thin crust pies, garlic knots, calzones, and hearty hot sub sandwiches. Frequented by Chapman University students and local families alike, Zito's offers daily $7.99 slice and sub lunch combos and late-night weekend pizza slices until 1:00 AM.",
+  "address": "156 N Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.789026,
+    -117.853187
+  ],
+  "phone": "(714) 771-2222",
+  "website": "https://zitospizza.com",
+  "hours": {
+    "Monday": "11:00 AM - 9:00 PM",
+    "Tuesday": "11:00 AM - 9:00 PM",
+    "Wednesday": "11:00 AM - 9:00 PM",
+    "Thursday": "11:00 AM - 9:00 PM",
+    "Friday": "11:00 AM - 1:00 AM",
+    "Saturday": "11:00 AM - 1:00 AM",
+    "Sunday": "11:00 AM - 9:00 PM"
+  },
+  "historicNote": "Situated in a historic early 20th-century storefront with traditional checkered floor tiles, vintage sports memorabilia, and an open pizza prep counter.",
+  "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.6,
+  "priceLevel": "$",
+  "tags": [
+    "Pizza",
+    "New York Style",
+    "Lunch Specials",
+    "Late Night",
+    "Italian Subs",
+    "Craft Beer",
+    "Casual Dining"
+  ],
+  "specials": [
+    {
+      "id": "zitos-mon-lunch",
+      "businessId": "zitos-pizza",
+      "day": "Monday",
+      "title": "$7.99 NY Giant Slice & Fountain Drink",
+      "description": "Choice of daily specialty NY-style thin slice with ice cold soda until 4:00 PM.",
+      "discountTag": "$7.99 Lunch Combo",
+      "price": "$7.99",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 16,
+        "label": "11:00 AM - 4:00 PM"
+      }
+    },
+    {
+      "id": "zitos-tue-sub",
+      "businessId": "zitos-pizza",
+      "day": "Tuesday",
+      "title": "$7.99 Half Sub & Drink Lunch Special",
+      "description": "Choice of Meatball Parmigiana, Italian Cold Cut, Turkey, or Sausage sub with beverage.",
+      "discountTag": "$7.99 Sub Combo",
+      "price": "$7.99",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 16,
+        "label": "11:00 AM - 4:00 PM"
+      }
+    },
+    {
+      "id": "zitos-wed-spaghetti",
+      "businessId": "zitos-pizza",
+      "day": "Wednesday",
+      "title": "$7.99 Spaghetti Marinara Combo",
+      "description": "Classic house-made spaghetti with marinara, garlic bread, and a fountain drink.",
+      "discountTag": "$7.99 Pasta Lunch",
+      "price": "$7.99",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 16,
+        "label": "11:00 AM - 4:00 PM"
+      }
+    },
+    {
+      "id": "zitos-thu-hh",
+      "businessId": "zitos-pizza",
+      "day": "Thursday",
+      "title": "Afternoon Happy Hour Slice & Draft",
+      "description": "Afternoon craft draft beer specials paired with hot fresh-baked garlic knots and cheese slices.",
+      "discountTag": "Happy Hour Slices",
+      "price": "Discounted",
+      "timeWindow": {
+        "startHour": 15,
+        "endHour": 18,
+        "label": "3:00 PM - 6:00 PM"
+      }
+    },
+    {
+      "id": "zitos-fri-late",
+      "businessId": "zitos-pizza",
+      "day": "Friday",
+      "title": "Friday Late-Night Slice Window",
+      "description": "Hot pizza slices by the window counter after district happy hours until 1:00 AM.",
+      "discountTag": "Late Night Until 1 AM",
+      "price": "Per Slice",
+      "timeWindow": {
+        "startHour": 21,
+        "endHour": 24,
+        "label": "9:00 PM - 1:00 AM"
+      }
+    },
+    {
+      "id": "zitos-sat-late",
+      "businessId": "zitos-pizza",
+      "day": "Saturday",
+      "title": "Saturday Late-Night Pizza Window",
+      "description": "Pepperoni, cheese, and specialty slices served hot until 1:00 AM for weekend revelers.",
+      "discountTag": "Late Night Until 1 AM",
+      "price": "Per Slice",
+      "timeWindow": {
+        "startHour": 21,
+        "endHour": 24,
+        "label": "9:00 PM - 1:00 AM"
+      }
+    },
+    {
+      "id": "zitos-sun-family",
+      "businessId": "zitos-pizza",
+      "day": "Sunday",
+      "title": "Sunday Large Pie & Wings Special",
+      "description": "16-inch extra-large New York specialty pie paired with 10 traditional buffalo wings.",
+      "discountTag": "Family Deal",
+      "price": "Special Price",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 20,
+        "label": "12:00 PM - 8:00 PM"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "zitos-late-night-weekend",
+      "title": "Weekend Late-Night Pizza Window",
+      "description": "Grab hot NY-style slices right on North Glassell Street after exploring the district's bars and breweries.",
+      "date": "Friday & Saturday Nights",
+      "time": "9:00 PM - 1:00 AM",
+      "location": "Zito's Pizza Front Counter",
+      "coordinates": [
+        33.789026,
+        -117.853187
+      ],
+      "category": "food",
+      "badge": "Late Night Favorite"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://zitospizza.com",
+    "instagram": "https://instagram.com/zitospizza",
+    "lastVerified": "2026-10-12",
+    "verificationNotes": "Verified 156 N Glassell St, (714) 771-2222, daily $7.99 lunch specials (11am-4pm), Fri-Sat late night 1am hours, and exact OSM coordinates."
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "id": "bluestone-lane-orange",
+  "name": "Bluestone Lane Orange Cafe",
+  "category": "cafe",
+  "categoryLabel": "Australian Coffee Roaster & Brunch",
+  "tagline": "Australian flat whites, avocado smash & wholesome all-day brunch",
+  "description": "Bringing Melbourne's vibrant coffee culture to Old Towne Orange on North Olive Street, Bluestone Lane is famed for expertly crafted flat whites, cold brews, and a health-forward all-day brunch menu. Highlights include their signature Avocado Smash with poached egg, gluten-free banana bread with whipped ricotta, breakfast brioche rolls, and seasonal rainbow bowls in a sun-drenched, coastal-chic atmosphere.",
+  "address": "114 N Olive St, Orange, CA 92866",
+  "coordinates": [
+    33.788264,
+    -117.854454
+  ],
+  "phone": "(718) 374-6858",
+  "website": "https://bluestonelane.com",
+  "hours": {
+    "Monday": "7:30 AM - 7:00 PM",
+    "Tuesday": "7:30 AM - 7:00 PM",
+    "Wednesday": "7:30 AM - 7:00 PM",
+    "Thursday": "7:30 AM - 7:00 PM",
+    "Friday": "7:30 AM - 7:00 PM",
+    "Saturday": "7:30 AM - 7:00 PM",
+    "Sunday": "7:30 AM - 7:00 PM"
+  },
+  "historicNote": "Set in a beautifully restored brick and timber building half a block off The Circle, blending industrial district charm with Melbourne-inspired coastal aesthetics.",
+  "imageUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.6,
+  "priceLevel": "$$",
+  "tags": [
+    "Coffee",
+    "Brunch",
+    "Australian Cafe",
+    "Espresso",
+    "Avocado Toast",
+    "Healthy",
+    "Patio Seating",
+    "Breakfast"
+  ],
+  "specials": [
+    {
+      "id": "bluestone-mon-flatwhite",
+      "businessId": "bluestone-lane-orange",
+      "day": "Monday",
+      "title": "Morning Melbourne Flat White & Pastry",
+      "description": "Double shot signature espresso with velvety micro-foam paired with fresh almond or chocolate croissants.",
+      "discountTag": "Morning Perk",
+      "price": "Daily Price",
+      "timeWindow": {
+        "startHour": 7,
+        "endHour": 11,
+        "label": "7:30 AM - 11:00 AM"
+      }
+    },
+    {
+      "id": "bluestone-tue-toast",
+      "businessId": "bluestone-lane-orange",
+      "day": "Tuesday",
+      "title": "Avocado Smash & Cold Brew Pairing",
+      "description": "Signature smashed avocado on artisanal multigrain with feta, heirloom cherry tomatoes, and draft cold brew.",
+      "discountTag": "Signature Toast",
+      "price": "À la carte",
+      "timeWindow": {
+        "startHour": 8,
+        "endHour": 14,
+        "label": "8:00 AM - 2:00 PM"
+      }
+    },
+    {
+      "id": "bluestone-wed-wellness",
+      "businessId": "bluestone-lane-orange",
+      "day": "Wednesday",
+      "title": "Midweek Wellness Bowls & Golden Lattes",
+      "description": "Nutrient-packed grain bowls, turmeric golden lattes, and matcha infusions for afternoon rejuvenation.",
+      "discountTag": "Wellness Day",
+      "price": "Seasonal",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 16,
+        "label": "11:00 AM - 4:00 PM"
+      }
+    },
+    {
+      "id": "bluestone-thu-banana",
+      "businessId": "bluestone-lane-orange",
+      "day": "Thursday",
+      "title": "Gluten-Free Banana Bread Tea Time",
+      "description": "Warm toasted gluten-free banana bread topped with whipped honey ricotta, toasted pecans, and fresh berries.",
+      "discountTag": "Sweet Treat",
+      "price": "Specialty",
+      "timeWindow": {
+        "startHour": 13,
+        "endHour": 17,
+        "label": "1:00 PM - 5:00 PM"
+      }
+    },
+    {
+      "id": "bluestone-fri-kickoff",
+      "businessId": "bluestone-lane-orange",
+      "day": "Friday",
+      "title": "Friday Patio Brunch & Nitro Cold Brew",
+      "description": "Bacon and egg brioche rolls with house tomato relish and smooth nitrogen-infused cold brews on the patio.",
+      "discountTag": "Friday Brunch",
+      "price": "Menu Price",
+      "timeWindow": {
+        "startHour": 8,
+        "endHour": 14,
+        "label": "8:00 AM - 2:00 PM"
+      }
+    },
+    {
+      "id": "bluestone-sat-weekend",
+      "businessId": "bluestone-lane-orange",
+      "day": "Saturday",
+      "title": "Weekend Melbourne Brunch Service",
+      "description": "Full Australian brunch service featuring poached eggs, chimichurri grain bowls, fresh juices, and mimosas.",
+      "discountTag": "All-Day Brunch",
+      "price": "Full Menu",
+      "timeWindow": {
+        "startHour": 8,
+        "endHour": 15,
+        "label": "8:00 AM - 3:00 PM"
+      }
+    },
+    {
+      "id": "bluestone-sun-recovery",
+      "businessId": "bluestone-lane-orange",
+      "day": "Sunday",
+      "title": "Sunday Chill & Artisanal Espresso",
+      "description": "Relax on North Olive Street with pour-overs, iced matcha, and hearty brunch toasts all day until 7 PM.",
+      "discountTag": "Sunday Chill",
+      "price": "All Day",
+      "timeWindow": {
+        "startHour": 8,
+        "endHour": 17,
+        "label": "8:00 AM - 5:00 PM"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "bluestone-weekend-brunch-event",
+      "title": "Weekend Melbourne Brunch on Olive St",
+      "description": "Enjoy sunny patio brunching steps from the Circle with Melbourne-style flat whites, avocado toasts, and grain bowls.",
+      "date": "Saturdays & Sundays",
+      "time": "8:00 AM - 3:00 PM",
+      "location": "Bluestone Lane Outdoor Patio",
+      "coordinates": [
+        33.788264,
+        -117.854454
+      ],
+      "category": "food",
+      "badge": "Brunch Favorite"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://bluestonelane.com",
+    "instagram": "https://instagram.com/bluestonelane",
+    "lastVerified": "2026-10-12",
+    "verificationNotes": "Verified 114 N Olive St address, daily 7:30am-7:00pm hours, Australian flat white & brunch specialty, and exact OSM coordinates."
+  }
+}

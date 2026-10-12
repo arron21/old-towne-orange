@@ -1,0 +1,132 @@
+{
+  "id": "dragonfly-shops-gardens",
+  "name": "Dragonfly Shops & Gardens",
+  "category": "shopping",
+  "categoryLabel": "Garden Boutique & Artisan Craft Studio",
+  "tagline": "Succulent gardens, handcrafted gifts & artisan workshops in a 1920s cottage",
+  "description": "Tucked into a sunlit 1920s cottage and garden oasis on North Glassell Street, Dragonfly Shops & Gardens is a treasure trove of succulents, garden pottery, handcrafted jewelry, mosaic art, and fair-trade home decor. Visitors stroll through peaceful outdoor garden paths and participate in hands-on workshops in fairy gardening, succulent wreath making, resin crafts, and glass mosaics.",
+  "address": "260 N Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.7907,
+    -117.853415
+  ],
+  "phone": "(714) 289-4689",
+  "website": "https://dragonflyshopsandgardens.com",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "Closed",
+    "Wednesday": "11:00 AM - 5:00 PM",
+    "Thursday": "11:00 AM - 5:00 PM",
+    "Friday": "11:00 AM - 5:00 PM",
+    "Saturday": "9:00 AM - 5:00 PM",
+    "Sunday": "11:00 AM - 4:00 PM"
+  },
+  "historicNote": "Housed in an authentic historic 1920s residential bungalow with lush outdoor garden courtyards, preserving Old Towne's residential-commercial craft heritage.",
+  "imageUrl": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.8,
+  "priceLevel": "$$",
+  "tags": [
+    "Gardens",
+    "Succulents",
+    "Artisan Gifts",
+    "Workshops",
+    "Handmade Jewelry",
+    "Pottery",
+    "Home Decor",
+    "Boutique"
+  ],
+  "specials": [
+    {
+      "id": "dragonfly-wed-pottery",
+      "businessId": "dragonfly-shops-gardens",
+      "day": "Wednesday",
+      "title": "Wednesday Succulent Bar & Planting Special",
+      "description": "Pick your pot and succulents from the outdoor potting table with complimentary soil and decorative pebbles.",
+      "discountTag": "Complimentary Planting",
+      "price": "With Purchase",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 17,
+        "label": "11:00 AM - 5:00 PM"
+      }
+    },
+    {
+      "id": "dragonfly-thu-artisan",
+      "businessId": "dragonfly-shops-gardens",
+      "day": "Thursday",
+      "title": "Handmade Artisan Jewelry & Gift Showcase",
+      "description": "Featured local Southern California jewelry artisans, hand-poured candles, and artisan stationery.",
+      "discountTag": "Artisan Spotlight",
+      "price": "Various",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 17,
+        "label": "11:00 AM - 5:00 PM"
+      }
+    },
+    {
+      "id": "dragonfly-fri-cottage",
+      "businessId": "dragonfly-shops-gardens",
+      "day": "Friday",
+      "title": "Cottage Garden Stroll & Porch Decor",
+      "description": "Browse wind chimes, vintage garden stakes, bird baths, and patio accents in the shaded garden walkway.",
+      "discountTag": "Garden Accents",
+      "price": "À la carte",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 17,
+        "label": "11:00 AM - 5:00 PM"
+      }
+    },
+    {
+      "id": "dragonfly-sat-workshop",
+      "businessId": "dragonfly-shops-gardens",
+      "day": "Saturday",
+      "title": "Saturday Morning Garden & Craft Workshop",
+      "description": "Hands-on succulent arrangement and fairy garden classes on the garden patio starting at 10 AM.",
+      "discountTag": "Live Workshop",
+      "price": "Materials Fee",
+      "timeWindow": {
+        "startHour": 9,
+        "endHour": 17,
+        "label": "9:00 AM - 5:00 PM"
+      }
+    },
+    {
+      "id": "dragonfly-sun-stroll",
+      "businessId": "dragonfly-shops-gardens",
+      "day": "Sunday",
+      "title": "Sunday Afternoon Plant Therapy Stroll",
+      "description": "Leisurely afternoon plant shopping, miniature fairy accessories, and rare drought-tolerant specimens.",
+      "discountTag": "Plant Therapy",
+      "price": "Free Entry",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 16,
+        "label": "11:00 AM - 4:00 PM"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "dragonfly-weekend-succulent-class",
+      "title": "Fairy Garden & Succulent Arrangement Workshop",
+      "description": "Create your own living succulent dish garden or miniature fairy wonderland under the garden arbor.",
+      "date": "Every Saturday",
+      "time": "10:30 AM - 12:00 PM",
+      "location": "Dragonfly Garden Arbor Patio",
+      "coordinates": [
+        33.7907,
+        -117.853415
+      ],
+      "category": "community",
+      "badge": "Hands-On Workshop"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://dragonflyshopsandgardens.com",
+    "instagram": "https://instagram.com/dragonflyshopsandgardens",
+    "lastVerified": "2026-10-12",
+    "verificationNotes": "Verified 260 N Glassell St, (714) 289-4689, Wed-Sun hours (Mon-Tue closed), succulent workshops, and exact OSM coordinates."
+  }
+}

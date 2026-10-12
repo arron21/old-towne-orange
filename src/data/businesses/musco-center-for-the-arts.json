@@ -1,0 +1,159 @@
+{
+  "id": "musco-center-for-the-arts",
+  "name": "Musco Center for the Arts",
+  "category": "landmark",
+  "categoryLabel": "Performing Arts Center & Concert Hall",
+  "tagline": "Premier 1,044-seat concert hall & cultural landmark at Chapman University",
+  "description": "An architectural and acoustical triumph in Old Towne Orange, the Marybelle and Sebastian P. Musco Center for the Arts at Chapman University is a state-of-the-art 1,044-seat proscenium theater designed by Pfeiffer Partners Architects with acoustics by Nagata Acoustics (of Walt Disney Concert Hall fame). The center hosts an illustrious seasonal lineup of world-renowned symphonies, opera, jazz, contemporary dance, theatre, and Chapman student masterworks, opening onto the Bette and Wylie Aitken Arts Plaza.",
+  "address": "415 N Glassell St, Orange, CA 92866",
+  "coordinates": [
+    33.794419,
+    -117.852618
+  ],
+  "phone": "(714) 997-6812",
+  "website": "https://muscocenter.org",
+  "hours": {
+    "Monday": "9:00 AM - 4:00 PM",
+    "Tuesday": "9:00 AM - 4:00 PM",
+    "Wednesday": "9:00 AM - 4:00 PM",
+    "Thursday": "9:00 AM - 4:00 PM",
+    "Friday": "9:00 AM - 4:00 PM",
+    "Saturday": "Box Office Opens 1 Hr Prior to Events",
+    "Sunday": "Box Office Opens 1 Hr Prior to Events"
+  },
+  "historicNote": "Anchoring the northern cultural corridor of Old Towne along North Glassell Street, bridging Chapman University's historic campus with 21st-century acoustical prestige.",
+  "imageUrl": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.9,
+  "priceLevel": "$$$",
+  "tags": [
+    "Performing Arts",
+    "Concert Hall",
+    "Chapman University",
+    "Classical Music",
+    "Jazz",
+    "Opera",
+    "Dance",
+    "Cultural Landmark"
+  ],
+  "specials": [
+    {
+      "id": "musco-student-rush",
+      "businessId": "musco-center-for-the-arts",
+      "day": "Monday",
+      "title": "Chapman Student & Community Rush Tickets",
+      "description": "Discounted student and community rush tickets available at the box office for select weekday masterclasses and performances.",
+      "discountTag": "Rush Discounts",
+      "price": "$10+",
+      "timeWindow": {
+        "startHour": 9,
+        "endHour": 16,
+        "label": "9:00 AM - 4:00 PM"
+      }
+    },
+    {
+      "id": "musco-senior-tue",
+      "businessId": "musco-center-for-the-arts",
+      "day": "Tuesday",
+      "title": "Senior & Veteran Matinee Savings",
+      "description": "10-20% ticket savings on select daytime symphony and theatrical orchestra performances.",
+      "discountTag": "Senior & Veteran",
+      "price": "Discounted",
+      "timeWindow": {
+        "startHour": 9,
+        "endHour": 16,
+        "label": "9:00 AM - 4:00 PM"
+      }
+    },
+    {
+      "id": "musco-plaza-events-wed",
+      "businessId": "musco-center-for-the-arts",
+      "day": "Wednesday",
+      "title": "Aitken Arts Plaza Free Performances",
+      "description": "Outdoor plaza performances featuring Chapman student jazz combos and world percussion ensembles.",
+      "discountTag": "Free Plaza Concerts",
+      "price": "Free",
+      "timeWindow": {
+        "startHour": 12,
+        "endHour": 17,
+        "label": "12:00 PM - 5:00 PM"
+      }
+    },
+    {
+      "id": "musco-thursday-lecture",
+      "businessId": "musco-center-for-the-arts",
+      "day": "Thursday",
+      "title": "Master Artist Conversations & Lectures",
+      "description": "Pre-performance discussions with visiting conductors, choreographers, and guest soloists.",
+      "discountTag": "Free with Ticket",
+      "price": "Included",
+      "timeWindow": {
+        "startHour": 18,
+        "endHour": 20,
+        "label": "6:00 PM - 8:00 PM"
+      }
+    },
+    {
+      "id": "musco-weekend-gala-fri",
+      "businessId": "musco-center-for-the-arts",
+      "day": "Friday",
+      "title": "Friday Opening Night Performances",
+      "description": "Grand opening nights for touring international companies, symphony series, and Broadway concerts.",
+      "discountTag": "Opening Nights",
+      "price": "Tiered",
+      "timeWindow": {
+        "startHour": 19,
+        "endHour": 22,
+        "label": "7:30 PM - 10:00 PM"
+      }
+    },
+    {
+      "id": "musco-sat-showcase",
+      "businessId": "musco-center-for-the-arts",
+      "day": "Saturday",
+      "title": "Saturday Symphony & Dance Showcases",
+      "description": "Full orchestral and dance productions featuring world-class acoustic resonance.",
+      "discountTag": "Mainstage Series",
+      "price": "Ticketed",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 22,
+        "label": "2:00 PM & 7:30 PM"
+      }
+    },
+    {
+      "id": "musco-sun-matinee",
+      "businessId": "musco-center-for-the-arts",
+      "day": "Sunday",
+      "title": "Sunday Afternoon Classical Matinees",
+      "description": "Chamber orchestra, opera chorales, and cultural heritage concerts on Sunday afternoons.",
+      "discountTag": "Matinee Series",
+      "price": "Tiered",
+      "timeWindow": {
+        "startHour": 14,
+        "endHour": 17,
+        "label": "2:00 PM - 5:00 PM"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "musco-world-music-festival",
+      "title": "Musco Center World Music & Dance Series",
+      "description": "Internationally acclaimed musicians, dancers, and ensembles performing in Chapman's world-class acoustical theater.",
+      "date": "Selected Weekends (Season Lineup)",
+      "time": "7:30 PM - 9:30 PM",
+      "location": "Musco Center Mainstage",
+      "coordinates": [
+        33.794419,
+        -117.852618
+      ],
+      "category": "music",
+      "badge": "Signature Performance"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://muscocenter.org",
+    "lastVerified": "2026-10-12",
+    "verificationNotes": "Verified 415 N Glassell St, (714) 997-6812, box office hours 9am-4pm, 1044-seat hall by Pfeiffer/Nagata acoustics, and exact OSM coordinates."
+  }
+}
