@@ -33,7 +33,7 @@ function goToBusiness() {
 
 <template>
   <div
-    class="bg-white rounded-none p-4 border transition-all duration-200 relative overflow-hidden"
+    class="bg-white card-notched p-4 border transition-all duration-200 relative"
     :class="isActiveNow 
       ? 'border-amber-300 ring-2 ring-amber-400/20 shadow-warm' 
       : 'border-stone-200/80 shadow-2xs hover:shadow-xs'"
@@ -44,7 +44,7 @@ function goToBusiness() {
     <!-- Accent side strip for active deals -->
     <div
       v-if="isActiveNow"
-      class="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-amber-500 to-citrus-600 z-10"
+      class="absolute left-0 top-3 bottom-3 w-1.5 bg-gradient-to-b from-amber-500 to-citrus-600 z-10"
     />
 
     <div :class="isActiveNow ? 'pl-1' : ''">

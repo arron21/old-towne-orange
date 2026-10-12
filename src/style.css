@@ -86,3 +86,29 @@
 .safe-top {
   padding-top: max(0.5rem, env(safe-area-inset-top));
 }
+
+/* Card with CSS corner-shape: notch (Borders & Backgrounds Level 4) */
+.card-notched {
+  border-radius: 12px;
+  corner-shape: notch;
+}
+
+@supports not (corner-shape: notch) {
+  .card-notched {
+    clip-path: polygon(
+      0% 12px,
+      12px 12px,
+      12px 0%,
+      calc(100% - 12px) 0%,
+      calc(100% - 12px) 12px,
+      100% 12px,
+      100% calc(100% - 12px),
+      calc(100% - 12px) calc(100% - 12px),
+      calc(100% - 12px) 100%,
+      12px 100%,
+      12px calc(100% - 12px),
+      0% calc(100% - 12px)
+    );
+  }
+}
+
