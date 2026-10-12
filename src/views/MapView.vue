@@ -376,25 +376,13 @@ onUnmounted(() => {
             </div>
           </div>
 
-          <!-- Special Action for Plaza Fountain: Town History Button -->
-          <div v-if="selectedBusiness.id === 'plaza-square-park'" class="mt-2.5 pt-2 border-t border-amber-100">
-            <button
-              @click="showTownHistoryModal = true"
-              class="w-full py-2 px-3 bg-gradient-to-r from-amber-600 via-citrus-600 to-citrus-700 hover:from-amber-700 hover:to-citrus-800 text-white rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 shadow-xs active:scale-98 transition-all mb-2"
-            >
-              <Sparkles class="w-3.5 h-3.5 text-amber-200" />
-              <span>Explore Town Founding & Modern Aspirations</span>
-              <ChevronRight class="w-4 h-4 ml-auto text-amber-200" />
-            </button>
-          </div>
-
           <!-- Standard Action Button -->
           <button
             @click="openBusinessDetail(selectedBusiness)"
-            class="w-full py-2 px-3 bg-stone-100 hover:bg-stone-200 text-stone-800 rounded-xl text-xs font-semibold flex items-center justify-center gap-1 active:scale-98 transition-all"
-            :class="selectedBusiness.id === 'plaza-square-park' ? 'mt-0' : 'mt-3 bg-citrus-700 hover:bg-citrus-800 text-white'"
+              class="w-full py-2 px-3  hover:bg-stone-200 text-stone-800 rounded-xl text-xs font-semibold flex items-center justify-center gap-1 active:scale-98 transition-all"
+            :class="'mt-3 bg-citrus-700 hover:bg-citrus-800 text-white'"
           >
-            <span>{{ selectedBusiness.id === 'plaza-square-park' ? 'View Landmark Details & Events' : 'View Full Details & Daily Specials' }}</span>
+            <span>{{ 'View Full Details' }}</span>
             <ChevronRight class="w-4 h-4" />
           </button>
         </div>

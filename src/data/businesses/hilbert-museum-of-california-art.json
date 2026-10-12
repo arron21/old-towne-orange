@@ -1,0 +1,146 @@
+{
+  "id": "hilbert-museum-of-california-art",
+  "name": "Hilbert Museum of California Art",
+  "category": "landmark",
+  "categoryLabel": "Art Museum & Cultural Center",
+  "tagline": "California Scene paintings, Disney animation art & Millard Sheets mosaics",
+  "description": "Established by Mark and Janet Hilbert at Chapman University and expanded in 2024 to 22,000 square feet, the Hilbert Museum is the only museum in the nation dedicated to the California Scene painting movement (1920s–1970s). Spanning 26 luminous galleries across from the historic Orange Depot, the museum features rotating exhibitions of American illustration, the monumental 40-foot Millard Sheets glass mosaic 'Pleasures Along the Beach', and an extraordinary permanent collection of original Disney and Hollywood studio animation art.",
+  "address": "167 N Atchison St, Orange, CA 92866",
+  "coordinates": [
+    33.788992,
+    -117.856599
+  ],
+  "phone": "(714) 516-5880",
+  "website": "https://hilbertmuseum.org",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "Closed",
+    "Wednesday": "10:00 AM - 5:00 PM",
+    "Thursday": "10:00 AM - 5:00 PM",
+    "Friday": "10:00 AM - 5:00 PM",
+    "Saturday": "10:00 AM - 5:00 PM",
+    "Sunday": "10:00 AM - 5:00 PM"
+  },
+  "historicNote": "Located adjacent to the historic 1938 Santa Fe Depot / Orange Metrolink Station in Old Towne's historic packing district, the museum showcases over a century of California everyday social history, working-class industries, coastal scenes, and Hollywood's golden age animation artistry.",
+  "imageUrl": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=80",
+  "rating": 4.9,
+  "priceLevel": "Free",
+  "tags": [
+    "Art Museum",
+    "California Scene",
+    "Disney Animation Art",
+    "Millard Sheets",
+    "Chapman University",
+    "Free Admission",
+    "Cultural Landmark",
+    "Rotating Exhibitions"
+  ],
+  "specials": [
+    {
+      "id": "hilbert-free-admission-wed",
+      "businessId": "hilbert-museum-of-california-art",
+      "day": "Wednesday",
+      "title": "Free Museum Admission & 26 Galleries",
+      "description": "Complimentary access to all rotating exhibitions, California Scene paintings, and Disney animation art.",
+      "discountTag": "Free Admission",
+      "price": "Free",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 17,
+        "label": "10:00 AM - 5:00 PM"
+      }
+    },
+    {
+      "id": "hilbert-docent-tours-thu",
+      "businessId": "hilbert-museum-of-california-art",
+      "day": "Thursday",
+      "title": "Curator Spotlight & Gallery Talks",
+      "description": "Guided docent insights into American illustration and mid-century California urban landscapes.",
+      "discountTag": "Docent Tours",
+      "price": "Free",
+      "timeWindow": {
+        "startHour": 11,
+        "endHour": 15,
+        "label": "11:00 AM - 3:00 PM"
+      }
+    },
+    {
+      "id": "hilbert-free-admission-fri",
+      "businessId": "hilbert-museum-of-california-art",
+      "day": "Friday",
+      "title": "Animation Art & Studio Masters",
+      "description": "Explore original concept art and backgrounds by Disney legends Mary Blair, Eyvind Earle, and studio animators.",
+      "discountTag": "Free Admission",
+      "price": "Free",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 17,
+        "label": "10:00 AM - 5:00 PM"
+      }
+    },
+    {
+      "id": "hilbert-weekend-walk-sat",
+      "businessId": "hilbert-museum-of-california-art",
+      "day": "Saturday",
+      "title": "Weekend Family Art & Mosaic Walk",
+      "description": "View Millard Sheets' 40-foot mosaic 'Pleasures Along the Beach' in the open-air courtyard alongside rotating galleries.",
+      "discountTag": "Free Admission",
+      "price": "Free",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 17,
+        "label": "10:00 AM - 5:00 PM"
+      }
+    },
+    {
+      "id": "hilbert-free-admission-sun",
+      "businessId": "hilbert-museum-of-california-art",
+      "day": "Sunday",
+      "title": "Sunday Architecture & California Art",
+      "description": "Enjoy peaceful Sunday gallery viewing of oils, watercolors, and drawings depicting historic California life.",
+      "discountTag": "Free Admission",
+      "price": "Free",
+      "timeWindow": {
+        "startHour": 10,
+        "endHour": 17,
+        "label": "10:00 AM - 5:00 PM"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "hilbert-disney-animation-exhibit",
+      "title": "Disney & Golden Age Animation Art Exhibition",
+      "description": "Original visual development paintings, character sketches, and background art by legendary artists of Walt Disney Studios and mid-century Hollywood animation.",
+      "date": "Wednesday - Sunday (Permanent & Rotating)",
+      "time": "10:00 AM - 5:00 PM",
+      "location": "Hilbert Museum Animation Galleries",
+      "coordinates": [
+        33.788992,
+        -117.856599
+      ],
+      "category": "community",
+      "badge": "Signature Exhibit"
+    },
+    {
+      "id": "hilbert-millard-sheets-tour",
+      "title": "Millard Sheets: California Master & Mosaic Tour",
+      "description": "Docent-led exploration of the newly installed 40-foot glass mosaic 'Pleasures Along the Beach' and Sheets' dramatic California landscape watercolors.",
+      "date": "Saturdays & Sundays",
+      "time": "1:30 PM - 2:30 PM",
+      "location": "Hilbert Museum Courtyard & Galleries",
+      "coordinates": [
+        33.788992,
+        -117.856599
+      ],
+      "category": "community",
+      "badge": "Free Docent Walk"
+    }
+  ],
+  "researchMetadata": {
+    "officialWebsite": "https://hilbertmuseum.org",
+    "instagram": "https://instagram.com/hilbertmuseum",
+    "lastVerified": "2026-10-12",
+    "verificationNotes": "Verified 2024 expansion to 22,000 sq ft, 26 galleries, Wed-Sun 10am-5pm hours (Mon-Tue closed), free admission with online booking, Millard Sheets mosaic courtyard, and exact OpenStreetMap ground truth coordinates [33.788992, -117.856599]."
+  }
+}
