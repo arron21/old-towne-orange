@@ -6,6 +6,7 @@ import { Compass, Navigation, Sparkles, ChevronRight, X, Star, Landmark } from '
 import { useDistrictStore } from '../stores/districtStore';
 import CategoryChips from '../components/CategoryChips.vue';
 import TownHistoryModal from '../components/TownHistoryModal.vue';
+import CornerOranges from '../components/CornerOranges.vue';
 import type { Business, Category } from '../types';
 
 const router = useRouter();
@@ -306,7 +307,10 @@ onUnmounted(() => {
         v-if="selectedBusiness"
         class="absolute bottom-16 left-3 right-3 z-30 max-w-md mx-auto"
       >
-        <div class="bg-white rounded-2xl p-3.5 shadow-warm-lg border border-stone-200/80 relative">
+        <div class="bg-white rounded-none p-3.5 shadow-warm-lg border border-stone-200/80 relative overflow-hidden">
+          <!-- Decorative Old Towne corner oranges -->
+          <CornerOranges />
+
           <!-- Close preview button -->
           <button
             @click="selectedBusiness = null"

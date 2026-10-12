@@ -4,6 +4,7 @@ import { useRouter } from 'vue-router';
 import { MapPin, Sparkles, Flame, Star, ChevronRight } from 'lucide-vue-next';
 import type { Business } from '../types';
 import { useDistrictStore } from '../stores/districtStore';
+import CornerOranges from './CornerOranges.vue';
 
 const props = defineProps<{
   business: Business;
@@ -35,8 +36,11 @@ function goToDetail() {
 <template>
   <div
     @click="goToDetail"
-    class="bg-white rounded-2xl overflow-hidden border border-stone-200/80 shadow-xs hover:shadow-warm transition-all duration-200 cursor-pointer group flex flex-col"
+    class="bg-white rounded-none relative overflow-hidden border border-stone-200/80 shadow-xs hover:shadow-warm transition-all duration-200 cursor-pointer group flex flex-col"
   >
+    <!-- Decorative Old Towne corner oranges -->
+    <CornerOranges />
+
     <!-- Image Header with Badges -->
     <div class="relative h-36 w-full overflow-hidden bg-stone-100">
       <img

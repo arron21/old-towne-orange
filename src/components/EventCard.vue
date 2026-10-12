@@ -4,6 +4,7 @@ import { useRouter } from 'vue-router';
 import { Clock, MapPin, Store, ChevronRight, Repeat } from 'lucide-vue-next';
 import type { DistrictEvent } from '../types';
 import { resolveEventDate } from '../utils/eventDateUtils';
+import CornerOranges from './CornerOranges.vue';
 
 const props = defineProps<{
   event: DistrictEvent;
@@ -23,7 +24,9 @@ function handleEventAction() {
 </script>
 
 <template>
-  <div class="bg-white rounded-2xl p-4 border border-stone-200/80 shadow-2xs hover:shadow-xs transition-all duration-200 flex flex-col justify-between">
+  <div class="bg-white rounded-none relative overflow-hidden p-4 border border-stone-200/80 shadow-2xs hover:shadow-xs transition-all duration-200 flex flex-col justify-between">
+    <!-- Decorative Old Towne corner oranges -->
+    <CornerOranges />
     <div>
       <!-- Top Row: Exact Date Box + Category / Relative Timing -->
       <div class="flex items-start justify-between gap-3 mb-3">
