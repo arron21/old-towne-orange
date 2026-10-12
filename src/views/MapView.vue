@@ -307,19 +307,19 @@ onUnmounted(() => {
         v-if="selectedBusiness"
         class="absolute bottom-16 left-3 right-3 z-30 max-w-md mx-auto"
       >
-        <div class="bg-white card-notched p-3.5 shadow-warm-lg border border-stone-200/80 relative overflow-hidden">
+        <div class="bg-white card-notched p-3.5 shadow-warm-lg border border-stone-200/80 relative">
           <!-- Decorative Old Towne corner oranges -->
           <CornerOranges />
 
           <!-- Close preview button -->
           <button
             @click="selectedBusiness = null"
-            class="absolute top-2.5 right-2.5 p-1 rounded-full text-stone-400 hover:text-stone-600 hover:bg-stone-100 transition-colors z-10"
+            class="absolute top-3.5 right-3.5 p-1 rounded-full text-stone-400 hover:text-stone-600 hover:bg-stone-100 transition-colors z-20"
           >
             <X class="w-4 h-4" />
           </button>
 
-          <div class="flex gap-3">
+          <div class="p-1 sm:p-1.5 flex gap-3">
             <!-- Thumbnail -->
             <img
               :src="selectedBusiness.imageUrl"

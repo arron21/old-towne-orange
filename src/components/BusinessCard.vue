@@ -36,7 +36,7 @@ function goToDetail() {
 <template>
   <div
     @click="goToDetail"
-    class="bg-white card-notched relative overflow-hidden border border-stone-200/80 shadow-xs hover:shadow-warm transition-all duration-200 cursor-pointer group flex flex-col"
+    class="bg-white card-notched relative border border-stone-200/80 shadow-xs hover:shadow-warm transition-all duration-200 cursor-pointer group flex flex-col"
   >
     <!-- Decorative Old Towne corner oranges -->
     <CornerOranges />

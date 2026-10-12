@@ -11,9 +11,9 @@ withDefaults(
 </script>
 
 <template>
-  <div class="pointer-events-none select-none z-10">
+  <div class="pointer-events-none select-none z-20">
     <!-- Top Left -->
-    <svg :class="['absolute top-1 left-1 drop-shadow-2xs', size]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg :class="['absolute top-1 left-1 drop-shadow-2xs z-20', size]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Orange fruit circle -->
       <circle cx="12" cy="14" r="7.5" fill="#f97316" stroke="#c2410c" stroke-width="1"/>
       <path d="M8 11.5 Q10 9.5 13 9.5" stroke="#fdba74" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.8"/>
