@@ -93,7 +93,7 @@ function openMapForEvent(coords?: [number, number]) {
 
         <div class="mt-3 flex items-center gap-2">
           <button
-            @click="openMapForEvent([33.78778, -117.85278])"
+            @click="openMapForEvent([33.787885, -117.85311])"
             class="px-3 py-1.5 bg-citrus-600 hover:bg-citrus-700 text-white rounded-xl text-xs font-semibold flex items-center gap-1 shadow-sm transition-colors"
           >
             <MapPin class="w-3.5 h-3.5" />

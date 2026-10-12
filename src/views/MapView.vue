@@ -38,11 +38,11 @@ function getCategoryColor(cat: Category): { bg: string; border: string; text: st
 function createFountainPin(): L.DivIcon {
   const html = `
     <div class="relative cursor-pointer group select-none flex flex-col items-center">
-      <!-- Water pulse rings -->
-      <span class="absolute top-1 w-11 h-11 bg-sky-400/50 rounded-full animate-ping pointer-events-none"></span>
-      <span class="absolute top-1.5 w-10 h-10 bg-amber-400/50 rounded-full animate-pulse pointer-events-none"></span>
+      <!-- Water pulse rings centered on medallion -->
+      <span class="absolute top-0 w-11 h-11 bg-sky-400/50 rounded-full animate-ping pointer-events-none"></span>
+      <span class="absolute -top-1 w-13 h-13 bg-amber-400/40 rounded-full animate-pulse pointer-events-none"></span>
       
-      <!-- Center Emblem -->
+      <!-- Center Emblem directly on fountain -->
       <div class="relative w-11 h-11 rounded-full bg-gradient-to-tr from-amber-600 via-citrus-600 to-sky-500 border-2 border-white shadow-xl flex items-center justify-center transform group-hover:scale-115 transition-transform duration-200">
         <svg viewBox="0 0 24 24" width="22" height="22" stroke="#ffffff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path d="M12 2v6" />
@@ -56,10 +56,7 @@ function createFountainPin(): L.DivIcon {
         </svg>
       </div>
 
-      <!-- Arrow tip -->
-      <div class="w-0 h-0 border-x-4 border-x-transparent border-t-6 border-t-amber-700 -mt-0.5"></div>
-
-      <!-- Floating Title Label Pill -->
+      <!-- Floating Title Label Pill directly beneath -->
       <div class="mt-1 px-2.5 py-0.5 bg-stone-900/90 text-amber-300 border border-amber-300/40 rounded-full text-[10px] font-bold shadow-md whitespace-nowrap backdrop-blur-xs flex items-center gap-1 group-hover:bg-citrus-900 group-hover:text-white transition-colors">
         <span>⛲ Historic Fountain</span>
       </div>
@@ -69,9 +66,9 @@ function createFountainPin(): L.DivIcon {
   return L.divIcon({
     className: 'custom-district-marker fountain-special-marker',
     html,
-    iconSize: [120, 68],
-    iconAnchor: [60, 44],
-    popupAnchor: [0, -46]
+    iconSize: [120, 72],
+    iconAnchor: [60, 22],
+    popupAnchor: [0, -26]
   });
 }
 

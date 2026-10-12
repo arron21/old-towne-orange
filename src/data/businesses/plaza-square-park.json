@@ -7,8 +7,8 @@
   "description": "The iconic focal point around which the entire city of Orange was laid out in 1871. Shaded by towering palm, pepper, and magnolia trees, the park features the famous tiled fountain constructed in 1937, historic plaques, circular lawn promenades, and park benches where visitors gather to enjoy coffee, music, and community.",
   "address": "Plaza Square (Intersection of Chapman & Glassell), Orange, CA 92866",
   "coordinates": [
-    33.78778,
-    -117.85278
+    33.787885,
+    -117.85311
   ],
   "phone": "(714) 744-7272",
   "website": "https://cityoforange.org",
@@ -105,8 +105,8 @@
       "time": "7:00 PM - 8:30 PM",
       "location": "Plaza Square Center Lawn",
       "coordinates": [
-        33.78778,
-        -117.85278
+        33.787885,
+        -117.85311
       ],
       "category": "music",
       "badge": "Free Community Event"

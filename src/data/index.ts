@@ -1,7 +1,7 @@
 import type { Business, DistrictEvent } from '../types';
 import districtEventsRaw from './events/district-events.json';
 
-export const DISTRICT_CENTER: [number, number] = [33.78778, -117.85278]; // Plaza Square Park Fountain
+export const DISTRICT_CENTER: [number, number] = [33.787885, -117.85311]; // Exact Plaza Square Fountain Center (OSM Way 165347526)
 
 // Dynamically import all business JSON files in ./businesses/
 // Adding, removing, or modifying any JSON file updates the app automatically

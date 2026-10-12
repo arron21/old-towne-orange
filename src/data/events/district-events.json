@@ -8,8 +8,8 @@
     "time": "Fri 5pm-10pm, Sat-Sun 10am-10pm",
     "location": "Historic Plaza Circle & Glassell/Chapman St",
     "coordinates": [
-      33.78778,
-      -117.85278
+      33.787885,
+      -117.85311
     ],
     "category": "festival",
     "badge": "Signature District Festival"
@@ -40,8 +40,8 @@
     "time": "4:00 PM - 7:00 PM",
     "location": "Old Towne Plaza Square",
     "coordinates": [
-      33.78778,
-      -117.85278
+      33.787885,
+      -117.85311
     ],
     "category": "community",
     "badge": "Family Favorite"
@@ -55,8 +55,8 @@
     "time": "3:30 PM - 7:00 PM",
     "location": "Plaza Square Park",
     "coordinates": [
-      33.78778,
-      -117.85278
+      33.787885,
+      -117.85311
     ],
     "category": "community",
     "badge": "Holiday Heritage"
