@@ -143,11 +143,10 @@ function initMap() {
     minZoom: 14
   });
 
-  // CARTO Voyager basemap: clean, clutter-free streets and labels without house numbers, parking symbols, or POI noise
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions" target="_blank">CARTO</a>',
-    subdomains: 'abcd',
-    maxZoom: 20
+  // Esri World Street Map: Clean, beautiful street map without parcel house numbers, parking symbols, or POI clutter. 100% free with no API key or watermark.
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; <a href="https://www.esri.com/" target="_blank">Esri</a>',
+    maxZoom: 19
   }).addTo(map);
 
   markersLayer = L.layerGroup().addTo(map);
