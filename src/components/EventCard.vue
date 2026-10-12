@@ -27,7 +27,7 @@ function handleEventAction() {
   <div class="bg-white card-notched relative overflow-hidden p-4 border border-stone-200/80 shadow-2xs hover:shadow-xs transition-all duration-200 flex flex-col justify-between">
     <!-- Decorative Old Towne corner oranges -->
     <CornerOranges />
-    <div>
+    <div class="p-2">
       <!-- Top Row: Exact Date Box + Category / Relative Timing -->
       <div class="flex items-start justify-between gap-3 mb-3">
         <!-- Date Block -->

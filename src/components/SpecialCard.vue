@@ -41,13 +41,7 @@ function goToBusiness() {
     <!-- Decorative Old Towne corner oranges -->
     <CornerOranges />
 
-    <!-- Accent side strip for active deals -->
-    <div
-      v-if="isActiveNow"
-      class="absolute left-0 top-3 bottom-3 w-1.5 bg-gradient-to-b from-amber-500 to-citrus-600 z-10"
-    />
-
-    <div :class="isActiveNow ? 'pl-1' : ''">
+    <div class="p-2">
       <!-- Top Row: Time Window & Live Status Badges -->
       <div class="flex items-center justify-between gap-2 mb-1.5 flex-wrap">
         <div class="flex items-center gap-1.5 text-xs text-stone-500 font-medium">
